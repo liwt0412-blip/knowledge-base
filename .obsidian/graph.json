@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"💼 面试\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15728676
+      }
+    },
+    {
+      "query": "path:SpringAI+AIGC应用  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431420
+      }
+    },
+    {
+      "query": "path:常用指令/codex指令 ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"🔤 英语\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9634037
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.954947916666667,
+  "lineSizeMultiplier": 0.776302083333333,
+  "collapse-forces": false,
+  "centerStrength": 0.502604166666667,
+  "repelStrength": 8.38541666666667,
+  "linkStrength": 0.765625,
+  "linkDistance": 207,
+  "scale": 0.22920135941747333,
+  "close": true
+}

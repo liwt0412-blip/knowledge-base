@@ -1,0 +1,112 @@
+# Hermes Agent 技能库
+
+> 自动生成于 2026-06-16 22:35 | 共 88 个技能
+
+## 📋 技能分类
+
+- **[自主AI代理](自主AI代理.md)** (2个) — 多Agent协作、任务委派、自主编码Agent的调度与编排
+  - `autonomous-ai-agents` — Use when delegating coding tasks to external autonomous coding CLIs — Claude Cod
+  - `hermes-agent` — Configure, extend, or contribute to Hermes Agent.
+- **[创意生成](创意生成.md)** (18个) — ASCII艺术、图表、设计稿、视频、音乐等创意内容生成
+  - `agent-video-creation` — Programmatic video creation with AI agents — Remotion, Motion Canvas, automated 
+  - `architecture-diagram` — Dark-themed SVG architecture/cloud/infra diagrams as HTML.
+  - `ascii-art` — ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.
+  - `ascii-video` — ASCII video: convert video/audio to colored ASCII MP4/GIF.
+  - `baoyu-comic` — Knowledge comics (知识漫画): educational, biography, tutorial.
+  - `baoyu-infographic` — Infographics: 21 layouts x 21 styles (信息图, 可视化).
+  - `chinese-content-creation` — Create Chinese-language digital content across multiple formats: brand websites 
+  - `claude-design` — Design one-off HTML artifacts (landing, deck, prototype).
+  - `design-md` — Author/validate/export Google's DESIGN.md token spec files.
+  - `excalidraw` — Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).
+  - `humanizer` — Humanize text: strip AI-isms and add real voice.
+  - `ideation` — Generate project ideas via creative constraints.
+  - `manim-video` — Manim CE animations: 3Blue1Brown math/algo videos.
+  - `p5js` — p5.js sketches: gen art, shaders, interactive, 3D.
+  - `pixel-art` — Pixel art w/ era palettes (NES, Game Boy, PICO-8).
+  - `popular-web-designs` — 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.
+  - `songwriting-and-ai-music` — Songwriting craft and Suno AI music prompts.
+  - `touchdesigner-mcp` — Control a running TouchDesigner instance via twozero MCP — create operators, set
+- **[数据科学](数据科学.md)** (2个) — Jupyter Notebook、数据分析与交互式探索
+  - `jupyter-live-kernel` — Iterative Python via live Jupyter kernel (hamelnb).
+  - `jupyter-notebook-runner` — Run existing Jupyter notebooks as headless CLI scripts — fix paths, handle displ
+- **[开发运维](开发运维.md)** (5个) — Webhook、磁盘清理、Web搜索、国内网络环境适配
+  - `domestic-web-search` — Search the web from within China's domestic network using Bing China, domestic m
+  - `hermes-integration` — Connect Hermes Agent to messaging platforms (WeChat/Weixin, Telegram, etc.) and 
+  - `hermes-wsl-setup` — Run Hermes Agent on WSL2 — systemd persistence, gateway install, platform setup 
+  - `webhook-subscriptions` — Webhook subscriptions: event-driven agent runs.
+  - `windows-disk-cleanup` — Diagnose & clean Windows C drive space from WSL — scan with PowerShell, identify
+- **[邮件](邮件.md)** (1个) — 通过Himalaya CLI收发邮件
+  - `himalaya` — Himalaya CLI: IMAP/SMTP email from terminal.
+- **[游戏](游戏.md)** (2个) — Minecraft服务器、宝可梦模拟器等游戏相关
+  - `minecraft-modpack-server` — Host modded Minecraft servers (CurseForge, Modrinth).
+  - `pokemon-player` — Play Pokemon via headless emulator + RAM reads.
+- **[GitHub](GitHub.md)** (2个) — GitHub仓库发现、项目管理、PR审查
+  - `github` — Use when working with GitHub — authentication, PRs, issues, code review, repo ma
+  - `github-project-discovery` — Use GitHub API to discover, analyze, and evaluate open source projects for compe
+- **[媒体处理](媒体处理.md)** (5个) — YouTube、GIF、Spotify、音频频谱分析等媒体处理
+  - `gif-search` — Search/download GIFs from Tenor via curl + jq.
+  - `heartmula` — HeartMuLa: Suno-like song generation from lyrics + tags.
+  - `songsee` — Audio spectrograms/features (mel, chroma, MFCC) via CLI.
+  - `spotify` — Spotify: play, search, queue, manage playlists and devices.
+  - `youtube-content` — YouTube transcripts to summaries, threads, blogs.
+- **[机器学习运维](机器学习运维.md)** (14个) — 模型微调、推理部署、量化、评估、ML实验追踪
+  - `audiocraft-audio-generation` — AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.
+  - `axolotl` — Axolotl: YAML LLM fine-tuning (LoRA, DPO, GRPO).
+  - `cn-ai-provider` — Configure and use Chinese AI providers (Aliyun, DeepSeek) with Hermes for image 
+  - `dspy` — DSPy: declarative LM programs, auto-optimize prompts, RAG.
+  - `evaluating-llms-harness` — lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).
+  - `fine-tuning-with-trl` — TRL: SFT, DPO, PPO, GRPO, reward modeling for LLM RLHF.
+  - `huggingface-hub` — HuggingFace hf CLI: search/download/upload models, datasets.
+  - `llama-cpp` — llama.cpp local GGUF inference + HF Hub model discovery.
+  - `obliteratus` — OBLITERATUS: abliterate LLM refusals (diff-in-means).
+  - `outlines` — Outlines: structured JSON/regex/Pydantic LLM generation.
+  - `segment-anything-model` — SAM: zero-shot image segmentation via points, boxes, masks.
+  - `serving-llms-vllm` — vLLM: high-throughput LLM serving, OpenAI API, quantization.
+  - `unsloth` — Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM.
+  - `weights-and-biases` — W&B: log ML experiments, sweeps, model registry, dashboards.
+- **[笔记](笔记.md)** (1个) — Obsidian知识库管理
+  - `obsidian` — Read, search, and create notes in the Obsidian vault.
+- **[效率工具](效率工具.md)** (9个) — Google Workspace、Notion、PPT、OCR、地图等效率工具
+  - `airtable` — Airtable REST API via curl. Records CRUD, filters, upserts.
+  - `chinese-career-guidance` — Comprehensive career and business guidance for Chinese entrepreneurs and develop
+  - `google-workspace` — Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.
+  - `linear` — Linear: manage issues, projects, teams via GraphQL + curl.
+  - `maps` — Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.
+  - `nano-pdf` — Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).
+  - `notion` — Notion API via curl: pages, databases, blocks, search.
+  - `ocr-and-documents` — Extract text from PDFs/scans (pymupdf, marker-pdf).
+  - `powerpoint` — Create, read, edit .pptx decks, slides, notes, templates.
+- **[红队测试](红队测试.md)** (1个) — LLM越狱测试、Prompt注入等安全测试
+  - `godmode` — Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.
+- **[学术研究](学术研究.md)** (6个) — 论文搜索(Arxiv)、博客监控、LLM Wiki、预测市场
+  - `arxiv` — Search arXiv papers by keyword, author, category, or ID.
+  - `blogwatcher` — Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.
+  - `llm-agent-knowledge` — Research and explain LLM/Agent evolution, key technologies, and evaluation bench
+  - `llm-wiki` — Karpathy's LLM Wiki: build/query interlinked markdown KB.
+  - `polymarket` — Query Polymarket: markets, prices, orderbooks, history.
+  - `research-paper-writing` — Write ML papers for NeurIPS/ICML/ICLR: design→submit.
+- **[智能家居](智能家居.md)** (1个) — Philips Hue智能灯控
+  - `openhue` — Control Philips Hue lights, scenes, rooms via OpenHue CLI.
+- **[社交媒体](社交媒体.md)** (1个) — X/Twitter社交平台操作
+  - `xurl` — X/Twitter via xurl CLI: post, search, DM, media, v2 API.
+- **[软件开发](软件开发.md)** (11个) — Spring Boot、Vue3、TDD、代码审查、系统调试等开发工具
+  - `cobe-globe` — Add a 3D interactive globe to a web page using COBE (~5KB, zero-dependency WebGL
+  - `development-methodology` — Systematic development workflows: spec-driven development (write specs before co
+  - `hermes-agent-skill-authoring` — Author in-repo SKILL.md: frontmatter, validator, structure.
+  - `java-spring-boot-development` — Comprehensive Spring Boot + Java development: multi-module Maven project analysi
+  - `requesting-code-review` — Pre-commit review: security scan, quality gates, auto-fix.
+  - `subagent-driven-development` — Execute plans via delegate_task subagents (2-stage review).
+  - `systematic-debugging` — 4-phase root cause debugging: understand bugs before fixing.
+  - `test-driven-development` — TDD: enforce RED-GREEN-REFACTOR, tests before code.
+  - `vue3-element-plus-crm-customization` — Customize Vue3 + Element Plus CRM frontend — sidebar, dashboard, logo, layout, a
+  - `writing-plans` — Write implementation plans: bite-sized tasks, paths, code.
+  - `wsl-development` — Set up and manage development tools in WSL2 — npm, Python, pip, venvs, Windows i
+
+- **[独立技能](独立技能.md)** (7个) — 未归类的独立技能
+  - `agent-reach` — MUST USE when user asks to search, browse, read, or interact with content from a
+  - `dogfood` — Exploratory QA of web apps: find bugs, evidence, reports.
+  - `hardware-ai-integration` — Connect physical sensors (ESP32, WiFi CSI) to AI assistants for proactive human-
+  - `knowledge-base` — 小帅的知识库操作规范——写入/检索的触发条件、格式约定、llm-wiki 管理模式。
+  - `mcp` — Use when working with MCP (Model Context Protocol) — configuring MCP servers in 
+  - `renwei-writing` — 人味儿写作 — 打磨、润色、改写文字时，保住文字背后的人。触发词：打磨文案、润色、帮我改、改写、修改这段、人味儿、AI味儿太重。改完逐处交代改动，否决权留给作者
+  - `yuanbao` — Yuanbao (元宝) groups: @mention users, query info/members.
