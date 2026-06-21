@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \".claude/hooks/scan-orphans.py\")",
+      "Bash(python \".claude/hooks/extract-vocab.py\")"
+    ]
+  }
+}

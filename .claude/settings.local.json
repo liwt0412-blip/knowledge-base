@@ -1,0 +1,61 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx skills *)",
+      "Bash(cp \"面试资料/2-面试专题/07-常见集合篇/讲义/Java集合相关面试题.md\" \"💼 面试/Java集合面试题.md\")",
+      "Bash(cp \"面试资料/2-面试专题/07-常见集合篇/资料/hashmap源码.md\" \"💼 面试/HashMap源码.md\")",
+      "Bash(cp \"面试资料/2-面试专题/08-并发编程篇/讲义/多线程相关面试题.md\" \"💼 面试/并发编程面试题.md\")",
+      "Bash(cp \"面试资料/2-面试专题/09-JVM虚拟机篇/讲义/JVM相关面试题.md\" \"💼 面试/JVM面试题.md\")",
+      "Bash(cp \"面试资料/2-面试专题/10-企业场景篇/讲义/01-设计模式/设计模式.md\" \"💼 面试/设计模式.md\")",
+      "Bash(cp \"04.课程笔记/Java进阶/类加载器+加载机制+加载过程.md\" \"03.Java笔记已整理/32.类加载器.md\")",
+      "Bash(cp \"04.课程笔记/中州养老/利用若依生成在线接口文档.md\" \"🖥 项目笔记/中州养老/若依接口文档.md\")",
+      "Bash(cp \"04.课程笔记/中州养老/若依建项.md\" \"🖥 项目笔记/中州养老/若依建项.md\")",
+      "Bash(cp \"06.权威笔记/Git-版本控制工具.md\" \"03.Java笔记已整理/22.Git笔记补充.md\")",
+      "Bash(cp \"06.权威笔记/Redis实现性能优化.md\" \"📋 技术速查/Redis性能优化.md\")",
+      "Bash(chmod 644 \"🖥 项目笔记/建项配置.md\")",
+      "Bash(attrib -R \"🖥 项目笔记/建项配置.md\")",
+      "Bash(cp -r \"面试资料/2-面试专题/10-企业场景篇/讲义/01-设计模式/设计模式.assets\" \"💼 面试/设计模式.assets\")",
+      "Bash(cp -r \"面试资料/2-面试专题/10-企业场景篇/讲义/02-技术场景/常见技术场景.assets\" \"💼 面试/常见技术场景.assets\")",
+      "Bash(cp -r \"面试资料/3-高频综合面试题汇总/img\" \"💼 面试/img\")",
+      "Bash(cp -r \"面试资料/2-面试专题/09-JVM虚拟机篇/讲义/JVM相关面试题.assets\" \"💼 面试/JVM相关面试题.assets\")",
+      "Bash(cp -r \"面试资料/2-面试专题/08-并发编程篇/讲义/多线程相关面试题.assets\" \"💼 面试/多线程相关面试题.assets\")",
+      "Bash(python3 *)",
+      "Bash(iconv -f GBK -t UTF-8 \"D:/KnowledgeBase/小帅的知识库/day2-若依定制化.txt\" -o \"D:/KnowledgeBase/小帅的知识库/中州养老阶段老师的总结/文档/day2-若依定制化.md\")",
+      "Bash(python *)",
+      "Bash(cp -r \"E:/东哥随堂/中州养老阶段/day12-报警管理和通知/debug技能/IDEA的Debug技巧.md\" \"D:/KnowledgeBase/小帅的知识库/常用指令/\")",
+      "Bash(cp -r \"E:/东哥随堂/中州养老阶段/day12-报警管理和通知/debug技能/images\" \"D:/KnowledgeBase/小帅的知识库/常用指令/images\")",
+      "Bash(obsidian help *)",
+      "Bash(obsidian stats *)",
+      "Bash(where obsidian *)",
+      "Read(//c/Program Files/Obsidian/**)",
+      "Bash(cmd.exe /c \"where obsidian\")",
+      "Bash(powershell *)",
+      "Bash(cmd.exe *)",
+      "Bash(mkdir -p \"D:/KnowledgeBase/小帅的知识库/SpringAI+AIGC应用\")",
+      "Bash(mv \"D:/KnowledgeBase/小帅的知识库/2026-06-08--AI.md\" \"D:/KnowledgeBase/小帅的知识库/SpringAI+AIGC应用/SpringAI与LangChain对比.md\")",
+      "Bash(obsidian recent *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"D:/KnowledgeBase/小帅的知识库/.claude/hooks/scan-orphans.py\"",
+            "shell": "bash",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "python \"D:/KnowledgeBase/小帅的知识库/.claude/hooks/extract-vocab.py\"",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
