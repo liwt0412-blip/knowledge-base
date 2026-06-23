@@ -16,7 +16,7 @@
     ]
   },
   "SpringAI+AIGC应用/Ollama命令和API详解.md": {
-    "scroll": 12.466226226226226,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -30,7 +30,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/part1-认识AI & 大模型应用开发.md": {
-    "scroll": 40.71535734894073,
+    "scroll": 153.62494734378657,
     "cursor": {
       "from": {
         "line": 4,
@@ -72,14 +72,14 @@
     "expandedKeys": []
   },
   "🔤 英语/英语词汇大全.md": {
-    "scroll": 932.6263020833334,
+    "scroll": 30.344072276895965,
     "cursor": {
       "from": {
-        "line": 6,
+        "line": 149,
         "ch": 0
       },
       "to": {
-        "line": 6,
+        "line": 149,
         "ch": 0
       }
     },
@@ -142,7 +142,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/抖音脚本-MCP协议Agent必知.md": {
-    "scroll": 0,
+    "scroll": 18.494791666666668,
     "cursor": {
       "from": {
         "line": 38,
@@ -170,15 +170,15 @@
     "expandedKeys": []
   },
   "remotion科普视频.md": {
-    "scroll": 7.032258064516129,
+    "scroll": 48.9453125,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 22,
+        "ch": 9
       },
       "to": {
-        "line": 102,
-        "ch": 0
+        "line": 22,
+        "ch": 9
       }
     },
     "expandedKeys": []
@@ -226,7 +226,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化会话记忆-MySQL.md": {
-    "scroll": 0,
+    "scroll": 10.415364583333334,
     "cursor": {
       "from": {
         "line": 4,
@@ -464,7 +464,7 @@
     "expandedKeys": []
   },
   "AI大模型开发基础/AI大模型开发基础-04-LangChain.md": {
-    "scroll": 318.3988095238095,
+    "scroll": 32.670470564543194,
     "cursor": {
       "from": {
         "line": 175,
@@ -478,7 +478,7 @@
     "expandedKeys": []
   },
   "AI大模型开发基础/AI大模型开发基础-03-Python-Web.md": {
-    "scroll": 163.8623511904762,
+    "scroll": 3.4545454545454546,
     "cursor": {
       "from": {
         "line": 8,
@@ -492,21 +492,21 @@
     "expandedKeys": []
   },
   "AI大模型开发基础/AI大模型开发基础-01-Python基础.md": {
-    "scroll": 77.34375,
+    "scroll": 27.231119791666668,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "AI大模型开发基础/AI大模型开发基础-02-Python基础.md": {
-    "scroll": 9.065187239944521,
+    "scroll": 287.7998511904762,
     "cursor": {
       "from": {
         "line": 8,
@@ -556,6 +556,370 @@
       },
       "to": {
         "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/CRM/轻课项目注解汇总.md": {
+    "scroll": 136.7890625,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "SpringAI+AIGC应用/EduRag项目/环境搭建和Milvus向量数据库.md": {
+    "scroll": 128.94596354166666,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/环境搭建和Milvus向量数据库.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 19
+      },
+      "to": {
+        "line": 42,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "📋 技术速查/词根速查表.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 281,
+        "ch": 0
+      },
+      "to": {
+        "line": 281,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-06-11.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00-入口.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-Java基础.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-项目实战.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-思想与灵感.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-数据库.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-日常学习.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "笔记文档/计算机英语.md": {
+    "scroll": 24.333333333333332,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🤖 AI Agent/Hermes Agent技能库/笔记.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🤖 AI Agent/人味儿写作-案例实录.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🤖 AI Agent/人味儿写作-检查清单.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🤖 AI Agent/Hermes Agent 架构分析.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🤖 AI Agent/Loop Engineering 使用习惯.md": {
+    "scroll": 9.250712250712251,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "MOC-面试题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/挂载虚拟机.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/简历参考.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 15
+      },
+      "to": {
+        "line": 13,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/RAG问答系统-核心模块.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/向量模型和重排序模型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/文档解析工具(扩展).md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/RAG系统评估.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/EduRag项目/EduRAG简历参考.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 0
+      },
+      "to": {
+        "line": 12,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI大模型开发/AI大模型开发总览.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
         "ch": 0
       }
     },

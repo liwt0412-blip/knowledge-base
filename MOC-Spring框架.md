@@ -8,6 +8,7 @@ date: 2026-06-10
 > [[00-入口|← 返回入口]]
 
 - [[☕ Java笔记/Java笔记总览|Java笔记总览]] — 含 Spring、SpringBoot、MyBatis、AOP、事务、Maven
+- [[☕ Java笔记/Spring-Web注解速查表|Spring Web 注解速查表]] — IOC/DI/MVC/AOP/事务/MyBatis/JUnit 注解汇总
 
 ## 相关笔记
 
