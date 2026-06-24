@@ -11,10 +11,14 @@
             "id": "954a1afc72adfd1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "💼 面试/AI面试题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI面试题"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "f75088ab928c6ddd",
@@ -190,6 +193,8 @@
   },
   "active": "954a1afc72adfd1f",
   "lastOpenFiles": [
+    "💼 面试/中午问答.md",
+    "💼 面试/AI面试题.md",
     "AI大模型开发/AI大模型开发总览.md",
     "AI大模型开发/EduRag项目/5 EduRAG简历参考.md",
     "AI大模型开发/EduRag项目/3 RAG系统评估.md",
@@ -225,8 +230,6 @@
     "🤖 AI Agent/AI Agent总览.md",
     "🤖 AI Agent/人味儿写作-检查清单.md",
     "🤖 AI Agent/抖音脚本-MCP协议Agent必知.md",
-    "🤖 AI Agent/人味儿写作-案例实录.md",
-    "🤖 AI Agent/Hermes Agent技能库/笔记.md",
     "AI大模型开发/EduRag项目/images",
     "AI大模型开发/EduRag项目",
     "AI大模型开发",
