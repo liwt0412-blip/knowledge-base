@@ -23,6 +23,7 @@ created: 2026-06-22
 
 **核心模块**
 - [[2 RAG问答系统-核心模块|2 RAG问答系统-核心模块]] — base 模块、配置管理、检索、生成等核心流程
+- [[EduRag项目/mysql_qa-BM25快速检索模块|mysql_qa-BM25 快速检索]] — BM25 + MySQL + Redis 关键词匹配，RAG 系统的快路由
 - [[2.3文档解析工具(扩展)|文档解析工具]] — PDF/DOCX/PPTX/Images 解析 + RapidOCR + 文本切分器
 - [[2.2BERT微调|2]] — BERT 文本分类微调、FAQ 意图识别实战
 - [[2.1向量模型和重排序模型|2 向量模型和重排序模型]] — BGE-M3 向量模型 + Reranker 重排序
