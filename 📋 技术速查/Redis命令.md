@@ -336,5 +336,7 @@ redisTemplate.opsForValue().set(KEY_PREFIX + userId + ":profile", jsonStr);
   ```
 
 ## 相关笔记
+
+- [[📋 技术速查/技术速查总览|📋 技术速查总览]]
 - [[☕ Java笔记/Redis的常用命令|Spring Data Redis Java 方法对照]]
 - [[💼 面试/Redis面试题|Redis 面试题]]

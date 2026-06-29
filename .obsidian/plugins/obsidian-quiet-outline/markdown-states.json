@@ -212,7 +212,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/part3-SpringAI高级.md": {
-    "scroll": 63.40112251161975,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 92,
@@ -534,15 +534,15 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/AI应用技术全景.md": {
-    "scroll": 40.5234375,
+    "scroll": 121.27500643942646,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 0
+        "line": 131,
+        "ch": 5
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 131,
+        "ch": 5
       }
     },
     "expandedKeys": []
@@ -1116,6 +1116,104 @@
       },
       "to": {
         "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "📋 技术速查/Linux环境搭建与中间件安装手册.md": {
+    "scroll": 3298.248805815161,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md": {
+    "scroll": 5.294117647058823,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md": {
+    "scroll": 1.8307291666666665,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 59
+      },
+      "to": {
+        "line": 6,
+        "ch": 59
+      }
+    },
+    "expandedKeys": []
+  },
+  "SpringAI+AIGC应用/持久化VectorStore.md": {
+    "scroll": 19.79958900590804,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/本人面试准备.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/石化面试表述-待完善清单.md": {
+    "scroll": 34.68517369727047,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
         "ch": 0
       }
     },

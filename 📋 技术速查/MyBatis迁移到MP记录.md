@@ -207,5 +207,7 @@ return new PageResult(page.getTotal(), page.getRecords());
 - [ ] Service 中改为 `new Page<>()`，不接返回值
 
 ## 相关笔记
+
+- [[📋 技术速查/技术速查总览|📋 技术速查总览]]
 - [[☕ Java笔记/MybatisPlus笔记|MyBatis Plus 使用指南]]
 - [[🖥 项目笔记/CRM/Bug日志|MP 迁移踩坑]]

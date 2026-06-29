@@ -510,6 +510,8 @@ public class OverviewVO implements Serializable {
 ![Image](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZDAwYzk3NDRmZmU0ODY2YTk2ODk3ZmI4ZGVhMmQxZDJfMmMwOGQ3N2ZmMjNhM2Q3ZWEwZjZhZWYzM2VjOGZkZDFfSUQ6NzUzMDE4ODMyNDIwNTYwODk2NF8xNzgwMDU2NTc1OjE3ODAxNDI5NzVfVjM)
 
 ## 相关笔记
+
+- [[📋 技术速查/技术速查总览|📋 技术速查总览]]
 - [[☕ Java笔记/Redis的常用命令|Redis 命令速查]]
 - [[💼 面试/Redis面试题|Redis 面试题]]
 

@@ -11,10 +11,28 @@
             "id": "954a1afc72adfd1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "💼 面试/本人面试准备/石化面试表述-待完善清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "石化面试表述-待完善清单"
+            }
+          },
+          {
+            "id": "d91373a8e565f979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "李文韬-石化经营分析平台-面试表述"
             }
           }
         ]
@@ -74,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 434.5
   },
   "right": {
     "id": "f75088ab928c6ddd",
@@ -189,18 +207,39 @@
   },
   "active": "954a1afc72adfd1f",
   "lastOpenFiles": [
+    "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md",
+    "💼 面试/本人面试准备/石化面试表述-待完善清单.md",
+    "💼 面试/本人面试准备/本人面试准备.md",
+    "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md",
+    "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md",
+    "SpringAI+AIGC应用/AI应用技术全景.md",
+    "SpringAI+AIGC应用/SpringAI+AIGC应用总览.md",
+    "SpringAI+AIGC应用/part3-SpringAI高级.md",
+    "SpringAI+AIGC应用/持久化VectorStore.md",
+    "📋 技术速查/Linux环境搭建与中间件安装手册.md",
+    "📋 技术速查/技术速查总览.md",
+    "📋 技术速查/sedygpyb9",
+    "📋 技术速查/sed9jQvuk",
+    "📋 技术速查/sedUcM4jR",
+    "📋 技术速查/assets/image-20210506110249144.png",
+    "📋 技术速查/assets/image-20210506110704293.png",
+    "📋 技术速查/assets/1571161083235.png",
+    "📋 技术速查/assets/1571162576088.png",
+    "📋 技术速查/assets/1571161665439.png",
+    "📋 技术速查/assets/1571161497433.png",
+    "📋 技术速查/assets/image-20210506102630393.png",
+    "📋 技术速查/assets/image-20210506101053676.png",
+    "📋 技术速查/assets/image-20210109105135812.png",
+    "📋 技术速查/assets/image-20201115230900504.png",
+    "📋 技术速查/assets",
     "AI大模型开发/EduRag项目/EduRAG面试题.md",
     "☕ Java笔记/异常.md",
     "AI大模型开发/EduRag项目/1.2挂载虚拟机.md",
     "💼 面试/面试总览.md",
     "💼 面试/面试准备.md",
-    "💼 面试/本人面试准备/本人面试准备.md",
-    "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md",
     "💼 面试/本人面试准备/面试中如何讲AI工具使用经验.md",
     "💼 面试/本人面试准备/面试题-20260623-三道进阶.md",
     "💼 面试/本人面试准备/面试准备.md",
-    "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md",
-    "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md",
     "💼 面试/本人面试准备",
     "💼 面试/面试中如何讲AI工具使用经验.md",
     "本人面试准备",
@@ -210,31 +249,10 @@
     "常用指令/NAS入门与选购指南.md",
     "常用指令/常用指令总览.md",
     "🖥 项目笔记/中州养老/中州养老护理任务-报警数据-开发问题记录.md",
-    "🖥 项目笔记/中州养老/若依接口文档.md",
-    "🖥 项目笔记/中州养老/Bug日志.md",
-    "🖥 项目笔记/中州养老/若依建项.md",
-    "📖 中州养老课程文档/文档/day1-从0开始用若依.md",
-    "AI大模型开发/EduRag项目/2 RAG问答系统-核心模块.md",
-    "💼 面试/AI面试题.md",
-    "💼 面试/中午问答.md",
-    "AI大模型开发/EduRag项目/images/media/image4.png",
-    "AI大模型开发/EduRag项目/images/media/image12.png",
-    "AI大模型开发/EduRag项目/images/media/image9.png",
-    "AI大模型开发/EduRag项目/images/media/image8.png",
-    "AI大模型开发/EduRag项目/images/media/image7.png",
-    "AI大模型开发/EduRag项目/images/media/image6.png",
-    "AI大模型开发/EduRag项目/images/media/image5.png",
-    "AI大模型开发/EduRag项目/images/media/image4.jpeg",
-    "AI大模型开发/EduRag项目/images/media/image3.png",
-    "AI大模型开发/EduRag项目/images/media/image3.jpeg",
     "AI大模型开发/EduRag项目/images/media",
     "AI大模型开发/EduRag项目/images",
     "AI大模型开发/EduRag项目",
     "AI大模型开发",
-    "web阶段注解总结.txt",
-    "未命名.canvas",
-    "MOC-工具运维.md.tmp.37472.19eb463c6b19",
-    "last30days热点搜索技能.md.tmp.37472.c1dac1c9286f",
-    "remotion科普视频.md.tmp.40616.1aa78978716a"
+    "未命名.canvas"
   ]
 }
