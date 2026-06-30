@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💼 面试/本人面试准备/石化面试表述-待完善清单.md",
+                "file": "☕ Java笔记/Java笔记总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "石化面试表述-待完善清单"
-            }
-          },
-          {
-            "id": "d91373a8e565f979",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "李文韬-石化经营分析平台-面试表述"
+              "title": "Java笔记总览"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MCP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,52 +194,52 @@
   },
   "active": "954a1afc72adfd1f",
   "lastOpenFiles": [
-    "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md",
-    "💼 面试/本人面试准备/石化面试表述-待完善清单.md",
+    "💼 面试/本人面试准备/面试题-20260629-SpringCloudGateway路由与鉴权.md",
+    "💼 面试/并发编程面试题.md",
+    "SpringAI+AIGC应用/part1-认识AI & 大模型应用开发.md",
+    "SpringAI+AIGC应用/持久化会话记忆-MySQL.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "未命名.canvas",
+    "💼 面试/AI面试题.md",
+    "☕ Java笔记/微服务框架-黑马新版/day03-服务保护和分布式事务.md",
+    "☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版.md",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/ba10e6a964ce.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/fcb8378f2f80.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/9af624f81813.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/64b3530403ba.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/b774224429f0.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/0b3782a5d242.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/23f55332243b.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/e19809016f3f.png",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/5e699f68fde0.jpg",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02/7dc0392c2a1b.jpg",
+    "☕ Java笔记/微服务框架-黑马新版/images_day02-微服务02",
+    "☕ Java笔记/微服务框架-黑马新版/day02-微服务02.md",
+    "☕ Java笔记/微服务框架-黑马新版/day01-作业-微服务拆分参考.md",
+    "☕ Java笔记/微服务框架-黑马新版/day01-微服务01.md",
+    "☕ Java笔记/微服务框架-黑马新版/images_day01-微服务01",
+    "☕ Java笔记/微服务框架-黑马新版/images_day01-作业-微服务拆分参考",
+    "☕ Java笔记/微服务框架-黑马新版/day08-Redis面试篇.md",
+    "☕ Java笔记/微服务框架-黑马新版/day07-Elasticsearch02.md",
+    "☕ Java笔记/微服务框架-黑马新版/day06-Elasticsearch01.md",
+    "☕ Java笔记/微服务框架-黑马新版/day05-作业-抽取MQ工具参考.md",
+    "☕ Java笔记/微服务框架-黑马新版/day05-MQ高级.md",
+    "☕ Java笔记/微服务框架-黑马新版/day04-MQ基础.md",
+    "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-下-网关与配置.md",
+    "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-上-服务拆分.md",
+    "💼 面试/本人面试准备/面试准备.md",
+    "☕ Java笔记/微服务框架-黑马新版",
+    "💼 面试/本人面试准备/面试中如何讲AI工具使用经验.md",
+    "💼 面试/本人面试准备/面试题-20260623-三道进阶.md",
     "💼 面试/本人面试准备/本人面试准备.md",
-    "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md",
     "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md",
-    "SpringAI+AIGC应用/AI应用技术全景.md",
-    "SpringAI+AIGC应用/SpringAI+AIGC应用总览.md",
-    "SpringAI+AIGC应用/part3-SpringAI高级.md",
-    "SpringAI+AIGC应用/持久化VectorStore.md",
-    "📋 技术速查/Linux环境搭建与中间件安装手册.md",
-    "📋 技术速查/技术速查总览.md",
+    "💼 面试/本人面试准备/石化面试表述-待完善清单.md",
     "📋 技术速查/sedygpyb9",
     "📋 技术速查/sed9jQvuk",
     "📋 技术速查/sedUcM4jR",
-    "📋 技术速查/assets/image-20210506110249144.png",
-    "📋 技术速查/assets/image-20210506110704293.png",
-    "📋 技术速查/assets/1571161083235.png",
-    "📋 技术速查/assets/1571162576088.png",
-    "📋 技术速查/assets/1571161665439.png",
-    "📋 技术速查/assets/1571161497433.png",
-    "📋 技术速查/assets/image-20210506102630393.png",
-    "📋 技术速查/assets/image-20210506101053676.png",
-    "📋 技术速查/assets/image-20210109105135812.png",
-    "📋 技术速查/assets/image-20201115230900504.png",
     "📋 技术速查/assets",
-    "AI大模型开发/EduRag项目/EduRAG面试题.md",
-    "☕ Java笔记/异常.md",
-    "AI大模型开发/EduRag项目/1.2挂载虚拟机.md",
-    "💼 面试/面试总览.md",
-    "💼 面试/面试准备.md",
-    "💼 面试/本人面试准备/面试中如何讲AI工具使用经验.md",
-    "💼 面试/本人面试准备/面试题-20260623-三道进阶.md",
-    "💼 面试/本人面试准备/面试准备.md",
     "💼 面试/本人面试准备",
-    "💼 面试/面试中如何讲AI工具使用经验.md",
-    "本人面试准备",
-    "💼 面试/面试题-20260623-三道进阶.md",
-    "💼 面试/李文韬-石化项目AI方向面试专项素材.md",
-    "💼 面试/李文韬-石化经营分析平台-面试表述.md",
-    "常用指令/NAS入门与选购指南.md",
-    "常用指令/常用指令总览.md",
-    "🖥 项目笔记/中州养老/中州养老护理任务-报警数据-开发问题记录.md",
-    "AI大模型开发/EduRag项目/images/media",
-    "AI大模型开发/EduRag项目/images",
-    "AI大模型开发/EduRag项目",
-    "AI大模型开发",
-    "未命名.canvas"
+    "本人面试准备"
   ]
 }

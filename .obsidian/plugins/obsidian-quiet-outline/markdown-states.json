@@ -30,7 +30,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/part1-认识AI & 大模型应用开发.md": {
-    "scroll": 153.62494734378657,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -44,7 +44,7 @@
     "expandedKeys": []
   },
   "💼 面试/AI面试题.md": {
-    "scroll": 2.830188679245283,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -226,7 +226,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化会话记忆-MySQL.md": {
-    "scroll": 10.415364583333334,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -1178,7 +1178,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md": {
-    "scroll": 0,
+    "scroll": 79.18921282798834,
     "cursor": {
       "from": {
         "line": 0,
@@ -1192,7 +1192,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/本人面试准备.md": {
-    "scroll": 0,
+    "scroll": 11.9750346740638,
     "cursor": {
       "from": {
         "line": 6,
@@ -1206,14 +1206,210 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/石化面试表述-待完善清单.md": {
-    "scroll": 34.68517369727047,
+    "scroll": 42.763671875,
     "cursor": {
       "from": {
-        "line": 37,
+        "line": 61,
+        "ch": 11
+      },
+      "to": {
+        "line": 61,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/面试题-20260623-三道进阶.md": {
+    "scroll": 17.413411458333332,
+    "cursor": {
+      "from": {
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 37,
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/面试中如何讲AI工具使用经验.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/面试准备.md": {
+    "scroll": 49.42425332853544,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day01-微服务01.md": {
+    "scroll": 49.382109004739334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-上-服务拆分.md": {
+    "scroll": 11.083333333333334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-下-网关与配置.md": {
+    "scroll": 18.5,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day03-服务保护和分布式事务.md": {
+    "scroll": 67.84375,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day02-微服务02.md": {
+    "scroll": 10.671875,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day01-作业-微服务拆分参考.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版.md": {
+    "scroll": 14.490104354084202,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "AGENTS.md": {
+    "scroll": 15.82760663507109,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "CLAUDE.md": {
+    "scroll": 15.789691943127963,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/并发编程面试题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 10
+      },
+      "to": {
+        "line": 6,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/Java笔记总览.md": {
+    "scroll": 6.6640625,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
         "ch": 0
       }
     },
