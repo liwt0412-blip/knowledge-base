@@ -1797,3 +1797,8 @@ public void tryPayOrderByBalance(PayOrderDTO payOrderDTO) {
 思考一下，项目一中的哪些业务可以由同步方式改为异步方式调用？试着改造一下。
 
 举例：短信发送
+
+## 相关笔记
+
+- [[微服务框架-黑马新版|课程总索引]]
+- [[MOC-Spring框架]]

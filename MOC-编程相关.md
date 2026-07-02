@@ -14,6 +14,7 @@ date: 2026-06-10
 - [[SpringAI+AIGC应用/SpringAI+AIGC应用总览|🤖 Spring AI + AIGC]] — 大模型应用、MCP、插件系统
 - [[🤖 AI Agent/AI Agent总览|🤖 AI Agent]] — Agent 架构、MCP 协议、Skill 方法论、内容创作
 - [[MOC-项目实战|🖥️ 项目实战]] — CRM、中州养老
+- [[☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版|微服务框架（黑马新版）]] — SpringCloud 微服务全栈课程
 
 ## 相关笔记
 

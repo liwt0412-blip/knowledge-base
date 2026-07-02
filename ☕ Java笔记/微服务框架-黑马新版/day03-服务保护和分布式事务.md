@@ -1133,3 +1133,8 @@ public void tryPayOrderByBalance(PayOrderDTO payOrderDTO) {
 
 
 利用seata解决这里的分布式事务问题，并思考这个业务实现有没有什么值得改进的地方
+
+## 相关笔记
+
+- [[微服务框架-黑马新版|课程总索引]]
+- [[MOC-Spring框架]]

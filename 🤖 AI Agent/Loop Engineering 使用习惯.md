@@ -76,3 +76,13 @@ Agent 自己扫描推理，你只需要听汇报、做决策。
 **Hermes Agent：**
 - 本项目根目录已有 AGENTS.md（即本文件所在的知识库根目录）
 - 每天日常对话就是在练 Loop Engineering
+
+---
+
+## 四、行业实践案例
+
+### Every 的「复利工程」（Compound Engineering）
+
+> 媒体软件公司 Every，单人维护 5 款产品，80% 时间不写代码。核心方法：四步循环 Plan → Work → Review → Compound，每次解决问题后把方案写入 `CLAUDE.md` 和 `docs/solutions/`，AI 下次自动避坑，代码库越用越聪明。
+
+这就是第六条「AGENTS.md 固化项目约定」的极限版——不只是约定，而是把每次实战经验持续沉淀，形成知识复利。

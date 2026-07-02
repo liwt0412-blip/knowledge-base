@@ -994,3 +994,8 @@ public List<PayOrderVO> queryPayOrders(){
 ![](./images_day01-作业-微服务拆分参考/fe5782351e62.png)
 
 支付服务测试通过。
+
+## 相关笔记
+
+- [[微服务框架-黑马新版|课程总索引]]
+- [[MOC-Spring框架]]

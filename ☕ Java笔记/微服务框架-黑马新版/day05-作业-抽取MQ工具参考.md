@@ -197,3 +197,8 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 
 
 至此，RabbitMQ的工具类和自动装配就完成了。
+
+## 相关笔记
+
+- [[微服务框架-黑马新版|课程总索引]]
+- [[MOC-Spring框架]]
