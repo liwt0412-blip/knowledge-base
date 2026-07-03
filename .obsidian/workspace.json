@@ -11,10 +11,14 @@
             "id": "954a1afc72adfd1f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "💼 面试/微服务面试题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "微服务面试题"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:微服务",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,6 +194,12 @@
   },
   "active": "954a1afc72adfd1f",
   "lastOpenFiles": [
+    "☕ Java笔记/微服务框架-黑马新版/day03-随堂总结-事务与Seata.md",
+    "💼 面试/面试总览.md",
+    "☕ Java笔记/微服务框架-黑马新版/day03-随堂总结.md",
+    "☕ Java笔记/微服务框架-黑马新版/day01-随堂总结.md",
+    "☕ Java笔记/事务控制.md",
+    "☕ Java笔记/SpringMVC执行流程.md",
     "🤖 AI Agent/模型技术笔记.md",
     "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试逐字稿.md",
     "☕ Java笔记/Java笔记总览.md",
@@ -224,13 +234,7 @@
     "☕ Java笔记/微服务框架-黑马新版/day06-Elasticsearch01.md",
     "☕ Java笔记/微服务框架-黑马新版/day05-作业-抽取MQ工具参考.md",
     "☕ Java笔记/微服务框架-黑马新版/day05-MQ高级.md",
-    "☕ Java笔记/微服务框架-黑马新版/day04-MQ基础.md",
-    "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-下-网关与配置.md",
-    "☕ Java笔记/微服务框架-黑马新版/day02-微服务02-上-服务拆分.md",
-    "💼 面试/本人面试准备/面试准备.md",
     "☕ Java笔记/微服务框架-黑马新版",
-    "💼 面试/本人面试准备/面试中如何讲AI工具使用经验.md",
-    "💼 面试/本人面试准备/面试题-20260623-三道进阶.md",
     "📋 技术速查/sedygpyb9",
     "📋 技术速查/sed9jQvuk",
     "📋 技术速查/sedUcM4jR",

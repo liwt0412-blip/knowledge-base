@@ -31,6 +31,7 @@ date: 2026-06-10
 - [[☕ Java笔记/OGNL语法.md|OGNL语法]]
 - [[☕ Java笔记/Redis的常用命令.md|Redis 常用命令速查]]
 - [[☕ Java笔记/ServletRequest 常用方法.md|超精简记忆口诀]]
+- [[☕ Java笔记/SpringMVC执行流程.md|SpringMVC执行流程]]
 - [[☕ Java笔记/SpringBoot原理.md|SpringBoot原理]]
 - [[☕ Java笔记/Stream流.md|Stream流]]
 - [[☕ Java笔记/事务控制.md|事务控制属性]]
