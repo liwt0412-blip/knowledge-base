@@ -1485,4 +1485,5 @@ public class RabbitMqHelper {
 ## 相关笔记
 
 - [[微服务框架-黑马新版|课程总索引]]
+- [[day05-MQ高级面试问答]] — 面试考核：可靠性 / 幂等 / 兜底
 - [[MOC-Spring框架]]
