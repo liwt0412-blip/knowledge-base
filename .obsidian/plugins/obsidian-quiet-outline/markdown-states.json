@@ -1150,7 +1150,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 862.5139277748779,
+    "scroll": 862.5062639396384,
     "cursor": {
       "from": {
         "line": 0,
@@ -1178,7 +1178,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材.md": {
-    "scroll": 79.18921282798834,
+    "scroll": 75.79427083333333,
     "cursor": {
       "from": {
         "line": 0,
@@ -1514,14 +1514,112 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/面试准备-AI-Agent三层架构分析.md": {
-    "scroll": 8.430327868852459,
+    "scroll": 14.993548387096775,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "GEO项目/官方AI收录.md": {
+    "scroll": 12.447916666666666,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day03-Seata面试问答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试逐字稿.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/05-补强项目/中州养老项目面试追问三层回答.md": {
+    "scroll": 34.229817708333336,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md": {
+    "scroll": 19.355450236966824,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
+    "scroll": 3.6231884057971016,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/面试题-20260629-SpringAI与LangChain双框架.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
