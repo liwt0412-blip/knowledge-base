@@ -1150,7 +1150,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 862.5062639396384,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -1192,7 +1192,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/本人面试准备.md": {
-    "scroll": 11.9750346740638,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -1203,7 +1203,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/石化面试表述-待完善清单.md": {
     "scroll": 42.763671875,
@@ -1595,10 +1597,13 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
-    "scroll": 3.6231884057971016,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 10,
@@ -1609,7 +1614,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/面试题-20260629-SpringAI与LangChain双框架.md": {
     "scroll": 0,
@@ -1624,5 +1631,314 @@
       }
     },
     "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/长文提炼模板.md": {
+    "scroll": 27.030800821355236,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/面试作战首页.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试逐字稿.md": {
+    "scroll": 129.29545454545453,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 17
+      },
+      "to": {
+        "line": 18,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-12",
+      "item-2-15"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/99-整改与红线/面试准备核心判断.md": {
+    "scroll": 258.85,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-13",
+      "item-2-17",
+      "item-2-21"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md": {
+    "scroll": 47.54545454545455,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-7",
+      "item-2-16",
+      "item-2-20"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/99-整改与红线/面试材料整改SPEC.md": {
+    "scroll": 20.568181818181817,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/AI面试30问三层回答.md": {
+    "scroll": 405.8,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/06-真实开发排错案例/真实团队开发流程与接口联调.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/06-真实开发排错案例/真实开发Bug排查面试回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/SpringAI面试追问三层回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java基础八股P0清单.md": {
+    "scroll": 68.4,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务面试追问三层回答.md": {
+    "scroll": 152.55,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-8",
+      "item-2-12"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md": {
+    "scroll": 159.4,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-9",
+      "item-2-14",
+      "item-2-19"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/SpringBoot原理与JavaAI趋势追问.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试逐字稿.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-9"
+    ]
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md": {
+    "scroll": 94.69396551724138,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5",
+      "item-3-6"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md": {
+    "scroll": 288.7307692307692,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-10",
+      "item-2-14",
+      "item-2-24"
+    ]
   }
 }

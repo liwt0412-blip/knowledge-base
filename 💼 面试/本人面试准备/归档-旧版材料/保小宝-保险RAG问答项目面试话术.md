@@ -1,4 +1,4 @@
----
+﻿---
 tags: [面试, Python, RAG, LangChain, 大模型应用, 项目介绍]
 title: 保小宝-保险RAG问答项目面试话术
 description: 基于LangChain+RAG架构的保险智能问答系统，用于面试时介绍项目的完整话术
@@ -192,6 +192,7 @@ async def chat_stream(request: ChatRequest):
 
 ## 相关笔记
 
-- [[💼 面试/本人面试准备/李文韬-石化项目AI方向面试专项素材|石化项目AI助手面试素材]] — 石化项目AI助手面试素材（你的工作项目）
+- [[💼 面试/本人面试准备/归档-旧版材料/李文韬-石化项目AI方向面试专项素材|石化项目AI助手面试素材]] — 石化项目AI助手面试素材（你的工作项目）
 - [[python/Python笔记总览|Python笔记总览]]
 - MOC: [[MOC-面试题]]
+

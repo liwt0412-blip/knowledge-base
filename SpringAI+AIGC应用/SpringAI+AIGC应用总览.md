@@ -28,6 +28,7 @@ created: 2026-06-08
 
 ### AI 面试
 - [[SpringAI+AIGC应用/AI面试宝典|AI面试宝典]] — 24道高频题（SpringAI/RAG/ToolCalling/MCP/Ollama），上篇知识图谱+下篇详细问答
+- [[SpringAI+AIGC应用/RAG系统评估与监控-面试回答|RAG评估与监控面试回答]] — 在线监控+离线评估+闭环，逐字稿可直接背诵
 - [[💼 面试/AI面试题|AI面试题]] — Spring AI、RAG、MCP 面试考点
 - [[💼 面试/AI面试题参考1|AI面试题参考1]] — AI面试补充参考（一）
 - [[💼 面试/AI面试题参考2|AI面试题参考2]] — AI面试补充参考（二）
