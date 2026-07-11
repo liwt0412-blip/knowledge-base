@@ -14,6 +14,7 @@ Agent（智能体）是让大模型走出聊天框、真正帮人干活的架构
 ### Agent 核心知识
 
 - [[抖音脚本-MCP协议Agent必知|MCP 协议 — Agent 必须知道的知识]] — Model Context Protocol，给 AI 装 USB 接口
+- [[Agent即中间件-Jenkins的启示|Agent 即中间件 — Jenkins 的启示]] — Agent 与 Jenkins 的架构同构：Pipeline、可观测性、插件生态、失败模式
 
 ### Agent Skill 方法论
 

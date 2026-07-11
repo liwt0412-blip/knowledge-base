@@ -1921,7 +1921,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md": {
-    "scroll": 288.7307692307692,
+    "scroll": 350.1,
     "cursor": {
       "from": {
         "line": 0,
@@ -1940,5 +1940,50 @@
       "item-2-14",
       "item-2-24"
     ]
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day08-Redis面试篇.md": {
+    "scroll": 326.0657894736842,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6",
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day07-Elasticsearch02.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day07-随堂总结-ES查询.md": {
+    "scroll": 55.95808383233533,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
