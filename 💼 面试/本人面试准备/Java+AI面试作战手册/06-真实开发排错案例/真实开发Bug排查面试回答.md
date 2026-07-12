@@ -25,6 +25,12 @@ created: 2026-07-09
 
 > 我排查 Bug 时不会只盯代码，而是按请求链路、参数、权限、SQL、数据、缓存、编译产物逐层定位。很多问题看起来是代码错，最后根因可能是数据缺失、导包冲突、权限上下文没有注入，或者构建缓存没刷新。
 
+使用建议：
+
+- 本文偏“真实开发基础踩坑”，适合证明自己确实做过接口、权限、SQL、框架联调。
+- 如果面试官问“有没有更复杂一点的排错”，优先看 [[真实开发高级排错案例-Java+AI]]。
+- 主打项目深挖时，不要把 `@PathVariable`、导包冲突这类问题当成最强案例；它们适合做补充。
+
 ---
 
 ## 二、排查问题的通用方法
@@ -260,4 +266,3 @@ public Result list(@PathVariable ClueQueryDto queryDto) {
 > 我印象比较深的是一个分页不生效的问题。项目里同时用了 PageHelper 和 MyBatis Plus，两个框架都有 `Page` 类。代码能编译，但导包导成了 PageHelper 的 `Page`，导致 MyBatis Plus 的分页拦截器识别不到，所以 SQL 没有加 limit。后来我把 import 改成 MP 的 `Page`，并把 `getResult()` 改成 `getRecords()` 才解决。
 >
 > 这个问题给我的经验是，排查 Bug 不能只看表面报错，要结合框架原理、SQL 日志、实际导包和运行时行为一起看。类似的我还遇到过 LEFT JOIN 字段为空其实是数据缺失、ThreadLocal 当前用户只 get 没 set、`@PathVariable` 误用 DTO 这些问题。它们都说明后端排查要按链路定位，而不是靠猜。
-

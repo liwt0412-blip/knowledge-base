@@ -198,18 +198,20 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/AI Agent总览.md": {
-    "scroll": 7.0390625,
+    "scroll": 11.205729166666666,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 5,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "SpringAI+AIGC应用/part3-SpringAI高级.md": {
     "scroll": 0,
@@ -282,7 +284,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Hermes Agent技能库/创意生成.md": {
-    "scroll": 107.51302083333333,
+    "scroll": 93.27272727272727,
     "cursor": {
       "from": {
         "line": 0,
@@ -293,7 +295,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "🤖 AI Agent/Hermes Agent技能库/独立技能.md": {
     "scroll": 41.739583333333336,
@@ -321,7 +325,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "🤖 AI Agent/Hermes Agent技能库/开发运维.md": {
     "scroll": 4.1640625,
@@ -380,7 +386,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Hermes Agent技能库/效率工具.md": {
-    "scroll": 4.1640625,
+    "scroll": 26.636363636363637,
     "cursor": {
       "from": {
         "line": 0,
@@ -391,7 +397,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "🤖 AI Agent/Hermes Agent技能库/学术研究.md": {
     "scroll": 0,
@@ -405,7 +413,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "🤖 AI Agent/Hermes Agent技能库/游戏.md": {
     "scroll": 0,
@@ -450,7 +460,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Hermes Agent技能库/README.md": {
-    "scroll": 0,
+    "scroll": 11.686274509803921,
     "cursor": {
       "from": {
         "line": 0,
@@ -461,7 +471,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "AI大模型开发基础/AI大模型开发基础-04-LangChain.md": {
     "scroll": 32.670470564543194,
@@ -548,7 +560,7 @@
     "expandedKeys": []
   },
   "常用开发网站收藏.md": {
-    "scroll": 12.916666666666666,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -635,15 +647,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 15,
+        "ch": 7
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 15,
+        "ch": 7
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "MOC-Java基础.md": {
     "scroll": 0,
@@ -741,7 +755,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "🤖 AI Agent/人味儿写作-案例实录.md": {
     "scroll": 0,
@@ -786,7 +802,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Loop Engineering 使用习惯.md": {
-    "scroll": 9.250712250712251,
+    "scroll": 3.6223958333333335,
     "cursor": {
       "from": {
         "line": 0,
@@ -797,7 +813,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
   },
   "MOC-面试题.md": {
     "scroll": 0,
@@ -1362,7 +1381,7 @@
     "expandedKeys": []
   },
   "AGENTS.md": {
-    "scroll": 15.82760663507109,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -1373,7 +1392,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
   },
   "CLAUDE.md": {
     "scroll": 15.789691943127963,
@@ -1387,7 +1409,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
   },
   "💼 面试/并发编程面试题.md": {
     "scroll": 34.92486898770301,
@@ -1502,7 +1527,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Hermes记忆备份/记忆备份-2026-07-03.md": {
-    "scroll": 9.9750346740638,
+    "scroll": 64.8,
     "cursor": {
       "from": {
         "line": 4,
@@ -1513,7 +1538,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/面试准备-AI-Agent三层架构分析.md": {
     "scroll": 14.993548387096775,
@@ -1572,7 +1599,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/05-补强项目/中州养老项目面试追问三层回答.md": {
-    "scroll": 34.229817708333336,
+    "scroll": 15.286458333333334,
     "cursor": {
       "from": {
         "line": 0,
@@ -1583,10 +1610,14 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-6",
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md": {
-    "scroll": 19.355450236966824,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -1603,7 +1634,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
-    "scroll": 0,
+    "scroll": 16.328125,
     "cursor": {
       "from": {
         "line": 10,
@@ -1644,7 +1675,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/面试作战首页.md": {
     "scroll": 0,
@@ -1664,7 +1697,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试逐字稿.md": {
-    "scroll": 129.29545454545453,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 18,
@@ -1704,7 +1737,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 47.54545454545455,
+    "scroll": 124.001953125,
     "cursor": {
       "from": {
         "line": 6,
@@ -1741,14 +1774,14 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/AI面试30问三层回答.md": {
-    "scroll": 405.8,
+    "scroll": 31.7890625,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 43,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 43,
         "ch": 0
       }
     },
@@ -1757,49 +1790,46 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/06-真实开发排错案例/真实团队开发流程与接口联调.md": {
-    "scroll": 0,
+    "scroll": 18.018957345971565,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/06-真实开发排错案例/真实开发Bug排查面试回答.md": {
-    "scroll": 0,
+    "scroll": 242.2734375,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-11",
+      "item-2-16",
+      "item-2-21",
+      "item-2-26",
+      "item-2-31"
+    ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/SpringAI面试追问三层回答.md": {
-    "scroll": 0,
-    "cursor": {
-      "from": {
-        "line": 0,
-        "ch": 0
-      },
-      "to": {
-        "line": 0,
-        "ch": 0
-      }
-    },
-    "expandedKeys": []
-  },
-  "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md": {
-    "scroll": 0,
+    "scroll": 5.786458333333333,
     "cursor": {
       "from": {
         "line": 0,
@@ -1811,11 +1841,12 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
-  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java基础八股P0清单.md": {
-    "scroll": 68.4,
+  "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md": {
+    "scroll": 99.31510416666667,
     "cursor": {
       "from": {
         "line": 0,
@@ -1823,6 +1854,24 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java基础八股P0清单.md": {
+    "scroll": 55.166469194312796,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
         "ch": 0
       }
     },
@@ -1854,11 +1903,11 @@
     "scroll": 159.4,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 12,
         "ch": 0
       }
     },
@@ -1874,15 +1923,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 10,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试逐字稿.md": {
     "scroll": 0,
@@ -1921,23 +1972,23 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md": {
-    "scroll": 350.1,
+    "scroll": 224.88433159722223,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 238,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 238,
         "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1",
       "item-2-5",
-      "item-2-10",
-      "item-2-14",
+      "item-2-1",
+      "item-2-35",
+      "item-2-43",
       "item-2-24"
     ]
   },
@@ -1985,5 +2036,233 @@
       }
     },
     "expandedKeys": []
+  },
+  "🤖 AI Agent/Hermes Agent技能库/邮件.md": {
+    "scroll": 107.51302083333333,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🤖 AI Agent/Hermes记忆备份/记忆备份-2026-07-11.md": {
+    "scroll": 120.21171171171171,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "00-我的长期上下文.md": {
+    "scroll": 41.36611374407583,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "00-当前主线.md": {
+    "scroll": 80.15165876777252,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "00-知识库地图.md": {
+    "scroll": 67.43065187239945,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "00-Agent启动提示词.md": {
+    "scroll": 30.898809523809526,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 0
+      },
+      "to": {
+        "line": 53,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🤖 AI Agent/AI协作四象限-让Agent按你的认知地图工作.md": {
+    "scroll": 139.970703125,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-7"
+    ]
+  },
+  "💼 面试/本人面试准备/简历-李文韬-Java后端-AI应用方向.md": {
+    "scroll": 47.363833746898266,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 3
+      },
+      "to": {
+        "line": 60,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/SpringBoot自动装配原理面试回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/04-Agent编程与AI工具/AI-Agent辅助开发流程与代码验证面试回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/04-Agent编程与AI工具/AI-Agent三层渐进面试回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/04-Agent编程与AI工具/codex-vs-hermes-agent.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI助手-生产化追问补充.md": {
+    "scroll": 591.0124679134581,
+    "cursor": {
+      "from": {
+        "line": 628,
+        "ch": 0
+      },
+      "to": {
+        "line": 628,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5",
+      "item-2-1",
+      "item-2-35",
+      "item-2-43",
+      "item-3-79"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/AIFlowy源码参考-石化AI助手追问补充.md": {
+    "scroll": 19.205729166666668,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
