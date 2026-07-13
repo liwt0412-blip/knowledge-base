@@ -259,10 +259,81 @@ public Result list(@PathVariable ClueQueryDto queryDto) {
 
 ---
 
-## 九、最终背诵版
+## 九、案例七：RabbitMQ 队列持久化参数不一致，设备消息堆积但消费者未启动
+
+> 真实性边界：用户确认该问题发生在石化经营分析平台的设备消息消费链路。以下仅记录已确认的现象、日志、根因和修复，不扩展为未核实的线上影响。
+
+### 问题现象
+
+设备上报消息已经发送到 RabbitMQ，在管理页面可以看到队列中有待消费消息，但设备消息消费者没有打印消费日志，相关业务处理没有执行。
+
+### 排查过程与证据
+
+1. 先确认生产端：RabbitMQ 管理页面能看到消息进入目标队列，因此问题不在“消息是否发送成功”。
+2. 再确认消费端：设备服务启动日志中出现：
+
+```text
+PRECONDITION_FAILED - inequivalent arg 'durable':
+received 'false' but current is 'true'
+```
+
+3. 检查消费者的队列声明，发现持久化参数写成了：
+
+```java
+@Queue(name = QUEUE_NAME, durable = "ture")
+```
+
+4. `ture` 是 `true` 的拼写错误。消费者端声明被解析为非持久化（`false`），而 Broker 中同名队列已经是持久化队列（`true`）。RabbitMQ 不允许同名队列的关键属性不一致，因此拒绝消费者声明，监听器没有成功启动。
+
+### 根因
+
+不是“MQ 有消息却没有消费”，而是消费者启动时重新声明队列，声明参数与 Broker 中已有队列不一致，触发 `PRECONDITION_FAILED`。
+
+```text
+生产者发送成功
+    → Broker 队列中存在消息
+    → 消费者声明队列时 durable 参数冲突
+    → Listener 容器未成功启动
+    → 消息持续堆积
+```
+
+### 修复方式
+
+把持久化参数修正为精确的 `"true"`，并确保与 Broker 中已有队列属性一致：
+
+```java
+@RabbitListener(bindings = @QueueBinding(
+        value = @Queue(name = QUEUE_NAME, durable = "true"),
+        exchange = @Exchange(name = EXCHANGE_NAME, type = ExchangeTypes.TOPIC),
+        key = ROUTING_KEY
+))
+```
+
+修复后重启学习服务，并按以下顺序验证：
+
+1. 启动日志不再出现 `PRECONDITION_FAILED`；
+2. RabbitMQ 管理页面显示该队列存在消费者；
+3. 发送一条设备消息后，消费者打印消费日志；
+4. 确认对应设备消息的业务处理恢复。
+
+### 防复发措施
+
+- 交换机、队列名、路由键统一放在 `MqConstants`，避免手写字符串不一致。
+- 队列关键属性（`durable`、`exclusive`、`autoDelete`）在生产者/消费者声明中保持一致。
+- 服务启动后关注 Listener 容器日志，不能只看应用端口是否启动成功。
+- 联调检查同时验证：消息数量、消费者数量、消费日志和最终业务数据。
+- 不要为了消除冲突直接删除已有队列；先确认队列属性和消息是否需要保留，再统一声明配置。
+
+### 面试回答
+
+> 我在石化经营分析平台的设备消息链路里遇到过 RabbitMQ 已经有消息、但消费者没有处理的情况。我没有先怀疑业务代码，而是先看管理页面确认消息确实进入了队列，再看消费者启动日志。日志提示 `PRECONDITION_FAILED`，说同名队列的 durable 参数不一致。继续检查后发现队列声明把 `durable = "true"` 写成了 `"ture"`，消费者声明被当成非持久化，而 Broker 里已有队列是持久化的，所以 RabbitMQ 拒绝声明，监听器没有成功启动。修复拼写并重启后，我再通过消费者数量、消费日志和设备消息业务处理结果验证恢复。这个问题让我形成了一个习惯：MQ 消息不消费时，按生产端、Broker、消费者启动、监听方法、业务落库的链路排查，不能只盯监听方法。
+
+---
+
+## 十、最终背诵版
 
 如果面试官问“你遇到过什么 Bug”，可以这样答：
 
 > 我印象比较深的是一个分页不生效的问题。项目里同时用了 PageHelper 和 MyBatis Plus，两个框架都有 `Page` 类。代码能编译，但导包导成了 PageHelper 的 `Page`，导致 MyBatis Plus 的分页拦截器识别不到，所以 SQL 没有加 limit。后来我把 import 改成 MP 的 `Page`，并把 `getResult()` 改成 `getRecords()` 才解决。
 >
-> 这个问题给我的经验是，排查 Bug 不能只看表面报错，要结合框架原理、SQL 日志、实际导包和运行时行为一起看。类似的我还遇到过 LEFT JOIN 字段为空其实是数据缺失、ThreadLocal 当前用户只 get 没 set、`@PathVariable` 误用 DTO 这些问题。它们都说明后端排查要按链路定位，而不是靠猜。
+> 这个问题给我的经验是，排查 Bug 不能只看表面报错，要结合框架原理、SQL 日志、实际导包和运行时行为一起看。类似的我还遇到过 LEFT JOIN 字段为空其实是数据缺失、ThreadLocal 当前用户只 get 没 set、`@PathVariable` 误用 DTO，以及 RabbitMQ 队列声明参数不一致导致消费者没有启动。这些问题都说明后端排查要按链路定位，而不是靠猜。

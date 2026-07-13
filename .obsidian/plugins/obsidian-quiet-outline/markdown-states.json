@@ -198,15 +198,15 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/AI Agent总览.md": {
-    "scroll": 11.205729166666666,
+    "scroll": 9.580729166666666,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 0
+        "line": 22,
+        "ch": 8
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 22,
+        "ch": 8
       }
     },
     "expandedKeys": [
@@ -802,7 +802,7 @@
     "expandedKeys": []
   },
   "🤖 AI Agent/Loop Engineering 使用习惯.md": {
-    "scroll": 3.6223958333333335,
+    "scroll": 64.02700309871625,
     "cursor": {
       "from": {
         "line": 0,
@@ -814,8 +814,8 @@
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-1-0"
+      "item-1-0",
+      "item-2-1"
     ]
   },
   "MOC-面试题.md": {
@@ -1141,7 +1141,7 @@
     "expandedKeys": []
   },
   "📋 技术速查/Linux环境搭建与中间件安装手册.md": {
-    "scroll": 3298.248805815161,
+    "scroll": 3310.1594585671837,
     "cursor": {
       "from": {
         "line": 8,
@@ -1152,7 +1152,11 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-95",
+      "item-2-94",
+      "item-1-0"
+    ]
   },
   "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md": {
     "scroll": 5.294117647058823,
@@ -2071,14 +2075,14 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 41.36611374407583,
+    "scroll": 91.825,
     "cursor": {
       "from": {
-        "line": 9,
+        "line": 67,
         "ch": 0
       },
       "to": {
-        "line": 9,
+        "line": 67,
         "ch": 0
       }
     },
@@ -2120,15 +2124,15 @@
     ]
   },
   "00-Agent启动提示词.md": {
-    "scroll": 30.898809523809526,
+    "scroll": 13.497395833333334,
     "cursor": {
       "from": {
-        "line": 53,
-        "ch": 0
+        "line": 33,
+        "ch": 49
       },
       "to": {
-        "line": 53,
-        "ch": 0
+        "line": 33,
+        "ch": 49
       }
     },
     "expandedKeys": [
@@ -2136,14 +2140,14 @@
     ]
   },
   "🤖 AI Agent/AI协作四象限-让Agent按你的认知地图工作.md": {
-    "scroll": 139.970703125,
+    "scroll": 1.8867924528301887,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 12,
         "ch": 0
       }
     },
@@ -2229,7 +2233,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI助手-生产化追问补充.md": {
-    "scroll": 591.0124679134581,
+    "scroll": 591.0293362669601,
     "cursor": {
       "from": {
         "line": 628,
@@ -2258,6 +2262,58 @@
       },
       "to": {
         "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "Java-AI-学习路线.md": {
+    "scroll": 152.61496941345808,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-11",
+      "item-2-15",
+      "item-2-19",
+      "item-2-23"
+    ]
+  },
+  "MOC-工具运维.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "常用指令/常用指令总览.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 0
+      },
+      "to": {
+        "line": 54,
         "ch": 0
       }
     },

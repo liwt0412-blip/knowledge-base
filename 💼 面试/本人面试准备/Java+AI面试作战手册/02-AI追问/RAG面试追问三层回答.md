@@ -670,7 +670,7 @@ FastAPI 可用 `StreamingResponse`，每次 yield 一个 SSE 格式 chunk。Java
 
 **第二层：项目落点**
 
-Java Function Calling 和 Python RAG 都要读写 MySQL conversations 表，避免用户跨服务追问时上下文断裂。
+会话历史建议由 Java 侧统一管理并持久化。调用 Python RAG 时，由 Java 按需传递当前问题、最近几轮上下文和用户权限范围，避免两个服务直接共同写业务表，同时保证跨服务追问连贯。如果项目真实实现不同，以代码为准。
 
 **第三层：技术深挖**
 
