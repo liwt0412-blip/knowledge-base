@@ -161,7 +161,31 @@ date: 2026-07-11
 
 ---
 
+## 6. 视频落地记录（2026-07-14）
+
+这套方法已经在 Remotion 项目中制作成完整科普视频，Composition ID 为 `AgentQuadrants`。
+
+### 成品与源码索引
+
+- 项目：`D:\workspece\GitHup\remotion`
+- 场景数据、口播和字幕：`src/video-data/agent-quadrants.ts`
+- 视频编排：`src/compositions/AgentQuadrantsComposition.tsx`
+- 克隆旁白：`src/配音/agent-quadrants/*-clone.wav`
+- 封面：`public/covers/agent-quadrants-cover.png`
+- 发布长短文案：`docs/agent-quadrants-publish-copy.md`
+- 最终成片：`out/AgentQuadrants.mp4`
+
+### 本次验证出的制作规则
+
+1. 钩子后使用固定的 4 秒通用标题场景，结构为 `Hook → TitleCard → 正文`。
+2. 旁白使用 IndexTTS2 按场景设置情绪，先确认钩子试听，再批量生成。
+3. 最终克隆音频是场景时长和字幕时间轴的唯一基准，字幕不能平均分配。
+4. 转场音效保持统一风格，并使用更有冲击力的 whoosh/impact，但不得遮盖人声。
+5. 视频规则写回项目 `AGENTS.md`，跨项目方法沉淀在 [[remotion科普视频]] 中。
+
 ## 相关笔记
+
+- [[remotion科普视频]] — 从文案到成片的默认生产流程
 
 - [[Agent即中间件-Jenkins的启示|Agent 即中间件]] — Agent 的架构哲学
 - [[AI Agent总览|🤖 AI Agent 总览]]
