@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "微服务",
+  "search": "官网",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"💼 面试\"  ",
@@ -46,6 +46,6 @@
   "repelStrength": 11.25,
   "linkStrength": 0.140625,
   "linkDistance": 500,
-  "scale": 0.16348370567220324,
+  "scale": 0.6316046762907475,
   "close": false
 }
