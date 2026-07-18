@@ -11,6 +11,7 @@ date: 2026-06-10
 - [[☕ Java笔记/Spring-Web注解速查表|Spring Web 注解速查表]] — IOC/DI/MVC/AOP/事务/MyBatis/JUnit 注解汇总
 - [[☕ Java笔记/SpringMVC执行流程|SpringMVC 执行流程]] — DispatcherServlet / HandlerMapping / HandlerAdapter / ViewResolver
 - [[☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版|微服务框架（黑马新版）]] — Nacos / Gateway / Sentinel / Seata / RabbitMQ / ES / Redis
+- [[☕ Java笔记/SSO统一认证与IAM架构方案|SSO 统一认证与 IAM]] — 企业多系统单点登录、OAuth2/OIDC、用户中心架构设计
 
 ## 相关笔记
 
