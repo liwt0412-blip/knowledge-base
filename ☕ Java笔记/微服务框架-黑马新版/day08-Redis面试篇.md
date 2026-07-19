@@ -1,4 +1,4 @@
-<title>day08-[[../📋 技术速查/Redis性能优化|Redis]]面试篇</title>
+<title>day08-[[📋 技术速查/Redis性能优化|Redis]]面试篇</title>
 
 > 📂 [[微服务框架-黑马新版|课程索引]]
 

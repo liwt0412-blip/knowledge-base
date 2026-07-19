@@ -18,15 +18,15 @@ created: 2026-06-22
 
 **环境搭建**
 - [[1 环境搭建和Milvus向量数据库|1 环境搭建和Milvus向量数据库]] — RAG项目搭建、Milvus概念、索引类型（FLAT/IVF/HNSW）、相似度度量、混合搜索
-- [[1.1Milvus环境搭建（自己搭建）|1]] — Docker 部署 Milvus（etcd + minio + milvus）完整流程
-- [[1.2挂载虚拟机|1]] — VMware 虚拟机 NAT 网络配置
+- [[AI大模型开发/EduRag项目/1.1Milvus环境搭建（自己搭建）|Milvus 自建环境]] — Docker 部署 Milvus（etcd + minio + milvus）完整流程
+- [[AI大模型开发/EduRag项目/1.2挂载虚拟机|挂载虚拟机]] — VMware 虚拟机 NAT 网络配置
 
 **核心模块**
 - [[2 RAG问答系统-核心模块|2 RAG问答系统-核心模块]] — base 模块、配置管理、检索、生成等核心流程
 - [[EduRag项目/mysql_qa-BM25快速检索模块|mysql_qa-BM25 快速检索]] — BM25 + MySQL + Redis 关键词匹配，RAG 系统的快路由
-- [[2.3文档解析工具(扩展)|文档解析工具]] — PDF/DOCX/PPTX/Images 解析 + RapidOCR + 文本切分器
-- [[2.2BERT微调|2]] — BERT 文本分类微调、FAQ 意图识别实战
-- [[2.1向量模型和重排序模型|2 向量模型和重排序模型]] — BGE-M3 向量模型 + Reranker 重排序
+- [[AI大模型开发/EduRag项目/2.3文档解析工具(扩展)|文档解析工具]] — PDF/DOCX/PPTX/Images 解析 + RapidOCR + 文本切分器
+- [[AI大模型开发/EduRag项目/2.2BERT微调|BERT 微调]] — BERT 文本分类微调、FAQ 意图识别实战
+- [[AI大模型开发/EduRag项目/2.1向量模型和重排序模型|向量模型和重排序模型]] — BGE-M3 向量模型 + Reranker 重排序
 
 **评估与集成**
 - [[3 RAG系统评估|3 RAG系统评估]] — RAGAS 评估框架、检索与生成质量评测
@@ -34,6 +34,10 @@ created: 2026-06-22
 
 **简历**
 - [[5 EduRAG简历参考|EduRAG 简历参考]] — 项目简历话术，含技术栈、项目背景、个人职责
+
+## 过程记录
+
+- [[AI大模型开发/EduRag项目/EduRag项目每日总结|EduRAG 项目每日总结]] — 学习和实现过程记录，按需查阅，不作为面试事实直接引用。
 
 ## 关联基础
 

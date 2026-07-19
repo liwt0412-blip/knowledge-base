@@ -198,6 +198,6 @@ version: 1.1.0
 
 ## 相关笔记
 
-- [[../创意生成|创意生成技能索引]]
-- [[renwei-writing|人味儿写作（旧索引）]]
+- [[创意生成|创意生成技能索引]]
+- [[🤖 AI Agent/人味儿写作-renwei-writing|人味儿写作（旧索引）]]
 - [[../Hermes Agent技能库/README|Hermes Agent技能库]]

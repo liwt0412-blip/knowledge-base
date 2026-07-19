@@ -166,7 +166,7 @@ public class SpringbootWebConfigApplication{
 - [[☕ Java笔记/Java笔记总览|Java笔记总览]]
 
 - [[☕ Java笔记/Bean管理|Bean 管理]]
-- [[💼 面试/面试准备|面试准备]]
+- [[💼 面试/本人面试准备/本人面试准备|面试准备]]
 - [[💼 面试/框架面试题|框架面试]]
 
 

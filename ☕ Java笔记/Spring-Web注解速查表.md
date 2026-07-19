@@ -150,6 +150,6 @@ date: 2026-06-21
 
 ## 相关笔记
 
-- [[../MOC-Spring框架|🏗️ Spring框架 MOC]]
-- [[../MOC-Java基础|☕ Java基础 MOC]]
+- [[MOC-Spring框架|🏗️ Spring框架 MOC]]
+- [[MOC-Java基础|☕ Java基础 MOC]]
 - [[Java笔记总览|Java笔记总览]]

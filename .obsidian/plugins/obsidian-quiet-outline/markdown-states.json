@@ -516,7 +516,7 @@
     "expandedKeys": []
   },
   "AI大模型开发基础/AI大模型开发基础-01-Python基础.md": {
-    "scroll": 27.231119791666668,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 8,
@@ -527,7 +527,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1"
+    ]
   },
   "AI大模型开发基础/AI大模型开发基础-02-Python基础.md": {
     "scroll": 287.7998511904762,
@@ -660,15 +662,15 @@
     "expandedKeys": []
   },
   "00-入口.md": {
-    "scroll": 0,
+    "scroll": 27.259361997226076,
     "cursor": {
       "from": {
-        "line": 15,
-        "ch": 7
+        "line": 26,
+        "ch": 0
       },
       "to": {
-        "line": 15,
-        "ch": 7
+        "line": 26,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -711,11 +713,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
+        "line": 21,
         "ch": 0
       },
       "to": {
-        "line": 16,
+        "line": 21,
         "ch": 0
       }
     },
@@ -1561,7 +1563,7 @@
     "expandedKeys": []
   },
   "☕ Java笔记/03.Stream流.md": {
-    "scroll": 0,
+    "scroll": 6.6640625,
     "cursor": {
       "from": {
         "line": 4,
@@ -1572,7 +1574,20 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-1",
+      "item-1-0",
+      "item-3-6",
+      "item-3-8",
+      "item-4-10",
+      "item-3-15",
+      "item-2-14",
+      "item-3-19",
+      "item-3-27",
+      "item-3-23",
+      "item-3-21"
+    ]
   },
   "🤖 AI Agent/Hermes记忆备份/记忆备份-2026-07-03.md": {
     "scroll": 64.8,
@@ -1605,7 +1620,7 @@
     "expandedKeys": []
   },
   "GEO项目/官方AI收录.md": {
-    "scroll": 12.447916666666666,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -1685,7 +1700,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
-    "scroll": 16.328125,
+    "scroll": 127.44609004739337,
     "cursor": {
       "from": {
         "line": 10,
@@ -1698,7 +1713,8 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1"
+      "item-2-1",
+      "item-2-8"
     ]
   },
   "💼 面试/本人面试准备/面试题-20260629-SpringAI与LangChain双框架.md": {
@@ -1788,15 +1804,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 28.510421464762782,
+    "scroll": 95.58184523809524,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 0
+        "line": 81,
+        "ch": 11
       },
       "to": {
-        "line": 72,
-        "ch": 0
+        "line": 81,
+        "ch": 11
       }
     },
     "expandedKeys": [
@@ -1939,22 +1955,24 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务面试追问三层回答.md": {
-    "scroll": 60.623697916666664,
+    "scroll": 382.3450520833333,
     "cursor": {
       "from": {
-        "line": 131,
-        "ch": 6
+        "line": 380,
+        "ch": 0
       },
       "to": {
-        "line": 131,
-        "ch": 25
+        "line": 380,
+        "ch": 0
       }
     },
     "expandedKeys": [
       "item-1-0",
       "item-2-2",
       "item-2-8",
-      "item-2-12"
+      "item-2-12",
+      "item-2-17",
+      "item-2-23"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md": {
@@ -2126,40 +2144,40 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 123.29315476190476,
+    "scroll": 12.71563981042654,
     "cursor": {
       "from": {
-        "line": 67,
-        "ch": 0
+        "line": 22,
+        "ch": 12
       },
       "to": {
-        "line": 67,
-        "ch": 0
-      }
-    },
-    "expandedKeys": [
-      "item-1-0",
-      "item-2-1"
-    ]
-  },
-  "00-当前主线.md": {
-    "scroll": 2.9836065573770494,
-    "cursor": {
-      "from": {
-        "line": 57,
-        "ch": 13
-      },
-      "to": {
-        "line": 57,
-        "ch": 13
+        "line": 22,
+        "ch": 12
       }
     },
     "expandedKeys": [
       "item-1-0"
     ]
   },
+  "00-当前主线.md": {
+    "scroll": 82.92267683772538,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 13
+      },
+      "to": {
+        "line": 57,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-6"
+    ]
+  },
   "00-知识库地图.md": {
-    "scroll": 0,
+    "scroll": 3.278688524590164,
     "cursor": {
       "from": {
         "line": 8,
@@ -2289,7 +2307,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI助手-生产化追问补充.md": {
-    "scroll": 52.345379146919434,
+    "scroll": 73.53841145833333,
     "cursor": {
       "from": {
         "line": 62,
@@ -2731,7 +2749,7 @@
     ]
   },
   "🖥 项目笔记/天机学堂/课程资料/01-天机学堂概述.md": {
-    "scroll": 384.0979441922155,
+    "scroll": 374.32157724329323,
     "cursor": {
       "from": {
         "line": 84,
@@ -2780,7 +2798,7 @@
     "expandedKeys": []
   },
   "🖥 项目笔记/天机学堂/课程资料/18-天机学堂项目逐字稿.md": {
-    "scroll": 203.04166666666666,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -2930,5 +2948,232 @@
       "item-1-0",
       "item-2-7"
     ]
+  },
+  "☕ Java笔记/Java全套代码质量与优化规范.md": {
+    "scroll": 315.75770142180096,
+    "cursor": {
+      "from": {
+        "line": 180,
+        "ch": 7
+      },
+      "to": {
+        "line": 180,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-33"
+    ]
+  },
+  "📥 原始资料（待处理）/00-原始资料说明.md": {
+    "scroll": 24.649881516587676,
+    "cursor": {
+      "from": {
+        "line": 45,
+        "ch": 7
+      },
+      "to": {
+        "line": 45,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🤖 AI Agent/上下文与记忆/归档/00-我的长期上下文-重构前-2026-07-18.md": {
+    "scroll": 30.716796875,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "☕ Java笔记/00-Java开发与工程实践入口.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/高频最新状态的Redis合并写模式.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/00-面试模块入口.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🤖 AI Agent/00-上下文与记忆入口.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/06.文件上传.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/05.会话技术.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/04.方法引用.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/SpringMVC执行流程.md": {
+    "scroll": 76.80509478672985,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-9"
+    ]
+  },
+  "🤖 AI Agent/codex-vs-hermes-agent.md": {
+    "scroll": 186.865234375,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-11"
+    ]
+  },
+  "💼 面试/本人面试准备/RAG故障场景-架构面试题-逐句修正.md": {
+    "scroll": 50.42349122030397,
+    "cursor": {
+      "from": {
+        "line": 106,
+        "ch": 7
+      },
+      "to": {
+        "line": 106,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5"
+    ]
+  },
+  "💼 面试/本人面试准备/MySQL-项目感面试练习-逐句修正.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

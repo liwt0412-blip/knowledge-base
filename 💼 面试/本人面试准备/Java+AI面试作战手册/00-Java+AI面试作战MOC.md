@@ -75,7 +75,7 @@ created: 2026-07-09
 
 ## 谨慎使用
 
-- [[codex-vs-hermes-agent]]
+- [[🤖 AI Agent/codex-vs-hermes-agent]]
 - [[AIFlowy源码参考-石化AI助手追问补充]]
 - [[石化AI助手-生产化追问补充]]
 

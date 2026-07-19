@@ -21,7 +21,7 @@ updated: 2026-07-11
 | 笔记 | 用途 | 读取时机 |
 |---|---|---|
 | [[AI协作四象限-让Agent按你的认知地图工作]] | 用四象限组织 Agent 任务、暴露盲区、沉淀隐性标准 | 不知道怎么给 Agent 下任务时 |
-| [[codex-vs-hermes-agent]] | 判断 Codex、Hermes、Claude 分别适合做什么 | 多 Agent 分工时 |
+| [[🤖 AI Agent/codex-vs-hermes-agent]] | 判断 Codex、Hermes、Claude 分别适合做什么 | 多 Agent 分工时 |
 | [[Loop Engineering 使用习惯]] | 给目标、不直接给步骤、先 explore、self-review、拆阶段 | 做复杂任务前 |
 | [[Java_AI_Agent生态与MCP协议_2026-06-14]] | Java Agent、MCP、yu-ai-agent 学习路线 | 准备 Java + AI / MCP 内容时 |
 | [[Hermes记忆备份/Hermes记忆迁移审计-2026-07-11]] | Hermes 记忆迁移判断和分流依据 | 审核或迁移 Hermes 记忆时 |
@@ -38,7 +38,7 @@ updated: 2026-07-11
 - [[Loop Engineering 使用习惯]]  
   记录更适合长期使用 Agent 的工作方式：给目标不给步骤、先侦察、写入项目约定、做完自审、拆阶段。
 
-- [[codex-vs-hermes-agent]]  
+- [[🤖 AI Agent/codex-vs-hermes-agent]]
   Codex 偏工程闭环，Hermes 偏长期个人 Agent 平台，Claude 偏推理和表达质量。
 
 ---

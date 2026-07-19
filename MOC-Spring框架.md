@@ -4,6 +4,8 @@ date: 2026-06-10
 ---
 
 # 🏗️ Spring框架
+> [!info] 旧主题聚合索引
+> 本页保留为子索引；Agent 应先从 [[00-入口]] 或对应的 `00-*模块入口` 进入。
 
 > [[00-入口|← 返回入口]]
 
@@ -11,7 +13,7 @@ date: 2026-06-10
 - [[☕ Java笔记/Spring-Web注解速查表|Spring Web 注解速查表]] — IOC/DI/MVC/AOP/事务/MyBatis/JUnit 注解汇总
 - [[☕ Java笔记/SpringMVC执行流程|SpringMVC 执行流程]] — DispatcherServlet / HandlerMapping / HandlerAdapter / ViewResolver
 - [[☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版|微服务框架（黑马新版）]] — Nacos / Gateway / Sentinel / Seata / RabbitMQ / ES / Redis
-- [[☕ Java笔记/SSO统一认证与IAM架构方案|SSO 统一认证与 IAM]] — 企业多系统单点登录、OAuth2/OIDC、用户中心架构设计
+- [[📥 原始资料（待处理）/SSO统一认证与IAM架构方案|SSO 统一认证与 IAM（待核验原始资料）]] — 企业多系统单点登录、OAuth2/OIDC、用户中心架构设计
 
 ## 相关笔记
 
