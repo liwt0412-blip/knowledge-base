@@ -1171,7 +1171,7 @@
     "expandedKeys": []
   },
   "📋 技术速查/Linux环境搭建与中间件安装手册.md": {
-    "scroll": 3310.1594585671837,
+    "scroll": 3298.152751817238,
     "cursor": {
       "from": {
         "line": 8,
@@ -1183,9 +1183,9 @@
       }
     },
     "expandedKeys": [
+      "item-1-0",
       "item-3-95",
-      "item-2-94",
-      "item-1-0"
+      "item-2-94"
     ]
   },
   "💼 面试/本人面试准备/保小宝-保险RAG问答项目面试话术.md": {
@@ -1361,7 +1361,7 @@
     "expandedKeys": []
   },
   "☕ Java笔记/微服务框架-黑马新版/day03-服务保护和分布式事务.md": {
-    "scroll": 176.84331480671955,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -1374,7 +1374,8 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-5"
+      "item-2-5",
+      "item-2-1"
     ]
   },
   "☕ Java笔记/微服务框架-黑马新版/day02-微服务02.md": {
@@ -1408,7 +1409,7 @@
     "expandedKeys": []
   },
   "☕ Java笔记/微服务框架-黑马新版/微服务框架-黑马新版.md": {
-    "scroll": 2.459016393442623,
+    "scroll": 43.8151364764268,
     "cursor": {
       "from": {
         "line": 18,
@@ -1420,20 +1421,20 @@
       }
     },
     "expandedKeys": [
-      "item-2-1",
-      "item-1-0"
+      "item-1-0",
+      "item-2-1"
     ]
   },
   "AGENTS.md": {
-    "scroll": 26.554036458333332,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 23
+        "line": 10,
+        "ch": 20
       },
       "to": {
-        "line": 14,
-        "ch": 23
+        "line": 10,
+        "ch": 18
       }
     },
     "expandedKeys": [
@@ -1894,15 +1895,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/SpringAI面试追问三层回答.md": {
-    "scroll": 5.786458333333333,
+    "scroll": 56.807844548398705,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 51,
+        "ch": 12
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 51,
+        "ch": 12
       }
     },
     "expandedKeys": [
@@ -1935,15 +1936,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java基础八股P0清单.md": {
-    "scroll": 283.83203125,
+    "scroll": 144.1884765625,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 154,
+        "ch": 30
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 154,
+        "ch": 30
       }
     },
     "expandedKeys": [
@@ -1955,7 +1956,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务面试追问三层回答.md": {
-    "scroll": 382.3450520833333,
+    "scroll": 373.6748046875,
     "cursor": {
       "from": {
         "line": 380,
@@ -1972,7 +1973,8 @@
       "item-2-8",
       "item-2-12",
       "item-2-17",
-      "item-2-23"
+      "item-2-23",
+      "item-2-30"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md": {
@@ -2144,15 +2146,15 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 12.71563981042654,
+    "scroll": 43.34625158831004,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 12
+        "line": 24,
+        "ch": 26
       },
       "to": {
-        "line": 22,
-        "ch": 12
+        "line": 24,
+        "ch": 26
       }
     },
     "expandedKeys": [
@@ -2177,7 +2179,7 @@
     ]
   },
   "00-知识库地图.md": {
-    "scroll": 3.278688524590164,
+    "scroll": 107.92950236966824,
     "cursor": {
       "from": {
         "line": 8,
@@ -2189,7 +2191,8 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-3"
     ]
   },
   "00-Agent启动提示词.md": {
@@ -2429,7 +2432,7 @@
     ]
   },
   "☕ Java笔记/Java编码规范与面向对象封装.md": {
-    "scroll": 0,
+    "scroll": 21.29383886255924,
     "cursor": {
       "from": {
         "line": 9,
@@ -2570,7 +2573,7 @@
     "expandedKeys": []
   },
   "☕ Java笔记/微服务框架-黑马新版/day05-MQ面试练习-逐句修正.md": {
-    "scroll": 60.385390428211586,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -3000,15 +3003,15 @@
     ]
   },
   "☕ Java笔记/00-Java开发与工程实践入口.md": {
-    "scroll": 0,
+    "scroll": 3.9245283018867925,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 14,
+        "ch": 8
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 14,
+        "ch": 4
       }
     },
     "expandedKeys": [
@@ -3016,19 +3019,21 @@
     ]
   },
   "☕ Java笔记/高频最新状态的Redis合并写模式.md": {
-    "scroll": 0,
+    "scroll": 231.65533980582524,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 97,
         "ch": 0
       },
       "to": {
-        "line": 10,
+        "line": 97,
         "ch": 0
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-13",
+      "item-2-17"
     ]
   },
   "💼 面试/00-面试模块入口.md": {
@@ -3175,5 +3180,330 @@
       }
     },
     "expandedKeys": []
+  },
+  "🖥 项目笔记/天机学堂/课程资料/08-互动问答模块.md": {
+    "scroll": 1952.3515625,
+    "cursor": {
+      "from": {
+        "line": 1714,
+        "ch": 0
+      },
+      "to": {
+        "line": 1714,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-1-60",
+      "item-2-61",
+      "item-2-65",
+      "item-2-69",
+      "item-2-72"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/02-学习服务课表接口总览.md": {
+    "scroll": 62.965494791666664,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/05-新增互动问题接口实现.md": {
+    "scroll": 69.90336134453781,
+    "cursor": {
+      "from": {
+        "line": 383,
+        "ch": 27
+      },
+      "to": {
+        "line": 383,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-23",
+      "item-2-30",
+      "item-2-34"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/08-tj-remark点赞服务Spec.md": {
+    "scroll": 22.59004739336493,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-7"
+    ]
+  },
+  "🖥 项目笔记/00-项目模块入口.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/微服务公共API契约与Feign降级边界.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/多线程.md": {
+    "scroll": 4.716981132075472,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 0
+      },
+      "to": {
+        "line": 16,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-1-0",
+      "item-2-5"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/课程资料/15-优惠券规则与智能推荐.md": {
+    "scroll": 228.52473958333334,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-2-5"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/00-天机学堂MOC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/03-学习记录与学习计划接口设计.md": {
+    "scroll": 60.0859375,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/04-播放进度Redis合并写与读缓存.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-11"
+    ]
+  },
+  "☕ Java笔记/微服务框架-黑马新版/day04-MQ基础.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/JVM面试题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-3-4",
+      "item-3-7"
+    ]
+  },
+  "📋 技术速查/Redis性能优化.md": {
+    "scroll": 44.95703125,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/课程资料/09-点赞功能.md": {
+    "scroll": 236.64285714285714,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-2-6"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/课程资料/10-签到和积分.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/课程资料/11-排行榜.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/天机学堂/课程资料/天机学堂-MOC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/天机学堂/09-tj-remark点赞服务实现与联调.md": {
+    "scroll": 168.57071960297768,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-13"
+    ]
   }
 }

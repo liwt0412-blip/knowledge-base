@@ -1,10 +1,12 @@
 ---
 tags: [天机学堂, tj-remark, 点赞, Redis, RabbitMQ, Spec]
 status: implemented-integration-testing
-updated: 2026-07-18
+updated: 2026-07-19
 ---
 
 # tj-remark 点赞服务 Spec
+
+> 本文记录设计决策和一致性边界；仓库真实实现、配置、验证和联调故障见 [[09-tj-remark点赞服务实现与联调]]。
 
 ## 当前状态
 
@@ -42,6 +44,28 @@ updated: 2026-07-18
 - 学习服务消费绝对计数，以 Redisson 对象锁和版本号避免重复、乱序消息覆盖新值。
 - 已提供 `likeEventCompensationJob`，实时投递由服务内短周期任务负责，XXL-Job 用于补偿。
 - `tj-message` 点赞通知、`tj-data` 热度榜/行为分析的消费端尚未实现；本次已提供 `remark.behavior.*` 可靠事件出口。
+- `tj-api` 已提供 `RemarkClient` 与 fallback，其他微服务可以通过服务发现复用批量点赞状态查询。
+
+## Feign 服务间复用
+
+2026-07-19 已在 `tj-api` 新增：
+
+- `com.tianji.api.client.remark.RemarkClient`
+- `com.tianji.api.client.remark.fallback.RemarkClientFallback`
+- `FallbackConfig` 中的 `RemarkClientFallback` Bean 注册
+
+调用契约：
+
+```java
+List<Long> likedIds = remarkClient.queryLikedIds("QA", bizIds);
+```
+
+- Feign 服务名为 `remark-service`，公共路径为 `/likes`，调用 `GET /likes/list`。
+- 参数为 `bizType` 和 `bizIds`，返回当前登录用户已点赞的业务 ID 列表；单次最多查询 200 个对象。
+- 内部 Feign 请求不经过网关，Controller 直接返回原始 `List<Long>`，不能在客户端声明为 `R<List<Long>>`。
+- 点赞服务异常时 fallback 记录完整异常堆栈并返回空列表。点赞状态属于非核心展示信息，因此降级不会阻断回答/评论列表；但调用方需要理解“空列表”也可能代表服务降级，而不一定表示用户确实未点赞。
+- 该接口查询“当前登录用户”，依赖认证 SDK 的 Feign 用户信息透传。它适合同步处理用户请求；定时任务、MQ 消费者等没有用户上下文的场景不能直接调用，若未来需要后台查询，应另建显式传入用户 ID 的内部接口，并限制调用权限。
+- `RequestIdRelayConfiguration` 已自动扫描 `com.tianji.api.client`，无需各业务服务再次声明 `@EnableFeignClients`；fallback 必须继续在 `FallbackConfig` 中注册，否则 Sentinel 无法取得对应工厂 Bean。
 
 ## 联调修复
 
@@ -115,3 +139,8 @@ updated: 2026-07-18
 - 补偿任务：`tj-remark/src/main/java/com/tianji/remark/handler/LikeCompensationJob.java`
 - 学习服务计数消费者：`tj-learning/src/main/java/com/tianji/learning/listener/LikeCountListener.java`
 - 建表脚本：`tj-remark/src/main/resources/sql/20260718_liked_record.sql`
+
+## 跨项目复用知识
+
+- [[☕ Java笔记/高频最新状态的Redis合并写模式]]：已抽取“关系状态、聚合最新值、行为事件”三类数据语义，Lua 原子边界、可靠 outbox、confirm 与路由成功的区别，以及实时任务与补偿任务的职责划分。
+- [[☕ Java笔记/微服务公共API契约与Feign降级边界]]：已抽取公共 API 模块、Feign 契约、fallback 语义、当前用户上下文限制、自动装配和批量调用检查清单。
