@@ -1,13 +1,14 @@
 ---
-tags: [天机学堂, tj-promotion, 积分, 实施记录]
+tags: [天机学堂, tj-learning, 积分, 实施记录]
 created: 2026-07-19
 status: 已实现，待环境联调
 ---
 
-# 10-tj-promotion 积分服务实现
+# 10-tj-learning 积分服务实现
 
-> 设计契约：仓库 `docs/specs/tj-promotion-points-service.md`（双向链接；设计目标、边界、验收标准以 Spec 为准，本文只记真实落地情况）。
+> 设计契约：仓库 `docs/specs/tj-learning-points-service.md`（双向链接；设计目标、边界、验收标准以 Spec 为准，本文只记真实落地情况）。
 > 课程参考资料：仓库 `docs/reference/points-ref-1.png` ～ `points-ref-7.png`。
+> 注意：积分功能最初建于独立 `tj-promotion` 模块，2026-07-20 已迁入 `tj-learning`（见文末"重大变更"节）；2026-07-22 起 `tj-promotion` 模块名被**优惠券服务**复用，见 [[11-tj-promotion优惠券服务实现]]，两者不要混淆。
 
 ## 实现范围
 
@@ -15,7 +16,9 @@ status: 已实现，待环境联调
 
 ## 真实代码位置
 
-**新模块 `tj-promotion`（com.tianji.promotion，端口 8092，库 `tj_promotion`）**
+> ⚠️ 本节描述的是迁入前的旧 `tj-promotion` 模块，**已作废**；当前代码在 `tj-learning`（com.tianji.learning），见文末"重大变更：2026-07-20 迁入 tj-learning"一节。
+
+**~~新模块 `tj-promotion`（com.tianji.promotion，端口 8092，库 `tj_promotion`）~~（历史记录）**
 
 | 位置                                                     | 内容                                                                                                               |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
@@ -27,7 +30,7 @@ status: 已实现，待环境联调
 | `service/impl/PointsRecordServiceImpl.java`            | 积分核心：流水先行（唯一键裁决）→ Redis 榜/当日累计；扣分先查当月加分流水；异常回滚幂等键                                                                |
 | `service/impl/PointsBoardSeasonServiceImpl.java`       | 赛季缓存、启动兜底建赛季、月结主流程                                                                                               |
 | `listener/PointsMessageListener.java`                  | learning.topic 上 6 队列全部预声明（3 生效 + 3 预留）                                                                          |
-| `handler/PointsBoardSeasonJob.java`                    | `@XxlJob("pointsBoardSeasonJob")`                                                                                |
+| `handler/PointsBoardSeasonJob.java`                    | 月结任务链三个 handler：`pointsBoardSeasonJob`（准备）→ `pointsBoardArchiveJob`（归档）→ `pointsBoardCleanJob`（清理） |
 | `controller/`                                          | SignRecordController（POST /sign-records）、PointsController（/points/today、/points/records、/points/week 原始 Integer） |
 | `src/main/resources/sql/20260719_promotion_points.sql` | 3 张表 DDL                                                                                                         |
 
@@ -104,10 +107,75 @@ xxl-job:
     port: 9992
 ```
 
-- [ ] MySQL：在 `tj_learning` 库执行 `tj-learning/src/main/resources/sql/20260719_learning_points.sql`（旧 `tj_promotion` 库若有数据可放弃——流水月底清零、赛季榜尚无数据）
-- [ ] XXL-Job 调度中心：`pointsBoardSeasonJob`（cron `0 11 0 1 * ?`）改绑 learning-service 执行器，原 promotion 执行器任务删除
-- [ ] RabbitMQ：原 `error.promotion-service.queue` 若滞留消息人工重放/清理；`promotion.points.*.queue` 名字未变，learning 启动后自动接管消费
-- [ ] 联调验证 Spec 第 10 节验收条件 1~9（重点：签到连续奖励、问答审核拦截、删除扣分、预留通道手工发消息入账）
+- [x] MySQL：在 `tj_learning` 库执行 `tj-learning/src/main/resources/sql/20260719_learning_points.sql`（旧 `tj_promotion` 库若有数据可放弃——流水月底清零、赛季榜尚无数据）
+- [x] XXL-Job 调度中心：`pointsBoardSeasonJob`（cron `0 11 0 1 * ?`）改绑 learning-service 执行器，原 promotion 执行器任务删除
+- [x] RabbitMQ：原 `error.promotion-service.queue` 若滞留消息人工重放/清理；`promotion.points.*.queue` 名字未变，learning 启动后自动接管消费
+- [x] 联调验证 Spec 第 10 节验收条件 1~9（重点：签到连续奖励、问答审核拦截、删除扣分、预留通道手工发消息入账）
+
+## 2026-07-21 学霸积分榜查询接口落地（Spec 3.5/3.6）
+
+- **背景**：Spec 第 1 节原列"排行榜查询接口下期实现"，本期补齐两个纯查询接口，积分链路本身零改动。数据底座早已就绪（当前赛季 Redis ZSet、月结归档 `points_board` 前 100、赛季表），只缺查询出口。
+- **新增代码（`tj-learning`，7 个文件）**：
+  - `controller/PointsBoardController.java`：`GET /boards`（榜单+我的排名）、`GET /boards/seasons/list`（赛季历史列表）；
+  - `service/IPointsBoardService.java` + `service/impl/PointsBoardServiceImpl.java`：榜单查询核心；
+  - `domain/query/PointsBoardQuery.java`（继承 PageQuery + season）、`domain/vo/PointsBoardVO.java`、`PointsBoardItemVO.java`、`PointsBoardSeasonVO.java`；
+  - `IPointsBoardSeasonService.querySeasonList()`（实现类补方法，全部赛季按 id 倒序）。
+- **关键设计决策**：
+  - 数据源分叉：`season` 空/0 或等于当前赛季 id → Redis ZSet 实时榜；指定历史赛季 → `points_board` 归档表（当前赛季绝不能查表，月底才归档）；
+  - 前 100 上限：Redis 分支分页窗口与 [0,100) 取交集，窗口外返回空列表不报错；DB 分支归档表天然只有前 100；
+  - 未上榜语义：`rank=null, points=0`（待前端确认）；
+  - 姓名回填：`UserClient.queryUserByIds` 一次批量查询（防 N+1），降级返回空列表时全部显示"未知用户"，不阻断榜单；
+  - 赛季列表返回**全部赛季含当前**、最新在前，前端下拉统一用一个接口，选当前赛季时 `/boards` 自动走实时榜分支；
+  - 赛季名沿用 `yyyy-MM`（课程示例"第一赛季"不采用）；赛季 id 按数字返回（课程文档 `"110"` 字符串写法是文档风格）；
+  - 响应为课程契约自定义结构 `{rank, points, boardList}`，**不用** PageDTO。
+- **Spec 同步**：第 1 节范围修订 + 新增 3.5（榜单）、3.6（赛季列表）契约。
+- **验证状态**：代码完成但**未编译验证**——本机命令行无 JDK（JAVA_HOME 未配、常见目录无安装、IDEA 内置 JBR 未找到；Maven 存在于 `~/.m2/wrapper/dists` 但缺 JAVA_HOME 无法运行），待 IDEA `Ctrl+F9` 构建 `tj-learning` 并重启后自测：`GET /ls/boards/seasons/list` 拿赛季 id → `GET /ls/boards?season=` 验证历史分支 → 无参调 `/boards` 验证当前赛季实时榜。
+- **环境备忘**：本机命令行编译验证不可用，Maven 在 `C:\Users\ALIENWARE\.m2\wrapper\dists\apache-maven-3.9.14-bin\...\bin\mvn.cmd`，配好 JAVA_HOME 指向 IDEA 所用 JDK 后可用。
+
+### 2026-07-21 业务变更：历史赛季"我的排名"任意名次可查（全量归档）
+
+- **需求**：查询榜单/历史榜单时，当前用户 100 名开外也要显示真实排名，不再按未上榜隐藏。
+- **分析**：当前赛季分支（Redis `ZRevRank`）天然不受前 100 限制，零改动；瓶颈在历史赛季——月结原只归档前 100，100 名开外无数据可查。
+- **改动**：
+  1. `archiveSeasonBoard`：`reverseRangeWithScores(key, 0, 99)` → `(key, 0, -1)` 全量归档；
+  2. `queryHistorySeasonBoard`：归档全量后展示层自行截断前 100（pageSize 超剩余名额裁尾部）；"我的排名"查全量表，任意名次可返回；
+  3. **`rank_no` 由 `tinyint` 改 `int`**：tinyint 最大 255，全量归档后第 256 名写入溢出——只存前 100 时掩盖了这个问题。DDL 文件、Spec、PO 注释同步；已建表需手动 `ALTER TABLE points_board MODIFY COLUMN rank_no int NOT NULL`（`CREATE TABLE IF NOT EXISTS` 不改已有表列类型）。
+- **最终语义**：`boardList` 仍只显示前 100；`rank/points` 当前与历史赛季都返回真实名次（可 >100）；整赛季一分未得才 `rank=null, points=0`。
+- **经验**：①展示截断与数据归档是两件事——"页面只显示前 N"不等于"数据只存前 N"，归档范围要按"历史还要回答什么问题"来定（本次：还要回答"我排第几"）；②数值类型容量要按业务的未来上限选型（名次跟着用户量走，tinyint 的 255 上限在需求变更时立即变成炸弹），DDL 评审应把"该列的最大可能值"列为检查项。
+
+## 海量存储与物理分表实施（2026-07-21，已落地）
+
+> 全量归档后 `points_board` 年行数 = 月得分用户 × 12。经讨论最终采用**物理分表方案**（对齐课程思路并补齐工程细节），已于当日实施。原"分区表首选"预案及分区 vs 分表决策对比保留在下方备查——若未来赛季间要求强隔离或单库容量到顶，仍可按预案升级。
+
+**实施要点（真实代码）**：
+
+- **分表结构**：`points_board_{seasonId}` 每赛季一张表 + `points_board_template` 模板表（永不插数据、永不删除，新分表 `CREATE TABLE IF NOT EXISTS ... LIKE template` 克隆结构含全部索引）；逻辑名 `points_board` 物理上不存在，仅作 PO `@TableName` 锚点；
+- **表名路由**：`PointsBoardTableContext`（ThreadLocal）+ MyBatis-Plus `DynamicTableNameInnerInterceptor`；拦截器注册在 learning 自己的 `LearningMybatisConfig`（tj-common 的 `MybatisPlusInterceptor` 带 `@ConditionalOnMissingBean` 自动让位），**链顺序：动态表名 → 分页 → 自动填充**——先改表名分页才基于新表生成 count SQL，反了 count 打逻辑表；
+- **版本坑（2026-07-21 排错，已验证 jar）**：MP 3.4.3 的 `DynamicTableNameInnerInterceptor` 只有无参构造 + `setTableNameHandlerMap(Map<String, TableNameHandler>)` 一个注册入口，**没有** `setTableNameHandler`、也没有 handler 构造器（均为 3.5.x API）；Map 按表名精确路由，只挂 `"points_board"` 即可，未命中表自动放行，handler 内无需再判表名。真实签名经解析本地 `.m2` jar 的 class 常量池确认；
+- **ThreadLocal 防串表**：所有入口统一 `withSeason()` 收口 try/finally remove——Tomcat 线程池复用，不清理会让下个请求读到上个请求的表名（偶发写错表、难复现）；未设路由访问 `points_board` 直接报表不存在，是**有意的"失败要响"**，漏包 withSeason 测试期即暴露；
+- **写入路径**：归档插入显式 `${tableName}` 传参（`insertIgnoreBatch(tableName, list)`），低频内部链路不依赖拦截器改写 DML；月结归档前 `createTableIfAbsent` 幂等建表，无需新增定时任务；**分批 500 行/批**（2026-07-22 修订，原单条全量 INSERT——防十万级用户撞 max_allowed_packet / binlog 突刺，批间无事务、INSERT IGNORE 幂等保证断点重跑安全）；
+- **迁移**：`sql/20260721_points_board_sharding.sql`——rank_no 改 int（幂等）→ 原单表 RENAME 为 points_board_1 → 建模板表；
+- **XXL-Job 任务链（2026-07-22 修订为分片广播）**：月结三段子任务链——`pointsBoardSeasonJob`（主任务 cron 不变：建新赛季+刷新缓存+幂等建上赛季分表，路由"第一个"）→ 子任务 `pointsBoardArchiveJob`（**分片广播**：各实例按 `XxlJobHelper.getShardIndex/getShardTotal` 切 ZSet 排名区间归档，rank 全局连续；非分片触发 shardTotal=1 等价全量）→ 子任务 `pointsBoardCleanJob`（清流水+删旧榜；分片广播下每个分片完成都会触发清理，**数量闸门**：分表行数 ≥ ZSet 成员数才放行，先触发的被拦住等下一分片；`@Lock` 与月末窗口守卫保留）；归档/清理调度类型"无"；复合入口 `settleSeason()` 保留供手动全量补跑；
+- **已知边界**：跨赛季"我的所有历史"查询当前接口不需要；将来需要时 UNION ALL 或加 `user_season_points` 汇总表。
+
+**原预案备查（未采用路径）**：
+
+- 分区表（PARTITION BY RANGE (season)）：分区裁剪、月结 Job 幂等 ADD PARTITION、DROP PARTITION 清理红利、主键需含分区键、不用 MAXVALUE 兜底；优势是应用零改动、天然支持跨赛季查询、无 DDL 权限问题；
+- 分区 vs 分表决策对比：分表翻盘的三个条件——赛季间强物理隔离（合规独立下线）、单实例容量到顶（分库范畴）、查询永远单赛季不跨片；
+- 冷热分级：主库留近 12~24 赛季，更老迁归档库/OLAP，保留策略需产品确认；
+- 终选分库分表：ShardingSphere-JDBC 按 user_id 分片，见 [[☕ Java笔记/分库分表选型-演进阶梯与ShardingSphere]]。
+
+## 月结可靠性分析：Redis 未持久化但数据被清理的风险（2026-07-21）
+
+**顺序保护（正常失败路径不丢数据）**：`settleSeason()` 步骤刻意排序为 建新赛季+刷新缓存 → 归档 → 清流水+删旧榜。归档抛异常则删除不执行，Job 标失败可重跑（INSERT IGNORE + IF NOT EXISTS 幂等）；删除失败则旧榜残留，重跑去重后补删；破坏性步骤仅当上赛季 end_time 恰为昨天才执行。Job 完全不跑也安全——榜 key 无 TTL，数据在 Redis 静候，`currentSeasonId()` 查库兜底建赛季。
+
+**三个真实风险窗口**：
+
+1. **最大风险：Redis 当月唯一副本**。赛季榜整月只在 Redis（DB 无副本），月中实例重启无 AOF / 主从切换丢未同步数据 / maxmemory 逐出 `points:board:*` → 月结归档空榜且流程"正常"走完，无声丢失。这是架构取舍的固有代价，非月结逻辑 bug。加固：AOF everysec、逐出策略隔离 points:*/sign:*；隐形兜底是 `points_record` 月底才清，当月可拿流水重放重建榜单；
+2. **毫秒级竞态**：Job 先刷新赛季缓存再归档；恰在刷新前读到旧赛季 id、归档读 ZSet 之后才 ZINCRBY 的请求，分会落旧榜躲过归档后被删——损失为个别用户少几分，弱一致场景接受；
+3. **Job 未改绑执行器**（环境待办项）：Job 不跑不丢数据但榜单不翻月，是当前最易落地的风险。
+
+**加固措施（按性价比）**：① Redis AOF + 逐出策略隔离；② XXL-Job 失败告警 + 每月 1 号人工核对分表行数；③ 重方案（一般不值）：月结前快照旧榜到 staging 表。
 
 ## 已知限制与待确认项
 
@@ -121,3 +189,5 @@ xxl-job:
 
 - [[☕ Java笔记/事件驱动积分发放的幂等、防冤扣与重放清单]]（本次评审修复提炼的通用检查清单，双向链接）
 - [[☕ Java笔记/前后端联调排错-接口有数据但页面不显示]]（2026-07-20 页面显示 0 故障提炼的联调排查路径与枚举映射核对清单，双向链接）
+- [[☕ Java笔记/热冷分离-实时榜Redis与历史归档表的双数据源查询]]（2026-07-21 积分榜接口提炼的读路径热冷分流模式，双向链接）
+- [[☕ Java笔记/Bitmap标志位存储模式-连签统计与验重]]（2026-07-21 签到/兑换码提炼的位图选型四问框架与键设计，双向链接）

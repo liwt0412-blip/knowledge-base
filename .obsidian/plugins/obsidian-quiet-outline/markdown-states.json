@@ -44,7 +44,7 @@
     "expandedKeys": []
   },
   "💼 面试/AI面试题.md": {
-    "scroll": 0,
+    "scroll": 282.45454545454544,
     "cursor": {
       "from": {
         "line": 6,
@@ -55,7 +55,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "SpringAI+AIGC应用/part2-SpringAI应用.md": {
     "scroll": 18.637369791666668,
@@ -208,15 +210,15 @@
     ]
   },
   "🤖 AI Agent/AI Agent总览.md": {
-    "scroll": 9.580729166666666,
+    "scroll": 96.59882108183079,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 8
+        "line": 18,
+        "ch": 21
       },
       "to": {
-        "line": 22,
-        "ch": 8
+        "line": 18,
+        "ch": 21
       }
     },
     "expandedKeys": [
@@ -238,7 +240,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化会话记忆-MySQL.md": {
-    "scroll": 0,
+    "scroll": 19.71398305084746,
     "cursor": {
       "from": {
         "line": 4,
@@ -252,21 +254,28 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/SpringAI与LangChain对比.md": {
-    "scroll": 0,
+    "scroll": 119.74284785435631,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 35,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 35,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-2",
+      "item-1-5",
+      "item-1-8",
+      "item-1-14",
+      "item-1-17"
+    ]
   },
   "SpringAI+AIGC应用/SpringAI+AIGC应用总览.md": {
-    "scroll": 15.170616113744076,
+    "scroll": 0.2971698113207547,
     "cursor": {
       "from": {
         "line": 7,
@@ -277,7 +286,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
   },
   "last30days热点搜索技能.md": {
     "scroll": 0,
@@ -560,7 +572,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/AI应用技术全景.md": {
-    "scroll": 121.27500643942646,
+    "scroll": 369.40909090909093,
     "cursor": {
       "from": {
         "line": 131,
@@ -571,7 +583,17 @@
         "ch": 5
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-19",
+      "item-1-0",
+      "item-2-24",
+      "item-2-29",
+      "item-2-35",
+      "item-2-42",
+      "item-2-48",
+      "item-2-53",
+      "item-2-57"
+    ]
   },
   "常用开发网站收藏.md": {
     "scroll": 24.333333333333332,
@@ -599,7 +621,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-16"
+    ]
   },
   "SpringAI+AIGC应用/EduRag项目/环境搭建和Milvus向量数据库.md": {
     "scroll": 128.94596354166666,
@@ -705,9 +729,7 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-1-0"
-    ]
+    "expandedKeys": []
   },
   "MOC-思想与灵感.md": {
     "scroll": 0,
@@ -975,7 +997,7 @@
     "expandedKeys": []
   },
   "💼 面试/中午问答.md": {
-    "scroll": 0,
+    "scroll": 77.7,
     "cursor": {
       "from": {
         "line": 6,
@@ -986,10 +1008,14 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-6"
+    ]
   },
   "AI大模型开发/EduRag项目/2 RAG问答系统-核心模块.md": {
-    "scroll": 1227.0982068822555,
+    "scroll": 1575.0836267605634,
     "cursor": {
       "from": {
         "line": 1235,
@@ -1000,7 +1026,11 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-27"
+    ]
   },
   "📖 中州养老课程文档/文档/day1-从0开始用若依.md": {
     "scroll": 0,
@@ -1168,7 +1198,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-2"
+    ]
   },
   "📋 技术速查/Linux环境搭建与中间件安装手册.md": {
     "scroll": 3298.152751817238,
@@ -1217,7 +1249,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化VectorStore.md": {
-    "scroll": 19.79958900590804,
+    "scroll": 8.03125,
     "cursor": {
       "from": {
         "line": 4,
@@ -1666,7 +1698,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/05-补强项目/中州养老项目面试追问三层回答.md": {
-    "scroll": 15.286458333333334,
+    "scroll": 416.92011514933426,
     "cursor": {
       "from": {
         "line": 0,
@@ -1680,7 +1712,17 @@
     "expandedKeys": [
       "item-2-6",
       "item-1-0",
-      "item-2-2"
+      "item-2-2",
+      "item-2-10",
+      "item-2-14",
+      "item-2-18",
+      "item-2-22",
+      "item-2-26",
+      "item-2-30",
+      "item-2-34",
+      "item-2-38",
+      "item-2-42",
+      "item-2-46"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md": {
@@ -1701,7 +1743,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
-    "scroll": 127.44609004739337,
+    "scroll": 167.15384615384616,
     "cursor": {
       "from": {
         "line": 10,
@@ -1714,7 +1756,6 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-1",
       "item-2-8"
     ]
   },
@@ -1749,7 +1790,7 @@
     ]
   },
   "💼 面试/本人面试准备/面试作战首页.md": {
-    "scroll": 3.9855072463768115,
+    "scroll": 39.07692307692308,
     "cursor": {
       "from": {
         "line": 16,
@@ -1761,11 +1802,12 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-3"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试逐字稿.md": {
-    "scroll": 39.222005208333336,
+    "scroll": 7,
     "cursor": {
       "from": {
         "line": 15,
@@ -1805,7 +1847,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 171.48400473933648,
+    "scroll": 269.34375,
     "cursor": {
       "from": {
         "line": 192,
@@ -1821,7 +1863,8 @@
       "item-2-7",
       "item-2-2",
       "item-2-16",
-      "item-2-20"
+      "item-2-20",
+      "item-3-28"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/99-整改与红线/面试材料整改SPEC.md": {
@@ -1842,15 +1885,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/AI面试30问三层回答.md": {
-    "scroll": 146.09895833333334,
+    "scroll": 162.88541666666666,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 3
+        "line": 131,
+        "ch": 47
       },
       "to": {
-        "line": 9,
-        "ch": 0
+        "line": 131,
+        "ch": 51
       }
     },
     "expandedKeys": [
@@ -1919,7 +1962,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md": {
-    "scroll": 169.93684895833334,
+    "scroll": 40.4375,
     "cursor": {
       "from": {
         "line": 0,
@@ -2016,15 +2059,15 @@
     ]
   },
   "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试逐字稿.md": {
-    "scroll": 0,
+    "scroll": 30.66176470588235,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 70,
+        "ch": 15
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 70,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -2034,7 +2077,7 @@
     ]
   },
   "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 94.69396551724138,
+    "scroll": 470.4779411764706,
     "cursor": {
       "from": {
         "line": 0,
@@ -2048,11 +2091,14 @@
     "expandedKeys": [
       "item-1-0",
       "item-2-5",
-      "item-3-6"
+      "item-3-6",
+      "item-3-15",
+      "item-3-24",
+      "item-3-33"
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md": {
-    "scroll": 221.279296875,
+    "scroll": 21.772727272727273,
     "cursor": {
       "from": {
         "line": 238,
@@ -2066,7 +2112,8 @@
     "expandedKeys": [
       "item-1-0",
       "item-2-1",
-      "item-2-15"
+      "item-2-6",
+      "item-2-11"
     ]
   },
   "☕ Java笔记/微服务框架-黑马新版/day08-Redis面试篇.md": {
@@ -2148,7 +2195,7 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 37.66088416340235,
+    "scroll": 38.7700205338809,
     "cursor": {
       "from": {
         "line": 44,
@@ -2181,7 +2228,7 @@
     ]
   },
   "00-知识库地图.md": {
-    "scroll": 92.53021327014218,
+    "scroll": 82.0909090909091,
     "cursor": {
       "from": {
         "line": 129,
@@ -2232,7 +2279,7 @@
     ]
   },
   "💼 面试/本人面试准备/简历-李文韬-Java后端-AI应用方向.md": {
-    "scroll": 47.363833746898266,
+    "scroll": 50.98,
     "cursor": {
       "from": {
         "line": 60,
@@ -2362,7 +2409,7 @@
     ]
   },
   "Java-AI-学习路线.md": {
-    "scroll": 66.1925355450237,
+    "scroll": 209.02985074626866,
     "cursor": {
       "from": {
         "line": 8,
@@ -2381,7 +2428,8 @@
       "item-2-15",
       "item-2-19",
       "item-2-23",
-      "item-2-32"
+      "item-2-32",
+      "item-2-28"
     ]
   },
   "MOC-工具运维.md": {
@@ -2809,7 +2857,7 @@
     ]
   },
   "🖥 项目笔记/天机学堂/课程资料/18-天机学堂项目逐字稿.md": {
-    "scroll": 0,
+    "scroll": 635.3168316831683,
     "cursor": {
       "from": {
         "line": 0,
@@ -2824,7 +2872,8 @@
       "item-2-0",
       "item-2-3",
       "item-2-10",
-      "item-3-14"
+      "item-3-14",
+      "item-2-25"
     ]
   },
   "笔记文档/AI原生服务公司-YC手册解读.md": {
@@ -3011,7 +3060,7 @@
     ]
   },
   "☕ Java笔记/00-Java开发与工程实践入口.md": {
-    "scroll": 3.9245283018867925,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 14,
@@ -3332,7 +3381,7 @@
     ]
   },
   "🖥 项目笔记/天机学堂/00-天机学堂MOC.md": {
-    "scroll": 23.703703703703702,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 8,
@@ -3471,7 +3520,7 @@
     ]
   },
   "🖥 项目笔记/天机学堂/课程资料/11-排行榜.md": {
-    "scroll": 1750.4833984375,
+    "scroll": 1608.8276785714286,
     "cursor": {
       "from": {
         "line": 1736,
@@ -3484,7 +3533,10 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-1-44"
+      "item-1-44",
+      "item-1-41",
+      "item-2-33",
+      "item-1-9"
     ]
   },
   "🖥 项目笔记/天机学堂/课程资料/天机学堂-MOC.md": {
@@ -3521,7 +3573,7 @@
     ]
   },
   "🖥 项目笔记/天机学堂/10-tj-promotion积分服务实现.md": {
-    "scroll": 73.00651260504202,
+    "scroll": 146.5,
     "cursor": {
       "from": {
         "line": 55,
@@ -3534,11 +3586,12 @@
     },
     "expandedKeys": [
       "item-1-0",
-      "item-2-5"
+      "item-2-5",
+      "item-2-12"
     ]
   },
   "☕ Java笔记/事件驱动积分发放的幂等、防冤扣与重放清单.md": {
-    "scroll": 3.7735849056603774,
+    "scroll": 26.303030303030305,
     "cursor": {
       "from": {
         "line": 4,
@@ -3647,5 +3700,537 @@
       }
     },
     "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/05-补强项目/天机学堂-积分系统设计面试三层回答.md": {
+    "scroll": 264.97222222222223,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-10",
+      "item-2-14",
+      "item-2-18",
+      "item-2-22",
+      "item-2-26",
+      "item-2-30"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/SpringTask局限与XXL-Job对比面试三层回答.md": {
+    "scroll": 169.4,
+    "cursor": {
+      "from": {
+        "line": 164,
+        "ch": 20
+      },
+      "to": {
+        "line": 164,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-11"
+    ]
+  },
+  "💼 面试/AI面试题参考1.md": {
+    "scroll": 163.6,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/分库分表选型-演进阶梯与ShardingSphere.md": {
+    "scroll": 31.666666666666668,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "☕ Java笔记/热冷分离-实时榜Redis与历史归档表的双数据源查询.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/保小宝-保险RAG问答项目面试话术.md": {
+    "scroll": 7,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI反馈通道-点赞模式平移面试三层回答.md": {
+    "scroll": 113.05,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-10",
+      "item-2-14"
+    ]
+  },
+  "🖥 项目笔记/天机学堂/课程资料/12-优惠券管理.md": {
+    "scroll": 1782.3636363636363,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-47"
+    ]
+  },
+  "🖥 项目笔记/CRM/Bug日志.md": {
+    "scroll": 1782.3636363636363,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/CRM/APIfox异常.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/CRM/接口文档.md": {
+    "scroll": 136.7890625,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/CRM/代码问题记录.md": {
+    "scroll": 5.660377358490566,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/项目笔记总览.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/复用代码和工具类.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "☕ Java笔记/Spring-Web注解速查表.md": {
+    "scroll": 34.92857142857143,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-5",
+      "item-2-14"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/分布式锁与幂等-石化天机双项目面试三层回答.md": {
+    "scroll": 58.2972972972973,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6"
+    ]
+  },
+  "☕ Java笔记/MySQL保留关键字与MyBatisPlus反引号转义.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/05-补强项目/天机学堂-优惠券兑换码与防爆破设计.md": {
+    "scroll": 76.4090909090909,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6",
+      "item-2-10",
+      "item-2-14"
+    ]
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/面试题-20260623-三道进阶.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-2-3",
+      "item-2-5"
+    ]
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/面试题-20260629-SpringAI与LangChain双框架.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化项目AI方向面试专项素材.md": {
+    "scroll": 133.5778251599147,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-10"
+    ]
+  },
+  "💼 面试/AI面试题参考2.md": {
+    "scroll": 79.33802816901408,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/HashMap源码.md": {
+    "scroll": 79.33802816901408,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "💼 面试/Java集合面试题.md": {
+    "scroll": 84.95,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-3-4"
+    ]
+  },
+  "💼 面试/Redis面试题.md": {
+    "scroll": 33.67046894803549,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "SpringAI+AIGC应用/AI面试宝典.md": {
+    "scroll": 408.93693693693695,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-5",
+      "item-2-9",
+      "item-2-17",
+      "item-2-23"
+    ]
+  },
+  "AI大模型开发/EduRag项目/1 环境搭建和Milvus向量数据库.md": {
+    "scroll": 8.51063829787234,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "🖥 项目笔记/git在公司真实的开发流程.md": {
+    "scroll": 20.319148936170212,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-13"
+    ]
+  },
+  "AI大模型开发/EduRag项目/1.1Milvus环境搭建（自己搭建）.md": {
+    "scroll": 8.51063829787234,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "AI大模型开发/EduRag项目/EduRag项目每日总结.md": {
+    "scroll": 428.5607476635514,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-15"
+    ]
+  },
+  "AI大模型开发/EduRag项目/EduRAG面试题.md": {
+    "scroll": 220.82248520710058,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-8",
+      "item-2-15"
+    ]
   }
 }
