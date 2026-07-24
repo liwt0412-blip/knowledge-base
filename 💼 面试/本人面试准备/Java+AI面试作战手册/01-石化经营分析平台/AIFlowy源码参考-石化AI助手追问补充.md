@@ -24,7 +24,7 @@ created: 2026-07-11
 
 如果面试官追问“你对企业级 AI 助手平台的理解是不是只停留在调用模型 API”，可以这样答：
 
-> 石化项目里的 AI 助手不是完整的 Dify/Coze/AIFlowy 平台，它更偏企业业务系统中的智能助手模块。我主要做的是把集团 AI 底座接入省公司 Java 业务系统，重点在会话隔离、权限透传、Function Calling、RAG 联调、缓存和 SSE 流式输出。后面我也研究过 AIFlowy 这类 Java AI Agent 平台，对 Bot 配置、知识库分层、MCP 工具绑定和 Workflow 编排有了更系统的理解。
+> 石化项目里的 AI 助手不是完整的 Dify/Coze/AIFlowy 平台，它更偏企业业务系统中的智能助手模块。我主要做的是把集团 AI 底座接入省公司 Java 业务系统，重点在会话隔离、权限透传、Function Calling、Python RAG 服务开发与联调、缓存和 SSE 流式输出。后面我也研究过 AIFlowy 这类 Java AI Agent 平台，对 Bot 配置、知识库分层、MCP 工具绑定和 Workflow 编排有了更系统的理解。
 
 ---
 
@@ -35,6 +35,8 @@ AIFlowy 参考项目路径：
 ```text
 D:\workspece\GitHup\AIflowy\aiflowy
 ```
+
+> 源码核对（2026-07-23）：路径中 workspece/GitHup 是磁盘上的真实目录名，非笔误。已确认 `tech.aiflowy.admin.controller.ai.BotController#generateConversationId` 存在（aiflowy-api-admin 模块；usercenter 侧另有 `UcBotController` 同名端点），`ChatSseEmitter` 存在两处（`tech.aiflowy.common.ai` 与 `tech.aiflowy.core.chat.protocol.sse`）。
 
 AIFlowy 是基于 Java 的企业级 AI 智能体开发平台，包含：
 
@@ -111,7 +113,7 @@ AIFlowy 参考点：
 
 ### 稳妥回答
 
-> 正式生产里不建议把模型、提示词、知识库和工具都写死在代码里。更合理的是把助手配置、模型配置、知识库配置和工具配置拆开。石化项目里我主要负责业务侧接入和关键链路实现，比如工具封装、RAG 联调、缓存、会话、SSE。后续如果做成更平台化的 AI 助手，可以参考 AIFlowy 这种 Bot + Model + Knowledge + Tool 的配置结构。
+> 正式生产里不建议把模型、提示词、知识库和工具都写死在代码里。更合理的是把助手配置、模型配置、知识库配置和工具配置拆开。石化项目里我主要负责业务侧接入和关键链路实现，比如工具封装、Python RAG 服务开发与联调、缓存、会话、SSE。后续如果做成更平台化的 AI 助手，可以参考 AIFlowy 这种 Bot + Model + Knowledge + Tool 的配置结构。
 
 ### 可追问展开
 

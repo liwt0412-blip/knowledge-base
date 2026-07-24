@@ -21,7 +21,7 @@
 
 **后端框架：** Java、Spring Boot、Spring Cloud Alibaba、Spring MVC、MyBatis-Plus  
 **微服务组件：** Nacos、Gateway、OpenFeign、Sentinel、XXL-Job  
-**中间件：** Redis、RabbitMQ、MySQL、Milvus  
+**中间件：** Redis、RabbitMQ、MySQL、ClickHouse（分析类查询 / 报表分析库）、Milvus  
 **AI 应用：** Spring AI、Function Calling、RAG、Embedding、Reranker、SSE 流式输出、会话记忆、知识库问答  
 **工程工具：** Git、Maven、Postman / Apifox、Linux 基础命令  
 
@@ -32,7 +32,7 @@
 ### 石化经营分析平台
 
 **项目类型：** 省公司经营分析与业务管理平台  
-**技术栈：** Spring Boot、Spring Cloud Alibaba、Nacos、Gateway、RabbitMQ、Redis、XXL-Job、MyBatis-Plus、MySQL、Spring AI、Milvus  
+**技术栈：** Spring Boot、Spring Cloud Alibaba、Nacos、Gateway、RabbitMQ、Redis、XXL-Job、MyBatis-Plus、MySQL、ClickHouse、Spring AI、Milvus  
 **项目背景：**  
 该平台面向能源企业省公司、地市公司和油站一线人员，覆盖设备管理、经营台账、非油商品、客户核算、报表分析、告警通知和 AI 智能问答等场景。平台服务约 14 个地市、近 2000 座油站，目标是统一经营数据口径、提升设备异常处理效率，并降低一线人员查询制度和操作咨询的成本。
 

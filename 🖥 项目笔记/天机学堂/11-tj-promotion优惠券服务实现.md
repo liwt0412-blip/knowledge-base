@@ -13,7 +13,7 @@ created: 2026-07-22
 - 模块骨架已完成并编译通过：端口 8093、服务名 `promotion-service`、数据库 `tj_promotion`、网关路由 `/pm/**`（`/ps` 已被 pay 占用）。
 - **管理端接口（7 个，全部编译通过）**：新增 `POST /coupons`、修改 `PUT /coupons/{id}`、分页 `GET /coupons/page`、详情 `GET /coupons/{id}`（含 scopes）、删除 `DELETE /coupons/{id}`、发放 `PUT /coupons/{id}/issue`（立刻/定时 + 期限二选一 XOR）、暂停 `PUT /coupons/{id}/pause`。
 - **状态机已打通**：待发放 → 未开始/进行中 ⇄ 已暂停；编辑/删除仅待发放可用；发放允许待发放+已暂停。
-- **兑换码链路（2026-07-22 完成）**：发放时 obtainWay=2 异步生成兑换码（Redis 号段分配 + S盒加权签名 + Base32 定长10位，`utils/CodeUtil.java` 含往返自测）；Bitmap 验重封装 `prs:code:status:{couponId}`（SETBIT 旧值判重）+ 号段起始 id hash；签名方案全文见 [[☕ Java笔记/兑换码设计-签名防伪与三层防爆破]]。
+- **兑换码链路（2026-07-22 完成，07-23 重构）**：发放时 obtainWay=2 异步生成兑换码（Redis 号段分配 + S盒加权签名 + Base32 定长10位，`utils/CodeUtil.java` 含往返自测）；异步方式为 `@TransactionalEventListener(AFTER_COMMIT) + @Async("exchangeCodeExecutor")` 事件驱动（07-23 由手动线程池提交重构为对齐课程的注解式，并保证发放事务提交成功后才生成，回滚不触发）；Bitmap 验重封装 `prs:code:status:{couponId}`（SETBIT 旧值判重）+ 号段起始 id hash；签名方案全文见 [[☕ Java笔记/兑换码设计-签名防伪与三层防爆破]]。
 - 未实现：C 端领券/兑换接口（user_coupon 表 DDL 未到）、兑换码补偿 XXL-Job（异步失败现为人工补偿）、状态自动流转 Job（未开始→进行中→已结束）、防爆破限流锁定（随兑换接口一起上）。
 - 需求契约：仓库 `docs/tj-promotion-新增优惠券接口-需求采集.md`（用户已确认）；官方 DDL：仓库 `docs/ref/tj_promotion.sql`。
 - 关键契约点：金额单位为**分**；新增接口**不含时间字段**（期限在"发放"动作中设置）；`specific=true` 时同事务写 `coupon_scope`（type 固定 1=分类）；creater/updater 取 `UserContext`，取不到抛未授权。

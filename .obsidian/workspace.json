@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md",
+                "file": "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "李文韬-石化经营分析平台-面试表述"
+              "title": "Java微服务易错点补充-MQ-Seata-Redis-ES"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md",
+                "file": "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "李文韬-石化经营分析平台-面试表述 的反向链接列表"
+              "title": "RAG面试追问三层回答 的反向链接列表"
             }
           },
           {
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md",
+                "file": "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "李文韬-石化经营分析平台-面试表述 的大纲"
+              "title": "Java微服务易错点补充-MQ-Seata-Redis-ES 的大纲"
             }
           },
           {
@@ -194,31 +194,31 @@
   },
   "active": "b2160bf60d527b4d",
   "lastOpenFiles": [
-    "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试逐字稿.md",
-    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md",
-    "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md",
     "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/分布式锁与幂等-石化天机双项目面试三层回答.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/SpringAI面试追问三层回答.md",
+    "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试表述.md",
     "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/RAG面试追问三层回答.md",
     "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/AI面试30问三层回答.md",
-    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md",
-    "AI大模型开发/EduRag项目/EduRag项目每日总结.md",
+    "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化经营分析平台-面试逐字稿.md",
+    "AI大模型开发/EduRag项目/2.2BERT微调.md",
+    "AI大模型开发/EduRag项目/2.3文档解析工具(扩展).md",
+    "AI大模型开发/EduRag项目/3 RAG系统评估.md",
+    "AI大模型开发/EduRag项目/4 系统集成和发布.md",
+    "AI大模型开发/EduRag项目/5 EduRAG简历参考.md",
     "AI大模型开发/EduRag项目/EduRAG面试题.md",
-    "AI大模型开发/EduRag项目/2 RAG问答系统-核心模块.md",
-    "AI大模型开发/EduRag项目/1.2挂载虚拟机.md",
-    "AI大模型开发/EduRag项目/1.1Milvus环境搭建（自己搭建）.md",
-    "AI大模型开发/EduRag项目/1 环境搭建和Milvus向量数据库.md",
-    "🖥 项目笔记/天机学堂/课程资料/18-天机学堂项目逐字稿.md",
-    "🖥 项目笔记/git在公司真实的开发流程.md",
-    "SpringAI+AIGC应用/持久化会话记忆-MySQL.md",
-    "SpringAI+AIGC应用/持久化VectorStore.md",
-    "SpringAI+AIGC应用/AI应用技术全景.md",
-    "SpringAI+AIGC应用/AI面试宝典.md",
-    "💼 面试/Redis面试题.md",
-    "💼 面试/Java集合面试题.md",
-    "💼 面试/HashMap源码.md",
-    "💼 面试/AI面试题参考2.md",
-    "💼 面试/AI面试题参考1.md",
-    "💼 面试/AI面试题.md",
+    "AI大模型开发/EduRag项目/mysql_qa-BM25快速检索模块.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试逐字稿.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI反馈通道-点赞模式平移面试三层回答.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化AI助手-生产化追问补充.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java基础八股P0清单.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/AIFlowy源码参考-石化AI助手追问补充.md",
+    "📥 原始资料（待处理）/北京智能体新政解读-10条措施-卡兹克.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化项目-追问盲区补充.md",
+    "💼 面试/本人面试准备/归档-旧版材料/保小宝-保险RAG问答项目面试话术.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Seata-AT模式脏写原理深挖面试三层回答.md",
+    "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md",
     "💼 面试/本人面试准备/归档-旧版材料/李文韬-石化项目AI方向面试专项素材.md",
     "00-知识库地图.md.tmp",
     "💼 面试/多线程相关面试题.assets/image-20220901112811374.png",
