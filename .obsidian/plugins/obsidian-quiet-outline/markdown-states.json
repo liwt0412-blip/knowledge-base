@@ -240,7 +240,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化会话记忆-MySQL.md": {
-    "scroll": 19.71398305084746,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -275,7 +275,7 @@
     ]
   },
   "SpringAI+AIGC应用/SpringAI+AIGC应用总览.md": {
-    "scroll": 0.2971698113207547,
+    "scroll": 11.53125,
     "cursor": {
       "from": {
         "line": 7,
@@ -1249,7 +1249,7 @@
     "expandedKeys": []
   },
   "SpringAI+AIGC应用/持久化VectorStore.md": {
-    "scroll": 8.03125,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,
@@ -1726,7 +1726,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/面试追问准备作战手册.md": {
-    "scroll": 87.59877653832314,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 57,
@@ -1745,7 +1745,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/00-Java+AI面试作战MOC.md": {
-    "scroll": 13.0390625,
+    "scroll": 52.51244075829384,
     "cursor": {
       "from": {
         "line": 10,
@@ -1791,7 +1791,7 @@
     ]
   },
   "💼 面试/本人面试准备/面试作战首页.md": {
-    "scroll": 19.85308056872038,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 16,
@@ -1808,14 +1808,14 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试逐字稿.md": {
-    "scroll": 218.66145833333334,
+    "scroll": 13.330729166666666,
     "cursor": {
       "from": {
-        "line": 220,
+        "line": 52,
         "ch": 0
       },
       "to": {
-        "line": 220,
+        "line": 52,
         "ch": 0
       }
     },
@@ -1848,15 +1848,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/重构版-李文韬-石化经营分析平台-面试表述.md": {
-    "scroll": 5.997395833333333,
+    "scroll": 50.53495260663507,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 11
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 24,
-        "ch": 11
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1886,7 +1886,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/AI面试30问三层回答.md": {
-    "scroll": 35.37109375,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 43,
@@ -2025,7 +2025,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/03-Java微服务追问/Java微服务易错点补充-MQ-Seata-Redis-ES.md": {
-    "scroll": 57.4375,
+    "scroll": 9.420289855072465,
     "cursor": {
       "from": {
         "line": 12,
@@ -2100,15 +2100,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化经营分析平台-项目深挖追问底稿.md": {
-    "scroll": 1.9927536231884058,
+    "scroll": 42.259032795997776,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 10
+        "line": 154,
+        "ch": 13
       },
       "to": {
-        "line": 22,
-        "ch": 10
+        "line": 154,
+        "ch": 19
       }
     },
     "expandedKeys": [
@@ -2197,7 +2197,7 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 36.984890878567434,
+    "scroll": 36.940123111359824,
     "cursor": {
       "from": {
         "line": 48,
@@ -2281,14 +2281,14 @@
     ]
   },
   "💼 面试/本人面试准备/简历-李文韬-Java后端-AI应用方向.md": {
-    "scroll": 50.98,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 60,
-        "ch": 3
+        "line": 106,
+        "ch": 0
       },
       "to": {
-        "line": 60,
+        "line": 106,
         "ch": 0
       }
     },
@@ -2315,15 +2315,15 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/04-Agent编程与AI工具/AI-Agent辅助开发流程与代码验证面试回答.md": {
-    "scroll": 821.8484071351228,
+    "scroll": 356.3854166666667,
     "cursor": {
       "from": {
-        "line": 841,
-        "ch": 0
+        "line": 362,
+        "ch": 25
       },
       "to": {
-        "line": 841,
-        "ch": 0
+        "line": 362,
+        "ch": 25
       }
     },
     "expandedKeys": [
@@ -2331,7 +2331,7 @@
     ]
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/04-Agent编程与AI工具/AI-Agent三层渐进面试回答.md": {
-    "scroll": 143.34375,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 165,
@@ -2972,12 +2972,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 65,
+        "ch": 67
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 65,
+        "ch": 67
       }
     },
     "expandedKeys": [
@@ -4121,7 +4121,7 @@
     ]
   },
   "SpringAI+AIGC应用/AI面试宝典.md": {
-    "scroll": 408.93693693693695,
+    "scroll": 778.6969696969697,
     "cursor": {
       "from": {
         "line": 0,
@@ -4209,7 +4209,7 @@
     ]
   },
   "AI大模型开发/EduRag项目/EduRAG面试题.md": {
-    "scroll": 232.75,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -4417,7 +4417,7 @@
     "expandedKeys": []
   },
   "本人面试准备/店堂主-项目表述.md": {
-    "scroll": 86.0014880952381,
+    "scroll": 5.997395833333333,
     "cursor": {
       "from": {
         "line": 6,
@@ -4431,7 +4431,7 @@
     "expandedKeys": []
   },
   "本人面试准备/店堂主-项目逐字稿.md": {
-    "scroll": 1.8307291666666665,
+    "scroll": 432.0769230769231,
     "cursor": {
       "from": {
         "line": 0,
@@ -4473,7 +4473,7 @@
     "expandedKeys": []
   },
   "本人面试准备/邻圈同城社交-项目表述.md": {
-    "scroll": 5.997395833333333,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -4599,7 +4599,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/02-AI追问/知识库管理入口-面试口径澄清.md": {
-    "scroll": 0,
+    "scroll": 33.723958333333336,
     "cursor": {
       "from": {
         "line": 11,
@@ -4697,14 +4697,280 @@
     "expandedKeys": []
   },
   "本人面试准备/邻圈同城社交-项目逐字稿.md": {
-    "scroll": 186.781990521327,
+    "scroll": 459.9638625592417,
     "cursor": {
       "from": {
-        "line": 209,
+        "line": 213,
+        "ch": 12
+      },
+      "to": {
+        "line": 213,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "🖥 项目笔记/石化设备智能运维与工单闭环平台/00-项目候选说明.md": {
+    "scroll": 37.64514218009479,
+    "cursor": {
+      "from": {
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 209,
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AIFlowy企业级AI智能体平台-项目表述.md": {
+    "scroll": 23.163265306122447,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AIFlowy企业级AI智能体平台-项目逐字稿.md": {
+    "scroll": 423.1521739130435,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AIFlowy企业级AI智能体平台-核心表结构设计.md": {
+    "scroll": 437.1515151515151,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/项目记录.md": {
+    "scroll": 502.96484375,
+    "cursor": {
+      "from": {
+        "line": 496,
+        "ch": 5
+      },
+      "to": {
+        "line": 496,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AskXBOT企业级AI智能体平台-核心表结构设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 2
+      },
+      "to": {
+        "line": 18,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AskXBOT企业级AI智能体平台-项目逐字稿.md": {
+    "scroll": 67.84778697373156,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/AskXBOT企业级AI智能体平台-项目表述.md": {
+    "scroll": 135.8233193277311,
+    "cursor": {
+      "from": {
+        "line": 133,
+        "ch": 18
+      },
+      "to": {
+        "line": 133,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/启山智软SmartShop电商中台-项目表述.md": {
+    "scroll": 225.26432291666666,
+    "cursor": {
+      "from": {
+        "line": 300,
+        "ch": 0
+      },
+      "to": {
+        "line": 300,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/05-石化业务补充/石化经营分析平台-积分系统设计面试三层回答.md": {
+    "scroll": 53.96831597222222,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-核心表结构设计.md": {
+    "scroll": 117.31668397696157,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目表述.md": {
+    "scroll": 106.49404761904762,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目逐字稿.md": {
+    "scroll": 110.72727272727273,
+    "cursor": {
+      "from": {
+        "line": 109,
+        "ch": 0
+      },
+      "to": {
+        "line": 109,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/项目被质疑单薄时的应对框架.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "本人面试准备/自我介绍-李文韬-Java+AI.md": {
+    "scroll": 10.749185667752442,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/自我介绍-李文韬-Java+AI.md": {
+    "scroll": 13.872395833333334,
+    "cursor": {
+      "from": {
+        "line": 38,
+        "ch": 34
+      },
+      "to": {
+        "line": 38,
+        "ch": 34
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/_sec1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/简历-李文韬-AI智能应用开发方向.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT-设计模式面试锚点.md": {
+    "scroll": 50.73172268907563,
+    "cursor": {
+      "from": {
+        "line": 95,
+        "ch": 0
+      },
+      "to": {
+        "line": 95,
         "ch": 0
       }
     },
