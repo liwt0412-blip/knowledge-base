@@ -4711,7 +4711,7 @@
     "expandedKeys": []
   },
   "🖥 项目笔记/石化设备智能运维与工单闭环平台/00-项目候选说明.md": {
-    "scroll": 37.64514218009479,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -4851,7 +4851,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-核心表结构设计.md": {
-    "scroll": 117.31668397696157,
+    "scroll": 4.522613065326634,
     "cursor": {
       "from": {
         "line": 17,
@@ -4865,43 +4865,43 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目表述.md": {
-    "scroll": 106.49404761904762,
+    "scroll": 95.55685763888889,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 0
+        "line": 223,
+        "ch": 13
       },
       "to": {
-        "line": 17,
-        "ch": 0
+        "line": 223,
+        "ch": 13
       }
     },
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目逐字稿.md": {
-    "scroll": 110.72727272727273,
+    "scroll": 115.62455357142858,
     "cursor": {
       "from": {
-        "line": 109,
-        "ch": 0
+        "line": 117,
+        "ch": 123
       },
       "to": {
-        "line": 109,
-        "ch": 0
+        "line": 117,
+        "ch": 127
       }
     },
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/项目被质疑单薄时的应对框架.md": {
-    "scroll": 0,
+    "scroll": 3.278688524590164,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 21,
+        "ch": 23
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 21,
+        "ch": 23
       }
     },
     "expandedKeys": []
@@ -4921,15 +4921,15 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/自我介绍-李文韬-Java+AI.md": {
-    "scroll": 13.872395833333334,
+    "scroll": 27.02690972222222,
     "cursor": {
       "from": {
-        "line": 38,
-        "ch": 34
+        "line": 40,
+        "ch": 43
       },
       "to": {
-        "line": 38,
-        "ch": 34
+        "line": 40,
+        "ch": 43
       }
     },
     "expandedKeys": []
@@ -4963,7 +4963,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT-设计模式面试锚点.md": {
-    "scroll": 50.73172268907563,
+    "scroll": 69.81079404466502,
     "cursor": {
       "from": {
         "line": 95,
@@ -4971,6 +4971,20 @@
       },
       "to": {
         "line": 95,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "SpringAI+AIGC应用/RAG系统评估与监控-面试回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
         "ch": 0
       }
     },

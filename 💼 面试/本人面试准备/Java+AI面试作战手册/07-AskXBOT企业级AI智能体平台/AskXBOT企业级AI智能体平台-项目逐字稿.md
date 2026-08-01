@@ -113,7 +113,7 @@ Spring AI Alibaba 在此基础上增加 DashScope 模型适配，并提供面向
 ```text
 业务背景：平台会有客服、销售、内部知识助手等多个 Bot，它们都需要模型调用和连续对话。如果每个 Bot 单独维护上下文，会出现重复开发、消息顺序混乱和历史记录不可追溯。
 
-总体思路：我把 ChatClient 作为统一对话入口，通过 Advisor 链按需组合会话记忆、RAG 和审计。记忆和历史分离：我们自己实现了 BotMessageMemory 适配 ChatMemory 接口，只给模型最近窗口；完整聊天记录由 ai_message 表承担，按 conversationId 加 sequenceNo 保序落库。
+总体思路：我把 ChatClient 作为统一对话入口，通过 Advisor 链按需组合会话记忆、RAG 和审计。记忆和历史分离：框架只认 ChatMemory 接口，但企业要求完整记录落库可审计，所以我们用适配器模式实现了 BotMessageMemory，把 MySQL 消息表适配成框架的 ChatMemory，只给模型最近窗口；完整聊天记录由 ai_message 表承担，按 conversationId 加 sequenceNo 保序落库。
 
 实现细节：请求进入后先校验租户、用户、Bot 和会话权限，根据 Bot 配置从 ChatModelRegistry 获取 ChatModel，再使用 MessageChatMemoryAdvisor 加载最近上下文。模型通过 stream 返回 Flux，服务端按 domain 加 type 的统一事件信封转成 SSE 推送；断流或失败也记录消息状态，阻塞的落库和外部 HTTP 调用切到受控 Scheduler，不占 EventLoop。
 
@@ -125,7 +125,7 @@ Spring AI Alibaba 在此基础上增加 DashScope 模型适配，并提供面向
 ```text
 业务背景：企业制度、产品手册和客服资料不会自动存在于大模型参数中，而且文档包含编号、型号、专有名词和访问权限，只做向量检索容易漏召回，直接把全文交给模型又会增加成本和幻觉。
 
-总体思路：我设计了异步文档入库、Milvus 向量召回、Elasticsearch BM25 召回、结果融合、Rerank、ACL 过滤和引用返回的完整链路。检索引擎用我们自己的 SearcherFactory 按知识库隔离：每个知识库独立索引，ES 侧索引名按 rag_ 加知识库 ID 生成，检索器类型通过配置切换。
+总体思路：我设计了异步文档入库、Milvus 向量召回、Elasticsearch BM25 召回、结果融合、Rerank、ACL 过滤和引用返回的完整链路。检索引擎侧要解决两个问题：多知识库索引隔离、检索引擎可替换，所以我们用工厂模式实现 SearcherFactory，按知识库 ID 和配置创建检索器——每个知识库独立索引，ES 侧索引名按 rag_ 加知识库 ID 生成，引擎类型通过配置切换。
 
 实现细节：上传文件先写对象存储和 ai_document_index_task 索引任务表，再通过 RocketMQ 异步解析。TikaDocumentReader 读取内容，TokenTextSplitter 切片，Metadata 写入 tenantId、knowledgeBaseId、documentVersionId 和 ACL。Chunk 同时写 Milvus 与 ES，文档状态走 UPLOADED 到 AVAILABLE 的状态机，双索引都成功才对外可见。查询时两路并发召回，按 Chunk ID 去重，RRF 或加权融合后调用 RerankService，最终由自定义 Advisor 注入 Prompt。
 
@@ -137,7 +137,7 @@ Spring AI Alibaba 在此基础上增加 DashScope 模型适配，并提供面向
 ```text
 业务背景：智能体如果只能回答问题，不能查询订单、创建工单或调用内部系统，业务价值有限；但模型直接调用任意接口又会带来越权、SSRF、重复写入和审计缺失。
 
-总体思路：我把内部 Java 方法、动态 HTTP API 和外部 MCP 工具统一适配为 ToolCallback——代码里对应 PluginTool 承接 HTTP 插件、McpTool 承接 MCP 协议，都收口到同一个工具接口——再按租户和 Bot 用 ai_bot_tool 白名单表控制可见工具，执行层统一处理参数校验、权限、幂等、超时与审计。
+总体思路：我把内部 Java 方法、动态 HTTP API 和外部 MCP 工具统一适配为 ToolCallback——这是适配器模式，解决的是新增一类工具来源时对话主链路、授权和审计零改动的问题——代码里对应 PluginTool 承接 HTTP 插件、McpTool 承接 MCP 协议，都收口到同一个工具接口，再按租户和 Bot 用 ai_bot_tool 白名单表控制可见工具，执行层统一处理参数校验、权限、幂等、超时与审计。
 
 实现细节：稳定的内部能力使用 @Tool，租户自定义 HTTP 接口根据 JSON Schema 动态构建工具定义，MCP Server 通过 Spring AI MCP Client Starter 连接并转换为工具。可信的 tenantId、userId 和 traceId 通过 ToolContext 传入，不接受模型生成。写操作要求 idempotencyKey，高风险操作先返回确认事件，ai_tool_execution_log 记录工具、参数摘要、耗时、状态和错误码。
 
