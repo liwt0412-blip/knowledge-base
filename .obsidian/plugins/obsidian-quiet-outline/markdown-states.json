@@ -2197,7 +2197,7 @@
     ]
   },
   "00-我的长期上下文.md": {
-    "scroll": 36.940123111359824,
+    "scroll": 49.02858958068615,
     "cursor": {
       "from": {
         "line": 48,
@@ -2213,15 +2213,15 @@
     ]
   },
   "00-当前主线.md": {
-    "scroll": 69.36255924170617,
+    "scroll": 133.41366158113732,
     "cursor": {
       "from": {
-        "line": 57,
-        "ch": 13
+        "line": 153,
+        "ch": 37
       },
       "to": {
-        "line": 57,
-        "ch": 13
+        "line": 153,
+        "ch": 37
       }
     },
     "expandedKeys": [
@@ -4851,43 +4851,43 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-核心表结构设计.md": {
-    "scroll": 4.522613065326634,
+    "scroll": 223.982421875,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 0
+        "line": 305,
+        "ch": 3
       },
       "to": {
-        "line": 17,
-        "ch": 0
+        "line": 305,
+        "ch": 3
       }
     },
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目表述.md": {
-    "scroll": 95.55685763888889,
+    "scroll": 45.63758680555556,
     "cursor": {
       "from": {
-        "line": 223,
-        "ch": 13
+        "line": 75,
+        "ch": 12
       },
       "to": {
-        "line": 223,
-        "ch": 13
+        "line": 75,
+        "ch": 12
       }
     },
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/Java+AI面试作战手册/07-AskXBOT企业级AI智能体平台/AskXBOT企业级AI智能体平台-项目逐字稿.md": {
-    "scroll": 115.62455357142858,
+    "scroll": 89.384765625,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 123
+        "line": 137,
+        "ch": 63
       },
       "to": {
-        "line": 117,
-        "ch": 127
+        "line": 137,
+        "ch": 63
       }
     },
     "expandedKeys": []
@@ -4949,7 +4949,7 @@
     "expandedKeys": []
   },
   "💼 面试/本人面试准备/简历-李文韬-AI智能应用开发方向.md": {
-    "scroll": 0,
+    "scroll": 4.998697916666667,
     "cursor": {
       "from": {
         "line": 9,
@@ -4985,6 +4985,20 @@
       },
       "to": {
         "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "💼 面试/本人面试准备/Java+AI面试作战手册/01-石化经营分析平台/石化IoT冷热分离与历史归档-面试三层回答.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
         "ch": 0
       }
     },

@@ -21,11 +21,11 @@ updated: 2026-07-30
 
 ## 自我介绍（约 60-75 秒）
 
-面试官好，我叫李文韬，来自湖南长沙，做了六年 Java 后端开发。我在一家项目制软件公司，这些年按项目交付过电商中台、同城社交、能源政企经营分析等不同行业的系统，目前岗位是 AI 应用开发工程师。技术栈以 Spring Boot、Spring Cloud Alibaba 为主，Nacos、Gateway、RabbitMQ、RocketMQ、Redis、MyBatis-Plus 都深度用过；AI 侧以 Spring AI Alibaba 为核心，Milvus、Elasticsearch、Rerank、MCP 都有完整落地经验。
+面试官好，我叫李文韬，来自湖南长沙，做了四年 Java 后端开发，近两年转 AI 应用开发。我在长城信息股份有限公司，这些年按项目交付过电商中台、同城社交、能源政企经营分析等不同行业的系统，目前岗位是 AI 应用开发工程师。技术栈以 Spring Boot、Spring Cloud Alibaba 为主，Nacos、Gateway、RabbitMQ、RocketMQ、Redis、MyBatis-Plus 都深度用过；AI 侧以 Spring AI Alibaba 为核心，Milvus、Elasticsearch、Rerank、MCP 都有完整落地经验。
 
 2023 到 2025 年，我在一个能源省公司的经营分析平台做后端小组长，负责设备 IoT 接入与状态监控；后期集团推动 AI 落地，我负责省公司 AI 助手的本地化，把 Function Calling、RAG、缓存、SSE 流式输出接进了真实业务系统，知识检索当时走的是独立的 Python RAG 服务。
 
-那段落地经历让我看到一个共性问题：知识检索、工具调用、会话管理在每个项目里各写各的，跨语言链路维护成本也高。最近一年我参与的 AskXBOT 企业级 AI 智能体平台，做的就是把这些能力平台化、统一治理，AI 核心链路基于 Spring AI Alibaba，我在其中负责 Bot 对话与会话记忆、RAG 混合检索、Tool Calling 与 MCP 工具治理三个模块。相比石化时期，RAG 从 Python 独立服务演进成 Java 侧向量加 BM25 双路召回，工具调用从硬编码 Function 演进成 @Tool、HTTP、MCP 三类工具统一治理。
+那段落地经历让我看到一个共性问题：知识检索、工具调用、会话管理在每个项目里各写各的，跨语言链路维护成本也高。近两年我参与的 AskXBOT 企业级 AI 智能体平台，做的就是把这些能力平台化、统一治理，AI 核心链路基于 Spring AI Alibaba，我在其中负责 Bot 对话与会话记忆、RAG 混合检索、Tool Calling 与 MCP 工具治理三个模块。相比石化时期，RAG 从 Python 独立服务演进成 Java 侧向量加 BM25 双路召回，工具调用从硬编码 Function 演进成 @Tool、HTTP、MCP 三类工具统一治理。
 
 在AI工具这一块我是一个深度使用者,有跟AI协作的一套自己的方法。
 
@@ -35,8 +35,8 @@ updated: 2026-07-30
 
 ## 口径要点（备考用，不朗读）
 
-- **"六年"**：与简历 header、工作时间 2020.08 至今对齐，不说"三年多"。
-- **"项目制软件公司"**：预先解释五个项目行业跨度大的问题，被追问公司性质时按项目制交付口径展开。
+- **"四年 Java 后端 + 两年 AI 应用开发"**：与简历 header、工作时间 2020.08 至今对齐。
+- **"长城信息股份有限公司"**：公司全称，被追问公司性质时说明按项目制交付、行业跨度是交付属性。
 - **叙事顺序是刻意正序**：石化 → 痛点 → AskXBOT，体现技术演进和做平台化选择的思考，不是跟风；与 AskXBOT 逐字稿 1.1 同口径，开场用哪份都不打架。
 - **石化只留四个钩子**：小组长、IoT 状态监控、AI 助手本地化、Python RAG 服务（演进的起点）；集团 AI 底座、Qwen3 等细节留到追问层。
 - **AskXBOT 只认领三个模块**：Bot 对话与会话记忆、RAG 混合检索、Tool/MCP 工具治理；Agent Graph、平台级模型管理属团队协作，不主动讲。
