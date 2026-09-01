@@ -1,6 +1,6 @@
 ---
 tags: [Clash, 代理, 网络, 排查, WSL]
-date: 2026-07-16
+date: 2026-08-28
 ---
 
 # Clash 代理问题排查指南
@@ -75,6 +75,7 @@ date: 2026-07-16
 | 浏览器不通、代理开着 | ✅ | ❌ | 浏览器没重启 | 关掉浏览器重新打开 |
 | Google 通、ChatGPT 不通 | ✅ | ❌ (API) | 节点被 OpenAI 封 | 换节点（421 = 被封） |
 | 系统代理反复掉 | ✅ | 时好时坏 | 其他程序抢注册表 | 检查代理插件/安全软件 |
+| 内网/公司域名打不开（gitlab.digitalchina.com），但 ping 通 | ✅ | ✅ 直连 | Clash 解析不了域名（公共 DNS 没记录，Clash 不读 Windows hosts） | Clash profile 的 hosts 段加映射，重启 Clash |
 
 ---
 
@@ -131,6 +132,52 @@ curl.exe -s -o NUL -w '%{http_code}' --connect-timeout 10 --proxy 127.0.0.1:7890
 netstat -ano | findstr ":7890"
 # 期望: 0.0.0.0:7890 LISTENING
 ```
+
+---
+
+## 内网/公司域名 502（Clash 解析不了 hosts 域名）——2026-08-28
+
+**症状：** gitlab.digitalchina.com 在 Edge 里打不开（502/转圈），但 ping 通、Windows curl 直连 302 正常。
+
+**根因（第一性原理）：**
+1. Edge 走系统代理（PAC → Clash 127.0.0.1:7890）
+2. 域名只在 Windows `hosts` 文件有映射（`202.108.145.38 gitlab.digitalchina.com`），公共 DNS（223.5.5.5）上根本没这条记录
+3. **Clash 不读 Windows hosts 文件**，只用订阅配置里的公共 DNS 解析 → `couldn't find ip` → DIRECT 直连无从发起 → 502
+4. ping 通是因为 ping/curl 走系统解析（读 hosts）
+
+**诊断（30 秒实锤）：**
+```powershell
+# 1. 看 Clash 日志，找 "couldn't find ip"
+#    D:\下载\安装的软件\Clash.for.Windows-0.20.16-ikuuu\data\logs\ 最新文件
+grep "gitlab" <最新log>   # WRN dial failed error=couldn't find ip: gitlab.digitalchina.com
+
+# 2. 公共 DNS 查不到 vs ping 能解析 → 解析靠 hosts
+nslookup gitlab.digitalchina.com 223.5.5.5   # 无 Answer 记录
+ping gitlab.digitalchina.com                 # 能解析出 IP
+Get-Content C:\Windows\System32\drivers\etc\hosts  # 有映射 = 实锤
+
+# 3. curl 强制走代理 vs 直连对比
+curl.exe --noproxy '*' http://gitlab.digitalchina.com/   # 302 = 网络本身没问题
+curl.exe -x http://127.0.0.1:7890 --noproxy '' http://gitlab.digitalchina.com/  # 卡住/502 = 代理侧解析失败
+```
+
+**修复：** 在 Clash 当前订阅 profile 的 `hosts` 段加映射（iKuuu 订阅自带 hosts 段 + `dns.use-hosts: true`）：
+```yaml
+hosts:
+  gitlab.digitalchina.com: 202.108.145.38
+```
+改完**重启 Clash**（杀进程再启动，UI 里刷新不一定生效）：
+```powershell
+Stop-Process -Name "Clash for Windows","clash-win64" -Force
+# 重新启动 D:\下载\安装的软件\Clash.for.Windows-0.20.16-ikuuu\Clash for Windows.exe
+```
+验证：WSL `curl http://gitlab.digitalchina.com/`（走代理）应返回 302。
+
+**⚠️ 坑：**
+- ~~订阅更新会覆盖 profile 的 hosts → gitlab 再次打不开，重加一行即可~~ **已配 Mixin 持久化（2026-08-28）**：Mixin 内容存 `data/cfw-settings.yaml` 的 `mixinText:` 字段（全局，订阅更新不覆盖），配置路径 = 常规页 Mixin 开关 → 齿轮图标 → YAML 编辑器 → 保存
+- **curl 测代理会被 NO_PROXY 干扰**：Windows `curl.exe -x` 会读 NO_PROXY 环境变量，若含该域名则静默直连（REMOTE_IP 显示真实 IP）。真测代理必须加 `--noproxy ''`
+- **gitlab 只有 HTTP 80**：https 443 服务器没开（直连也 000），Edge 能打开但提示"不安全"，正常
+- profile 文件是 iKuuu 的**未渲染源文件**（含大写 `Proxy:`/`Rules:` 占位段），不能直接喂给 Clash 内核，必须由 CFW 渲染
 
 ---
 
