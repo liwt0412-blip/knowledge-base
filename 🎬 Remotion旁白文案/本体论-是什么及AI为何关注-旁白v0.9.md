@@ -12,9 +12,15 @@ voice_remote_authorization: 原“同意，仅本次钩子”仅覆盖旧试听�
 voice_remote_sample_process_id: b8ledts8y
 voice_remote_sample_process_status: completed-exit-0
 voice_remote_process_id: ageneral-purpose-70468302af76febf
-voice_remote_process_status: background-batch-started
+voice_remote_process_status: completed-seven-scenes-and-assembly
 voice_run_directory: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1
 voice_authorization_receipt: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/authorization.json
+voice_manifest: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/manifest.json
+voice_listening_copy: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/full-narration.wav
+voice_check: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-check-v1.json
+voice_generated: true
+voice_final_status: generated-verified-awaiting-listening
+voice_duration_seconds: 266.79972789115646
 voice_final_approved: false
 voice_similarity_target: 至少90%像本人，为用户试听目标，非已测得结果
 voice_reference_original: D:/workspece/GitHup/remotion/loopengeeering配音/钩子(1).m4a
@@ -59,8 +65,8 @@ audience: 可能完全不知道本体论是什么的观众，不预设RAG、知�
 estimated_duration: 约4至5分钟，仅作策划，最终以本期旁白实测为准
 aspect_ratio: "16:9"
 hook_type: 虚构任务请求
-voice: 远程IndexTTS2钩子19.882秒已获用户认可，原样复用；本期其余七段已启动同服务同参考同参数串行生成，不作后期处理，本地默认未修改
-privacy: 仅使用虚构购物场景，不含真实用户、订单或业务系统；用户最新请求授权向同一指定Hugging Face服务提交本人参考录音及本期其余已确认文案，服务端留存未验证
+voice: 远程IndexTTS2全套八段已生成并核验，共266.800秒；钩子19.882秒原样复用，其余七段同参考同参数生成，未后期处理；全套待用户试听，本地默认未修改
+privacy: 仅使用虚构购物场景，不含真实用户、订单或业务系统；本次已按最新请求向同一指定Hugging Face服务提交本人参考录音及其余七段文案，服务端留存未验证
 composition_id:
 video_output:
 cover_horizontal:
@@ -68,8 +74,8 @@ cover_vertical:
 publish_copy:
 completed_at:
 waived_deliverables: []
-blocked_reason:
-next_action: 等待已启动的七段串行生成完成，核对来源、解码及实测时长后交付八段旁白；全套听感仍需用户验收，不提前强制对齐或制作视频
+blocked_reason: 全套音频已生成且技术核验通过，等待用户试听验收
+next_action: 试听full-narration.wav及八段独立文件，确认音色、语气与口播完整性，尤其英文术语及年份；确认后才能进入强制对齐与时间轴制作，不自动渲染
 ---
 
 # 本体论是什么？为什么做 AI 又谈起了它？
@@ -178,7 +184,7 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 | application | Palantir AIP官方架构用途摘要，返回本期判断 | 写明“官方文档中的产品设计”；不照搬宣传指标，不暗示行业采用率 |
 | conclusion | 同一组三张卡片回收退鞋请求，落到定义如何被使用 | 即本期口播结尾；不再追加固定告别，保留TOKEN人物但不得遮挡对象关系 |
 
-首版26.467秒、原录音对照A的27.651秒、完整句子对照B的30.071秒及同样时长的A-clean/B-clean均未获认可。用户随后试听认可远程IndexTTS2钩子19.882秒，并要求本期全套沿用；钩子保持原样，其余七段串行生成中。不用钩子推算全片时长，目前没有强制对齐字幕或最终帧数；hook-brand的固定时长是项目转场规范，不是旁白测量结果。TOKEN人物只安排在品牌介绍、概念解释和本期内容结尾。
+首版26.467秒、原录音对照A的27.651秒、完整句子对照B的30.071秒及同样时长的A-clean/B-clean均未获认可。用户随后试听认可远程IndexTTS2钩子19.882秒，并要求本期全套沿用；钩子保持原样，其余七段已串行生成。八段实测合计266.800秒，连续试听版未添加间隔或音效；这不是最终视频时长，目前没有强制对齐字幕或最终帧数。hook-brand的固定时长是项目转场规范，不是旁白测量结果。TOKEN人物只安排在品牌介绍、概念解释和本期内容结尾。
 
 ## 来源与适用边界
 
@@ -222,7 +228,9 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 - 远程输入文案及哈希、源录音、下载文件一致性、解码与采样数检查通过，仍有15个峰值饱和样本。输出比本地短，生成时尚未转写或人工验收；后续用户认可的是该试听的音色选择，不能据此保证无漏字、无截断、无杂音或达到90%相似度。
 - 远程客户端在独立环境运行，未改本地配音依赖、项目默认、权限设置或口播；单钩子试验阶段未生成全套音频。
 - 用户最新明确表示“还是这个好啊   能帮我用这个生成全套语音嘛”。已登记voice-sample revision 4认可，仅选用远程钩子；已把本期voice-consent扩展到同一服务、同一原录音、同一套参数的v0.9全套旁白，不将旧“仅钩子”授权冒充全稿授权。留存不确定性已再次告知，不上传其他服务或改变永久默认。
-- 已启动七段串行生成，钩子复制原始字节而不重生成；各段独立保存，预定连续试听版仅拼接PCM，不添加音效或静音，不作为视频时间轴。新增音频须完成技术检查并由用户试听，尚无最终voice批准、强制对齐、画面、MP4或发布物料。
+- 七段已串行生成成功，钩子按原始字节复用；八段独立WAV、同名来源JSON和连续试听版均已保存，合计266.79972789115646秒。连续版PCM与八段原始PCM逐字节拼接一致，没有添加音效、静音、降噪或增益，不作为视频时间轴。
+- 主控独立复核八段输入文本、顺序、全部生成参数、参考和输出哈希、元数据指纹、实测时长及九个WAV全文件解码，均通过。原始远程输出仍有338个峰值饱和样本，未为消除指标而调音量；尚未转写或逐字听审，不保证无漏字、错读或重复，不编造相似度百分比。
+- 总控已登记voice revision 1的34项产物，指纹完整；最终voice批准仍为false，等待用户试听，未执行强制对齐、画面、MP4或发布物料。
 - 总控任务仍为ontology-rag-v07-20260922；保留原审核快照及其中的审核时状态，本知识库只回写制作进度；审批以总控当前记录为准。
 
 ## 制作产物
@@ -250,12 +258,15 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 - 远程单钩子技术检查与试听边界快照：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v4.json`
 - 本期全稿授权与短样认可回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/authorization.json`
 - 全稿生成脚本：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/generate-remote-voice-v1.py`
-- 当前全稿音频输出目录（生成中，不等于已齐套）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/`
-- Composition、MP4、封面及发布文案均未制作。
+- 八段独立音频及同名元数据目录（01-hook至08-conclusion）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/`
+- 连续试听版（4分26.800秒）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/full-narration.wav`
+- 分段时长、哈希及拼接清单：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/manifest.json`
+- 主控独立核验回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-check-v1.json`
+- 全套音频仍待用户验收；Composition、MP4、封面及发布文案均未制作。
 
 ## 版本记录
 
 | 版本 | 日期 | 内容 | 状态 |
 | --- | --- | --- | --- |
 | v0.8 | 2026-09-23 | 按例子、概念、历史、AI关注点形成完整稿，独立旧快照保留 | 已被v0.9替代 |
-| v0.9 | 2026-09-23 | 采用用户选择的回收开头版结尾，合并内容结论与固定告别，其他口播不变 | 整稿与远程IndexTTS2钩子已认可，本期全套配音生成中；最终音频待验收 |
+| v0.9 | 2026-09-23 | 采用用户选择的回收开头版结尾，合并内容结论与固定告别，其他口播不变 | 整稿与远程IndexTTS2钩子已认可，全套八段266.800秒已生成并核验；最终音频待验收 |
