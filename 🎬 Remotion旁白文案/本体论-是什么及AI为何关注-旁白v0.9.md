@@ -4,11 +4,41 @@ status: 配音中
 script_approved: true
 script_approved_at: 2026-09-23
 script_approval: 确认整稿生成钩子试听
-voice_sample_status: needs-adjustment
-voice_sample_approved: false
-voice_sample_feedback: 音色跟情感还是有点不对，有点AI感
-voice_sample: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.wav
-voice_sample_duration_seconds: 26.467
+voice_sample_status: approved-remote
+voice_sample_approved: true
+voice_sample_feedback: 用户试听远程IndexTTS2后明确表示“还是这个好啊   能帮我用这个生成全套语音嘛”；认可该钩子并要求本期全稿沿用，不代表后续七段已验收
+voice_remote_provider: https://indexteam-indextts-2-demo.hf.space
+voice_remote_authorization: 原“同意，仅本次钩子”仅覆盖旧试听；最新全套语音请求将范围扩展为本期已确认v0.9八段，复用钩子、生成其余七段，仍使用同一服务与本人原录音；再次告知留存无法保证，不上传其他服务、不改项目默认、不渲染
+voice_remote_sample_process_id: b8ledts8y
+voice_remote_sample_process_status: completed-exit-0
+voice_remote_process_id: ageneral-purpose-70468302af76febf
+voice_remote_process_status: background-batch-started
+voice_run_directory: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1
+voice_authorization_receipt: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/authorization.json
+voice_final_approved: false
+voice_similarity_target: 至少90%像本人，为用户试听目标，非已测得结果
+voice_reference_original: D:/workspece/GitHup/remotion/loopengeeering配音/钩子(1).m4a
+voice_reference_effective_seconds:
+voice_local_reference_effective_seconds: 15
+voice_remote_effective_reference_seconds:
+voice_sample: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-remote-indextts2-20260923-v1.wav
+voice_sample_candidates:
+  - label: remote-IndexTTS2
+    audio: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-remote-indextts2-20260923-v1.wav
+    duration_seconds: 19.882
+  - label: A
+    audio: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-ref15-20260923-v1.wav
+    duration_seconds: 27.651
+  - label: B
+    audio: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-ref15-sentences-20260923-v1.wav
+    duration_seconds: 30.071
+  - label: A-clean
+    audio: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-a-clean-20260923-v1.wav
+    duration_seconds: 27.651
+  - label: B-clean
+    audio: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-b-clean-20260923-v1.wav
+    duration_seconds: 30.071
+previous_voice_sample: D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.wav
 priority: normal
 version: v0.9
 writing_style: TOKEN人味儿写作
@@ -29,8 +59,8 @@ audience: 可能完全不知道本体论是什么的观众，不预设RAG、知�
 estimated_duration: 约4至5分钟，仅作策划，最终以本期旁白实测为准
 aspect_ratio: "16:9"
 hook_type: 虚构任务请求
-voice: 本地IndexTTS 2.5；当前钩子音色与情感未获认可，保留原短样，待调整
-privacy: 仅使用虚构购物场景，不含真实用户、订单或业务系统
+voice: 远程IndexTTS2钩子19.882秒已获用户认可，原样复用；本期其余七段已启动同服务同参考同参数串行生成，不作后期处理，本地默认未修改
+privacy: 仅使用虚构购物场景，不含真实用户、订单或业务系统；用户最新请求授权向同一指定Hugging Face服务提交本人参考录音及本期其余已确认文案，服务端留存未验证
 composition_id:
 video_output:
 cover_horizontal:
@@ -38,8 +68,8 @@ cover_vertical:
 publish_copy:
 completed_at:
 waived_deliverables: []
-blocked_reason: 用户反馈当前钩子音色跟情感还是有点不对、有AI感；短样未通过，暂停整片配音
-next_action: 先确认音色与语气的短样对照调整方案；保持本地，不自动切换引擎或云端，不生成整片配音
+blocked_reason:
+next_action: 等待已启动的七段串行生成完成，核对来源、解码及实测时长后交付八段旁白；全套听感仍需用户验收，不提前强制对齐或制作视频
 ---
 
 # 本体论是什么？为什么做 AI 又谈起了它？
@@ -48,7 +78,7 @@ next_action: 先确认音色与语气的短样对照调整方案；保持本地�
 
 计算机领域的本体提供一种明确领域概念与关系的办法；当AI需要查询实际数据、执行具体操作时，这些共同约定有用，但不代替真实数据、业务系统和权限控制。
 
-用户已明确选择“第一个回收开头的版本”。本稿为独立v0.9，仅合并替换v0.8的内容结论与固定告别，其他七段口播保持不变；旧稿完整保留。用户随后于2026-09-23确认整稿并要求生成钩子试听；短样仍需试听验收，未授权整片配音或渲染。下方标题、来源与制作说明不属于口播。
+用户已明确选择“第一个回收开头的版本”。本稿为独立v0.9，仅合并替换v0.8的内容结论与固定告别，其他七段口播保持不变；旧稿完整保留。用户于2026-09-23确认整稿后，经多轮试听认可远程IndexTTS2钩子，并要求沿用它生成本期全套语音；全套新增音频仍须验收，未授权渲染。下方标题、来源与制作说明不属于口播。
 
 本期口播以conclusion收尾，不再追加固定brandOutro。此项用户新选择覆盖大纲v2中固定结尾的旧安排；保留TOKEN介绍、角标与人物视觉，不改动其他视频或共享品牌源码。
 
@@ -148,7 +178,7 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 | application | Palantir AIP官方架构用途摘要，返回本期判断 | 写明“官方文档中的产品设计”；不照搬宣传指标，不暗示行业采用率 |
 | conclusion | 同一组三张卡片回收退鞋请求，落到定义如何被使用 | 即本期口播结尾；不再追加固定告别，保留TOKEN人物但不得遮挡对象关系 |
 
-本期仅有待验收的钩子短样，实测26.467秒，不据此锁定全片时长。以上没有逐句字幕时间码或最终帧数；hook-brand的固定时长是项目转场规范，不是旁白测量结果。TOKEN人物只安排在品牌介绍、概念解释和本期内容结尾。
+首版26.467秒、原录音对照A的27.651秒、完整句子对照B的30.071秒及同样时长的A-clean/B-clean均未获认可。用户随后试听认可远程IndexTTS2钩子19.882秒，并要求本期全套沿用；钩子保持原样，其余七段串行生成中。不用钩子推算全片时长，目前没有强制对齐字幕或最终帧数；hook-brand的固定时长是项目转场规范，不是旁白测量结果。TOKEN人物只安排在品牌介绍、概念解释和本期内容结尾。
 
 ## 来源与适用边界
 
@@ -177,11 +207,23 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 
 ## 审核与制作状态
 
-- 用户于2026-09-23明确确认“确认整稿生成钩子试听”；总控已将整稿及本地音色授权绑定到script revision 4。仅授权当前钩子短样，不代表短样验收、整片配音或渲染授权。
+- 用户于2026-09-23明确确认“确认整稿生成钩子试听”；整稿批准仍绑定script revision 4。该次确认本身不代表短样验收、整片配音或渲染授权；随后新的远程短样认可与全套语音请求已单独登记，见下文。
 - 本次检查覆盖所选结尾及全稿一致性；前七段与v0.8完全一致，继续使用其已记录的事实核验及来源限制。
-- 本期钩子已离线生成，26.467秒、22050Hz、单声道PCM WAV；完整解码、输入文本及来源哈希检查通过，少量峰值饱和及尾部留白情况已记录在检查回执，仍待人工试听。
-- 延续本地IndexTTS 2.5音色约定；仅生成hook全文，不含品牌介绍、转场音效或结尾，未上传或转云端；未生成整片正式音频、字幕、画面、MP4或发布物料。
-- 总控任务仍为ontology-rag-v07-20260922；保留原审核快照及其中的审核时状态，本知识库只回写制作进度，不改口播；审批以总控当前记录为准。
+- 首版26.467秒钩子因音色、情感不自然及AI感未获用户认可，原文件完整保留。
+- A版仅将原录音有效参考从9秒扩为15秒，B版在相同参考基础上按六个完整句子生成；均为22050Hz单声道PCM WAV，完整解码、输入文本、来源哈希和B版拼接核验通过；少量峰值饱和情况已记录。用户随后反馈有背景杂音，且停顿时消失，未认可短样。
+- 原始录音约18.39秒，当前模型最多实际读取前15秒；90%是用户的主观相似度目标，不是测量结果，不将技术检查当成音色认可。
+- 已证实A有3处、B有5处约200毫秒数字零值静音；B部分句首另有模型生成的近静音。背景杂音本身来源尚不能确定，不能仅凭低电平指标归因于原录音。
+- 用户授权后，仅对现成A/B作本地后处理：FFmpeg afftdn轻度降噪、最长60毫秒低电平余弦衔接，补偿550样本滤镜延迟；不删改口播或停顿时长。另保留仅降噪版本以隔离比较。参考与原A/B均未修改。
+- 降噪使选定低电平窗口能量下降约3.2dB（不含导出音量调整）；这些窗口可能包含呼吸或语音，不能称为纯噪声测量。导出另衰减约1.2dB留出峰值余量，没有修复源音频已有削波。
+- 处理版采样数、延迟补偿、全文件解码和拼接连续性检查通过；数字静音仍保留，未添加环境声遮盖。用户仍反馈“不行”，本地处理版未通过，不以技术指标替代听感验收。
+- 上述本地试验使用IndexTTS 2.5、不额外施加情绪向量；本地后处理本身没有重新运行TTS或上传。所有原音频保留。
+- 用户随后要求“用之前远程的生成试试”，在明确告知指定服务、18.39秒原录音和当前钩子上传范围、留存无法保证后，选择“同意，仅本次钩子”。已真实向Hugging Face的indexteam-indextts-2-demo.hf.space提交并下载，未扩展到其他服务或整片。
+- 远程IndexTTS2钩子19.882秒，22050Hz单声道PCM16；沿用旧远程情绪向量与采样参数，未做后期降噪、平滑或调音量。它不是与本地2.5的严格单变量对照，远程权重版本和有效参考长度未知。
+- 远程输入文案及哈希、源录音、下载文件一致性、解码与采样数检查通过，仍有15个峰值饱和样本。输出比本地短，生成时尚未转写或人工验收；后续用户认可的是该试听的音色选择，不能据此保证无漏字、无截断、无杂音或达到90%相似度。
+- 远程客户端在独立环境运行，未改本地配音依赖、项目默认、权限设置或口播；单钩子试验阶段未生成全套音频。
+- 用户最新明确表示“还是这个好啊   能帮我用这个生成全套语音嘛”。已登记voice-sample revision 4认可，仅选用远程钩子；已把本期voice-consent扩展到同一服务、同一原录音、同一套参数的v0.9全套旁白，不将旧“仅钩子”授权冒充全稿授权。留存不确定性已再次告知，不上传其他服务或改变永久默认。
+- 已启动七段串行生成，钩子复制原始字节而不重生成；各段独立保存，预定连续试听版仅拼接PCM，不添加音效或静音，不作为视频时间轴。新增音频须完成技术检查并由用户试听，尚无最终voice批准、强制对齐、画面、MP4或发布物料。
+- 总控任务仍为ontology-rag-v07-20260922；保留原审核快照及其中的审核时状态，本知识库只回写制作进度；审批以总控当前记录为准。
 
 ## 制作产物
 
@@ -189,14 +231,31 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 - 八段口播与音色约定：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/narration-v3.json`
 - 本次结尾修改与一致性检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/script-review-v3.json`
 - 未改段落的原核验记录：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/script-review-v2.json`
-- 钩子试听（26.467秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.wav`
-- 短样来源元数据：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.json`
-- 短样技术检查与试听边界：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v1.json`
-- 整片正式配音、Composition、MP4、封面及发布文案均未制作。
+- 未通过的首版钩子（26.467秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.wav`
+- 首版来源元数据：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-indextts25-20260923-v1.json`
+- 首版技术检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v1.json`
+- A版（15秒有效参考，27.651秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-ref15-20260923-v1.wav`
+- B版（完整句子生成，30.071秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-ref15-sentences-20260923-v1.wav`
+- A/B参数与来源各保存在音频旁同名JSON；B版六个句子文件保留，记录的拼接位置不当作强制对齐字幕。
+- 对照技术检查与试听边界：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v2.json`
+- A-clean（降噪与平滑衔接，27.651秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-a-clean-20260923-v1.wav`
+- B-clean（降噪与平滑衔接，30.071秒）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-b-clean-20260923-v1.wav`
+- A仅降噪对照：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-a-denoise-20260923-v1.wav`
+- B仅降噪对照：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-b-denoise-20260923-v1.wav`
+- 后处理参数与来源各保存在音频旁同名JSON；处理脚本：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-noise-smooth-20260923-v1.py`
+- 后处理检查回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v3.json`
+- 远程IndexTTS2原始钩子（19.882秒，已认可）：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-remote-indextts2-20260923-v1.wav`
+- 远程来源、参数和原单钩子上传授权快照：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-hook-remote-indextts2-20260923-v1.json`
+- 远程单钩子执行脚本：`D:/workspece/GitHup/remotion/out/voice-tests/ontology-intro-v09-remote-20260923-v1.py`
+- 远程单钩子技术检查与试听边界快照：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-sample-check-v4.json`
+- 本期全稿授权与短样认可回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/authorization.json`
+- 全稿生成脚本：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/generate-remote-voice-v1.py`
+- 当前全稿音频输出目录（生成中，不等于已齐套）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/`
+- Composition、MP4、封面及发布文案均未制作。
 
 ## 版本记录
 
 | 版本 | 日期 | 内容 | 状态 |
 | --- | --- | --- | --- |
 | v0.8 | 2026-09-23 | 按例子、概念、历史、AI关注点形成完整稿，独立旧快照保留 | 已被v0.9替代 |
-| v0.9 | 2026-09-23 | 采用用户选择的回收开头版结尾，合并内容结论与固定告别，其他口播不变 | 整稿已确认，钩子短样待试听 |
+| v0.9 | 2026-09-23 | 采用用户选择的回收开头版结尾，合并内容结论与固定告别，其他口播不变 | 整稿与远程IndexTTS2钩子已认可，本期全套配音生成中；最终音频待验收 |
