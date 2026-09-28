@@ -1,6 +1,6 @@
 ---
 title: 本体论是什么？为什么做 AI 又谈起了它？
-status: 配音中
+status: 待发布
 script_approved: true
 script_approved_at: 2026-09-23
 script_approval: 确认整稿生成钩子试听
@@ -19,9 +19,16 @@ voice_manifest: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice
 voice_listening_copy: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/full-narration.wav
 voice_check: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-check-v1.json
 voice_generated: true
-voice_final_status: generated-verified-awaiting-listening
+voice_final_status: approved
 voice_duration_seconds: 266.79972789115646
-voice_final_approved: false
+voice_final_approved: true
+voice_final_approval: 没问题 可以开始下一步
+voice_final_approved_at: 2026-09-23
+alignment: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/alignment-v1/captions-reviewed-v1.json
+storyboard: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/storyboard-timed-v1.json
+timeline: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/timeline-v1.json
+video_duration_frames: 8339
+video_duration_seconds: 277.96666666666664
 voice_similarity_target: 至少90%像本人，为用户试听目标，非已测得结果
 voice_reference_original: D:/workspece/GitHup/remotion/loopengeeering配音/钩子(1).m4a
 voice_reference_effective_seconds:
@@ -65,17 +72,47 @@ audience: 可能完全不知道本体论是什么的观众，不预设RAG、知�
 estimated_duration: 约4至5分钟，仅作策划，最终以本期旁白实测为准
 aspect_ratio: "16:9"
 hook_type: 虚构任务请求
-voice: 远程IndexTTS2全套八段已生成并核验，共266.800秒；钩子19.882秒原样复用，其余七段同参考同参数生成，未后期处理；全套待用户试听，本地默认未修改
+voice: 远程IndexTTS2全套八段266.800秒已获用户认可，钩子原样复用，未后期处理；已完成本地强制对齐，项目默认未修改
 privacy: 仅使用虚构购物场景，不含真实用户、订单或业务系统；本次已按最新请求向同一指定Hugging Face服务提交本人参考录音及其余七段文案，服务端留存未验证
-composition_id:
-video_output:
-cover_horizontal:
-cover_vertical:
-publish_copy:
+composition_id: OntologyIntroV09
+studio_preview: http://localhost:3000/OntologyIntroV09
+studio_technical_status: blocked
+studio_check: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/studio-v6/report.json
+studio_diagnosis: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/studio-diagnosis-v1.json
+render_authorized: true
+render_authorization: 用户在获知Studio内部警告未解决后说“开始渲染吧”，要求按当前版本导出；不代表警告已修复或用户逐帧验收
+render_status: completed-validated
+render_plan: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-plan-v1.json
+render_receipt: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-receipt-v1.json
+render_validation: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-validation-v1.json
+render_visual_review: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-visual-review-v1.json
+video_output: D:/workspece/GitHup/remotion/out/OntologyIntroV09-v1.mp4
+video_output_bytes: 36621453
+video_container_duration_seconds: 278.016
+video_user_approved: true
+video_user_approved_at: 2026-09-23
+video_user_approval: 确认  开始下一步
+cover_plan: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-plan-v2.json
+cover_plan_status: approved
+cover_plan_approved_at: 2026-09-23
+cover_plan_approval: 横版封面尺寸要调整一下
+cover_result_status: generated-checked-awaiting-user-review
+cover_horizontal: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-v2.png
+cover_horizontal_dimensions: 1440x1080
+cover_horizontal_aspect_ratio: "4:3"
+cover_vertical: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-vertical-v1.png
+cover_check: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-check-v2.json
+cover_visual_review: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-review-v2.json
+cover_vertical_review: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-review-v1.json
+publish_copy: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/publish-copy-v1.txt
+publish_copy_status: prepared-awaiting-user-review
+publish_copy_review: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/publish-copy-review-v1.json
+delivery_manifest: D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/delivery-v2.json
+delivery_status: awaiting-user-final-confirmation
 completed_at:
 waived_deliverables: []
-blocked_reason: 全套音频已生成且技术核验通过，等待用户试听验收
-next_action: 试听full-narration.wav及八段独立文件，确认音色、语气与口播完整性，尤其英文术语及年份；确认后才能进入强制对齐与时间轴制作，不自动渲染
+blocked_reason: 发布物料已齐全且路径已回写，等待用户最终确认；Studio历史警告保留，未自动上传或发布
+next_action: 用户查看横竖封面与发布文案并确认本期结束后，再登记最终交付批准与完成时间；不自动发布
 ---
 
 # 本体论是什么？为什么做 AI 又谈起了它？
@@ -232,6 +269,9 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 - 主控独立复核八段输入文本、顺序、全部生成参数、参考和输出哈希、元数据指纹、实测时长及九个WAV全文件解码，均通过。原始远程输出仍有338个峰值饱和样本，未为消除指标而调音量；尚未转写或逐字听审，不保证无漏字、错读或重复，不编造相似度百分比。
 - 总控已登记voice revision 1的34项产物，指纹完整；最终voice批准仍为false，等待用户试听，未执行强制对齐、画面、MP4或发布物料。
 - 总控任务仍为ontology-rag-v07-20260922；保留原审核快照及其中的审核时状态，本知识库只回写制作进度；审批以总控当前记录为准。
+- 2026-09-23用户在全套交付后回复“没问题 可以开始下一步”，已登记voice revision 1认可。上方等待试听描述是生成阶段历史，不再代表当前状态。
+- 已对八段最终音频使用本地Whisper small及stable-ts完成62条逐句强制对齐，推理禁止联网；音频未修改。品牌首句起点经无gap-padding再对齐与原始静音区间复核，从0.46秒修正为0.26秒，原始结果保留；36个原始零时长词保留为诊断记录，不冒称逐字人工听审。
+- 时间轴为30fps共8339帧（277.967秒）：每段旁白前20帧、后12帧留白，钩子后独立75帧震撼转场。已核对文本、音频哈希、字幕范围、转场与旁白互不重叠；八段分镜已绑定时间码，画面制作中。
 
 ## 制作产物
 
@@ -262,7 +302,33 @@ AI处理那句请求时，就要查订单状态，再由业务系统检查条件
 - 连续试听版（4分26.800秒）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/full-narration.wav`
 - 分段时长、哈希及拼接清单：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-remote-v1/manifest.json`
 - 主控独立核验回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/voice-check-v1.json`
-- 全套音频仍待用户验收；Composition、MP4、封面及发布文案均未制作。
+- 最终音频认可回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/alignment-v1/voice-approval.json`
+- 逐句对齐及品牌边界复核：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/alignment-v1/captions-reviewed-v1.json`
+- 视频时间轴字幕：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/alignment-v1/video-timeline-v1.srt`
+- 定时分镜：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/storyboard-timed-v1.json`
+- 时间轴检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/timing-check-v1.json`
+- 八场景已接入`OntologyIntroV09`，Studio地址为`http://localhost:3000/OntologyIntroV09`；人物提前消失、两处字面换行和弹簧负模糊值已修正，旁白与正文未修改。
+- 代码与运动回归检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/code-check-v1.json`，ESLint、TypeScript及两个运动回归测试通过。
+- Studio真实复验：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/studio-v6/report.json`；184关键帧、59边界、10音轨解码无布局或素材失败，但连续播放记录两次更新深度警告，完整检查退出1，未通过技术验收。
+- 原因与单变量对照：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/studio-diagnosis-v1.json`；成功对照只在一次性浏览器内改写响应，未修改正式依赖，不能当作正式预览通过。
+- 上述检查完成时尚未获渲染授权；用户随后在获知警告仍存在后明确说“开始渲染吧”，总控已据此登记当前版本继续导出的确认及渲染授权；不声称技术检查完全通过或用户逐帧验收。
+- 本地离线渲染预检：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-preflight-v1.png`，第2580帧概念场景尾段人物、图表与字幕正常；当前动画回归、ESLint及TypeScript复查通过。
+- 本期渲染参数与用户原话：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-plan-v1.json`；8339帧、1920×1080、30fps、H.264/AAC，新输出为`D:/workspece/GitHup/remotion/out/OntologyIntroV09-v1.mp4`，未覆盖旧文件。
+- MP4已成功渲染并登记render revision 1：36,621,453字节（约36.6MB），画面277.966667秒，容器278.016秒（AAC编码尾部约49毫秒差异）；渲染日志未出现更新深度警告。执行回执：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-receipt-v1.json`。
+- 完整视频和音频解码通过，H.264视频8339帧、AAC 48kHz双声道音轨；均值音量-19.1dB。实际色彩为pc全范围yuvj420p（8位4:2:0），初始严格匹配yuv420p的检查失败原因和后续确认均保留；未重编码。检查报告：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-validation-v1.json`。
+- 已从最终MP4抽查八场景、独立转场及最后一帧共10帧，未见文字、图表或人物遮挡/越界，三项显示修复仍有效；不是逐帧或全片人工听审。目视记录：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/render-visual-review-v1.json`。
+- 当前为待发布：用户在收到成片后回复“确认  开始下一步”，已认可render revision 1对应MP4；这不是最终交付确认，也不提前批准尚未展示的封面提示词。
+- 横竖封面方案：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-plan-v1.json`，内含成片认可原话与SHA256绑定。用户随后明确说“按这个方案开始制作”，总控已批准cover-plan revision 1；提案文件中的待确认字段保留为创建时快照，不覆盖历史产物。
+- 两版沿用主标题“本体论是什么？”，副标题“为什么做 AI 又谈起它？”，短句“说‘好的’ ≠ 办成事”；横版左右分区，竖版独立重排。复用本期透明TOKEN人物与客户、订单、商品关系图，图外黄色断续线及小锁标示业务执行未接通；没有退款成功或效果保证。
+- 横屏封面（1920×1080）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-v1.png`。
+- 竖屏封面（1080×1920）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-vertical-v1.png`。
+- 两张封面均为本地HTML/SVG排版与浏览器截图，中文使用本机微软雅黑；没有上传或重新生成人物。PNG完整解码、尺寸、字体加载、文字溢出和人物边界检查通过。已目视检查原图及640×360、360×640缩略图；竖版预留右侧150px和底部320px。检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-check-v1.json`；目视记录：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-review-v1.json`。
+- 发布文案（3个标题、短版和完整版正文、5个话题及首评）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/publish-copy-v1.txt`。推荐标题候选1，与本期主题一致；没有代替用户选定发布标题。TOKEN文风与事实边界检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/publish-copy-review-v1.json`。
+- 用户随后提供上传页面截图并要求“横版封面尺寸要调整一下”；页面标明横封面预览为4:3。已按此要求登记cover-plan revision 2，横版改为1440×1080并重新排版，未直接裁切旧图。
+- 当前横屏封面（4:3）：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-v2.png`；缩略图为480×360。原16:9横封面v1保留为历史，不再作为本次上传推荐文件；竖封面v1、MP4与发布文案均未改动。
+- 新横版经本地浏览器、PNG完整解码、文字与人物边界检查，并查看原图及缩略图；核心内容四边至少80px余量。检查：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-check-v2.json`；目视记录：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/cover-horizontal-review-v2.json`。未上传平台试发，不把本地检查当作平台验收。
+- 当前交付清单：`D:/workspece/GitHup/remotion/out/ontology-rag-v07-20260922/delivery-v2.json`；旧delivery-v1.json保留。当前阶段为发布物料齐全、等待用户最终确认。保持`status: 待发布`与空的`completed_at`，不把技术检查或尺寸修改指令当作本期终验。
+- 本次未修改已登记成片源码、声音、MP4、品牌原资产或依赖，未上传、未发布、未提交Git。Studio历史更新深度警告仍保留，没有宣称已修复。
 
 ## 版本记录
 
