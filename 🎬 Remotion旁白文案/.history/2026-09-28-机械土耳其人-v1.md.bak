@@ -1,0 +1,110 @@
+---
+title: 这台下棋的机器，里面藏着一个人
+tags: [Remotion, 旁白文案, 科技史, 动态油画]
+status: 待审核
+priority: normal
+version: v1
+writing_style: 古典油画历史叙事（本期按用户要求豁免 TOKEN 技术写作文风）
+writing_review: passed
+date: 2026-09-28
+updated: 2026-09-28
+task_id: mechanical-turk-oil-v1
+source: "CHM、HNF、Robert Willis 1821；详见文末来源"
+target: 待确认
+estimated_duration: 约两分钟，最终以克隆音频实测为准
+aspect_ratio: "16:9（沿用项目横屏，发布入口待核对）"
+composition_id:
+video_output:
+cover_horizontal:
+cover_vertical:
+publish_copy:
+completed_at:
+waived_deliverables: []
+blocked_reason:
+next_action: 用户确认并锁定本版口播后，生成钩子音色短样
+---
+
+# 《这台下棋的机器，里面藏着一个人》
+
+本稿为审核稿。用户已确认选题与历史叙事方向，尚未确认本稿；没有生成旁白或成片。口播约 618 字（含标点、不含空白），时长仅用于策划，不作为最终时间轴。
+
+## 完整口播
+
+### 1. 柜子里的人
+
+这台会下棋的机器，柜子里藏着一个人。
+可每次表演，柜门都会当众打开，连烛光都能照进去。
+这个人，究竟藏在哪里？
+
+### 2. 宫廷里的棋手
+
+十八世纪，发明家肯佩伦把一台奇特的装置带进了维也纳的宫廷。
+一个裹着头巾、穿着长袍的木偶，坐在木柜后面，面前摆着一盘国际象棋。
+它能抬起手臂，拿起棋子，和面前的人对弈。
+后来，人们叫它“机械土耳其人”。
+
+### 3. 打开的门
+
+表演者还会打开柜门，让观众检查里面的机关。
+齿轮、连杆，烛光穿过的缝隙。
+这些东西仿佛都在告诉观众：你看，这里面藏不下一个人。
+接着，门关上了。
+棋局开始。
+
+### 4. 看不见的空间
+
+但开门，本身就是表演的一部分。
+一八二一年，英国人罗伯特·威利斯发表了一份分析。他注意到，展示柜内的顺序始终不变。
+在他提出的解释里，柜内留着被遮挡的空间，藏身的人可以变换位置，避开观众的视线。
+一扇门打开，并不意味着整只柜子都被看见。
+
+### 5. 棋盘上下
+
+藏在里面的棋手，还要知道外面走了哪一步。
+棋子中的磁铁，让棋盘下方的指示装置跟着变化。
+他据此判断棋局，再通过连杆机构，操纵木偶的手臂。
+观众看到一只木头做的手，缓缓落下一枚棋子。
+柜子里的人，刚刚作出了决定。
+
+### 6. 怀疑与余烬
+
+当时就有人怀疑，里面藏着真人。
+可围绕它的争论，并没有让演出立刻结束。这台装置辗转欧洲和美洲，吸引了几代观众。
+一八五四年，原机毁于费城的一场大火。
+木柜和机关烧掉了，关于它的记载却留了下来。
+
+### 7. 灯光之外
+
+如今再看这场表演，最耐人寻味的，是开局之前那次展示。
+观众获准看见齿轮，看见柜门后的空间，却看不见一局棋真正怎样被决定。
+灯光照着木偶的脸。
+真正思考的人，始终坐在灯光之外。
+
+## 本期制作约定（不朗读）
+
+- 古典写实油画：暖金光、深棕木柜、黄铜机关、米白衣料；发丝与帷幔局部轻动，配合开门、落子等明确事件。
+- 本期叙事连续推进，保留 TOKEN_ 角标，不插长篇自我介绍和独立品牌音效段。本期例外不改动全局品牌文案或旧视频。
+- 不将“机械土耳其人”称为第一台 AI，不用现代 AI 等于骗局作结论；服饰对应历史装置形象，不暗示操作者民族。
+- 威利斯的藏身方案是同时代分析，旁白已明确归属；磁铁与连杆依据 HNF 复原说明，画面标“原理示意”。不同历史时期的记录不拼成一场有精确时间地点的目击实录。
+- “灯光之外”为叙述者的舞台隐喻，不代表操作间没有照明；不虚构具体棋手的内心、台词或亲身遭遇。
+- 沿用已认可的本地 IndexTTS 2.5 音色，参考 src/配音/hook.m4a 前 9 秒及现有参数，不额外施加情绪向量。锁稿后先生成短样，试听认可再生成全文。
+- 本期素材尚未生成，音频尚未生成，Studio 尚未验收；不填写虚构时长、字幕或产物路径。
+
+## 史实来源（不朗读）
+
+- **CHM**：[Computer History Museum — Chatbots Decoded / Mechanical Mimics](https://computerhistory.org/stories/chatbots-decoded/)。博物馆展览资料。肯佩伦、1770年公开展示；人类棋手隐藏；同时代即有人正确怀疑；欧洲和美洲展演数十年。
+- **HNF-HISTORY**：[HNF — Der Schachtürke des Wolfgang von Kempelen](https://www.hnf.de/dauerausstellung/ausstellungsbereiche/die-mechanisierung-der-informationstechnik/fruehe-automaten-faszination-schachtuerke/der-schachtuerke-des-wolfgang-von-kempelen.html)。博物馆历史说明。维也纳宫廷、巡演、隐藏棋手、1854年费城原机焚毁。页面将最初展示记为1769，与CHM的1770不同；本稿使用十八世纪，避免未解决日期差异。
+- **HNF-RECONSTRUCTION**：[HNF — Die Rekonstruktion des Schachtürken im HNF](https://www.hnf.de/dauerausstellung/ausstellungsbereiche/die-mechanisierung-der-informationstechnik/fruehe-automaten-faszination-schachtuerke/die-rekonstruktion-des-schachtuerken-im-hnf.html)。博物馆实际复原工程的一手说明。磁性棋子传递棋步、连杆机构操纵手臂；无完整精确原图，复原者有试验设计。
+- **WILLIS**：[Robert Willis — An Attempt to Analyse the Automaton Chess Player (1821)](https://www.gutenberg.org/ebooks/61410.html.images)。当时分析文献；作者推断不等于原机图纸。第6—8页记录检查柜门；第19页描述固定展示顺序；第22—30页提出遮挡、换位方案。刊印1821，文末署1820年12月。
+
+## 制作产物
+
+- 项目审核快照：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/script-v1.md
+- 逐段旁白数据：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/narration-v1.json
+- 资料与边界：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/research-v1.md
+- 叙事大纲：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/outline-v1.md
+- 全稿审查：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/script-review-v1.md
+- 分镜草案：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/storyboard-v1.md
+- 知识库稿件计划路径：D:/KnowledgeBase/小帅的知识库/🎬 Remotion旁白文案/2026-09-28-机械土耳其人-这台下棋的机器里面藏着一个人.md
+- 后续音频、预览、成片、封面、发布文案均未完成。
+

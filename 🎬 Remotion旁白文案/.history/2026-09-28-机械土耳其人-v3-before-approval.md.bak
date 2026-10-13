@@ -1,0 +1,112 @@
+---
+title: 这台下棋的机器，里面藏着一个人
+tags: [Remotion, 旁白文案, 科技史, 动态油画, 情感叙事]
+status: 待审核
+priority: normal
+version: v3
+writing_style: 科技历史进入，转向被习惯的照顾；古典油画叙事
+writing_review: passed
+date: 2026-09-28
+updated: 2026-09-28
+task_id: mechanical-turk-oil-v1
+source: "CHM、HNF、Robert Willis 1821；现实段为作者联想"
+target: 待确认
+estimated_duration: 约两分钟至两分半，最终按音频实测
+aspect_ratio: "16:9"
+composition_id:
+video_output:
+cover_horizontal:
+cover_vertical:
+publish_copy:
+completed_at:
+waived_deliverables: []
+blocked_reason:
+next_action: 用户确认完整v3口播后，生成钩子克隆短样
+---
+
+
+# 《这台下棋的机器，里面藏着一个人》· v3
+
+本版采用用户明确指定的四句过渡：由对工具的期待，转向人与人的关系。完整v3为新审核稿，用户尚未锁定；约567字含标点、不含空白。
+
+## 完整口播
+
+### 1. 事情做好，就够了吗
+
+如果有一天，AI能把你交代的事情都做好，你还会关心，它是怎样做到的吗？
+两百多年前，人们也围着一台机器，试图弄清它的秘密。
+
+### 2. 宫廷里的机器
+
+十八世纪，发明家肯佩伦把一台装置带进了维也纳的宫廷。
+木柜后面，坐着一个裹着头巾的木偶。
+它抬起手臂，拿起棋子，和面前的人对弈。
+人们叫它“机械土耳其人”。
+表演开始前，柜门还会当众打开。烛光照进去，露出里面的机关。
+门关上以后，木偶便开始走棋。
+
+### 3. 门后的空间
+
+但柜子里，其实藏着一位棋手。
+一八二一年，罗伯特·威利斯发表分析，指出开门的顺序始终不变。
+在他提出的解释里，柜内有被遮挡的空间，藏身的人可以变换位置，避开观众的视线。
+打开的门，仍然能把人藏住。
+
+### 4. 谁决定下一步
+
+棋子里的磁铁，把外面的棋步传到棋盘下方。
+柜内的棋手据此判断，再通过连杆，操纵木偶的手臂。
+当时就有人怀疑它。
+可这场表演，仍然辗转欧洲和美洲，吸引了几代观众。
+
+### 5. 回到AI，再看关系
+
+从这只木柜，回到开头那个关于AI的问题。
+我们期待更聪明的工具，替自己省下时间和力气。
+对工具，我们希望它随时回应，最好永远不出错。
+可在一段关系里，我们有时也会不自觉地这样期待对方。
+
+### 6. 他是不是也有话想说
+
+他总能处理麻烦，我们便很少问，他是不是也有难处。
+他总能听我们说话，我们便忘了，他是不是也有话想说。
+就像我们看见桌上已经做好的饭，却没有留意，做饭的人刚刚坐下，还没顾得上吃一口。
+
+### 7. 那你呢
+
+下次，那个人再说“没事，我来”的时候，
+也记得问一句：
+“那你呢，今天过得怎么样？”
+
+## 叙事与事实边界（不朗读）
+
+- 顺序为AI假设→历史疑问与揭秘→回到工具期待→人与人相处→对人的一句关心。
+- 用户指定的四句逐字保留。生活段的“他”指关系中的一个人，不能配AI聊天框、木偶说话或机械表情。
+- 删除“今天，我也想有人照顾”。尾句由叙述者邀请观众关心身边的人，不由AI发声。
+- “饭已做好、做饭的人还没吃”为虚构日常情境，不是TOKEN亲历、历史事实或对所有家庭的判断。
+- 历史故事只帮助观众把注意力从可见结果移到做事的人，不证明现代AI内部藏人，不把历史操作者写成受委屈的伴侣。
+- 开头为未来假设，正文不承诺当前AI工具的能力和可靠性。“随时回应、永远不出错”为人的期待，不是产品事实。
+- 威利斯藏身方案为其分析，原机精确结构未完整留存。剖面继续标“原理示意”。
+- 仍保留TOKEN_角标和古典油画；现代段用现代家具服装明确转场，本期不插长篇品牌介绍，不改全局约定。
+- 音色沿用本地IndexTTS2.5、src/配音/hook.m4a前9秒与既有参数；本轮不生成声音。锁稿后先短样，最终实测时长与强制对齐决定时间轴。
+
+## 来源（不朗读）
+
+- [Computer History Museum：Mechanical Mimics](https://computerhistory.org/stories/chatbots-decoded/)：隐藏真人、同时代怀疑和巡演。
+- [HNF：装置历史](https://www.hnf.de/dauerausstellung/ausstellungsbereiche/die-mechanisierung-der-informationstechnik/fruehe-automaten-faszination-schachtuerke/der-schachtuerke-des-wolfgang-von-kempelen.html)：肯佩伦、宫廷与装置历史。
+- [HNF：复原工程](https://www.hnf.de/dauerausstellung/ausstellungsbereiche/die-mechanisierung-der-informationstechnik/fruehe-automaten-faszination-schachtuerke/die-rekonstruktion-des-schachtuerken-im-hnf.html)：磁性传步、连杆；原机精确结构未完整留存。
+- [Robert Willis：1821年分析](https://www.gutenberg.org/ebooks/61410.html.images)：柜门检查、固定次序、明确归属于作者的藏身推演。
+
+具体定位、年份差异及类比边界见research-v2.md。v3未增加需要新来源的历史事实，复用v1已核验材料。
+
+## 版本与制作产物
+
+- v1、v2保留在本目录，v3仍为待审核。
+- 当前审核稿：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/script-v3.md
+- 逐段旁白：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/narration-v3.json
+- 叙事大纲：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/outline-v3.md
+- 审查记录：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/script-review-v3.md
+- 分镜草案：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/storyboard-v3.md
+- 资料核验沿用：D:/workspece/GitHup/remotion/out/mechanical-turk-oil-v1/research-v2.md
+- 知识库当前稿：D:/KnowledgeBase/小帅的知识库/🎬 Remotion旁白文案/2026-09-28-机械土耳其人-这台下棋的机器里面藏着一个人.md
+- 音频、正式美术、字幕、Studio和成片尚未完成。
