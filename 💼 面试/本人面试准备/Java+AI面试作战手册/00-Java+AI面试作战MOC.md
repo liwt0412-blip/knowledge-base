@@ -102,6 +102,7 @@ created: 2026-07-09
 
 - [[AI-Agent辅助开发流程与代码验证面试回答]]
 - [[AI-Agent三层渐进面试回答]]
+- [[Agent-Skill面试回答]] — Skill 定义、与 Prompt / MCP / Function Calling 的边界、延迟加载的 why、Skill 路由 vs RAG、SKILL.md 踩坑
 - [[石化经营分析平台-企业后台与IoT追问三层回答]]
 - [[石化IoT冷热分离与历史归档-面试三层回答]]
 - [[石化经营分析平台-积分系统设计面试三层回答]]
@@ -190,6 +191,7 @@ AIFlowy 补充材料只用于应对 AI 助手工程细节追问，不要把 AIFl
 
 - [[AI-Agent辅助开发流程与代码验证面试回答]]
 - [[AI-Agent三层渐进面试回答]]
+- [[Agent-Skill面试回答]]
 
 ### Day 6：石化业务补充与真实案例
 
